@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <!-- Preprocessor core test suite -->
+
+  <!-- Standard drivers test suites -->
+  <include>../../drivers/standards/c99/tests/src/test.xml</include>
+  <!--include>../../drivers/standards/c11/tests/src/test.xml</include-->
+  <include>../../drivers/standards/c23/tests/src/test.xml</include>
+  <include>../../drivers/standards/clang/tests/src/test.xml</include>
+  <include>../../drivers/standards/comext/tests/src/test.xml</include>
+  <!-- include>../../drivers/standards/cpp98/tests/src/test.xml</include-->
+  <include>../../drivers/standards/cpp11/tests/src/test.xml</include>
+  <!--include>../../drivers/standards/cpp14/tests/src/test.xml</include-->
+  <include>../../drivers/standards/cpp17/tests/src/test.xml</include>
+  <include>../../drivers/standards/cpp20/tests/src/test.xml</include>
+  <include>../../drivers/standards/cpp23/tests/src/test.xml</include>
+  <include>../../drivers/standards/gcc/tests/src/test.xml</include>
+  <include>../../drivers/standards/msvc/tests/src/test.xml</include>
+
+  <!-- Syntax drivers test suites -->
+  <include>../../drivers/syntaxes/cpp/tests/src/test.xml</include>
+  <include>../../drivers/syntaxes/f1pp/tests/src/test.xml</include>
+</tests>

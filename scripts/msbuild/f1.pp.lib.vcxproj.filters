@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{50a679c2-98f2-4165-94e4-68c73cb57df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces">
+      <UniqueIdentifier>{981c6aab-e722-42b3-864d-07c54459051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\attributes">
+      <UniqueIdentifier>{64d6f19d-5a79-430e-97b8-e299c5a356cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\directives">
+      <UniqueIdentifier>{44f856e0-b54c-45bc-870c-eae3a8bcbe24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\macros">
+      <UniqueIdentifier>{0a67826c-7d31-44c2-b5af-f7d4a5581e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\outputs">
+      <UniqueIdentifier>{7575c861-bf2f-443b-9994-4257df71295f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\storages">
+      <UniqueIdentifier>{f2db2019-94e6-4def-9a4a-5aaccbed48fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\interfaces\options">
+      <UniqueIdentifier>{c89c635a-45be-4132-a88c-b88afa4565bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\service classes">
+      <UniqueIdentifier>{472959b8-5043-4158-a905-f5809fcb787a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\service classes\context services">
+      <UniqueIdentifier>{364dea91-4cfb-4dc1-a33b-0ab66aec7893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp">
+      <UniqueIdentifier>{b3fb801f-12bc-44cd-a430-66f4d6fec899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces">
+      <UniqueIdentifier>{4d0a5790-c50f-483a-be67-a9a181b94c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\attributes">
+      <UniqueIdentifier>{482fae3c-4408-4038-b077-ffa8f1e8b353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\directives">
+      <UniqueIdentifier>{6278f0ec-19d3-4909-be48-a1f757118aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\macros">
+      <UniqueIdentifier>{7ed00f68-dc77-4ae0-8c8e-6a11a5f6a002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\outputs">
+      <UniqueIdentifier>{e8e52a64-ca7a-4d9b-8ead-3c6385f8cf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\storages">
+      <UniqueIdentifier>{bc76a6e1-bf0b-4ecc-a3a1-bc1522c121e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\interfaces\options">
+      <UniqueIdentifier>{40f9d900-af08-4866-bf8d-506b1d88a401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp\service classes">
+      <UniqueIdentifier>{5d8d90c2-916e-45e2-95da-5014040b028e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{0cb9bf08-2f03-46a0-9d40-722b840ee99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="todo">
+      <UniqueIdentifier>{2264ae99-59c3-433d-894f-71921a99d38f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\arg_list.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directive_list.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\object.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\param_list.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\variant.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Idirective.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iframe.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ifunction.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Imacro.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ioption.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ioutput.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ioutput_class.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iparser.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Istandard.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Istorage.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Istorage_class.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Isyntax.cxx">
+      <Filter>src\classes\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\attribute.cxx">
+      <Filter>src\classes\interfaces\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\attribute_list.cxx">
+      <Filter>src\classes\interfaces\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\known_directive.cxx">
+      <Filter>src\classes\interfaces\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\Iuser_macro.cxx">
+      <Filter>src\classes\interfaces\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\outputs\null_output.cxx">
+      <Filter>src\classes\interfaces\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\outputs\raw_output.cxx">
+      <Filter>src\classes\interfaces\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storages\buffer_storage.cxx">
+      <Filter>src\classes\interfaces\storages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storages\file_storage.cxx">
+      <Filter>src\classes\interfaces\storages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storages\null_storage.cxx">
+      <Filter>src\classes\interfaces\storages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storages\stream_storage.cxx">
+      <Filter>src\classes\interfaces\storages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storages\string_storage.cxx">
+      <Filter>src\classes\interfaces\storages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\options\option.cxx">
+      <Filter>src\classes\interfaces\options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\context.cxx">
+      <Filter>src\classes\service classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iprovider.cxx">
+      <Filter>src\classes\service classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\service.cxx">
+      <Filter>src\classes\service classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\context_options.cxx">
+      <Filter>src\classes\service classes\context services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ignored_directive.cxx">
+      <Filter>src\classes\interfaces\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\context_events.cxx">
+      <Filter>src\classes\service classes\context services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\arg_list.hxx">
+      <Filter>include/f1\pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\directive_list.hxx">
+      <Filter>include/f1\pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\object.hxx">
+      <Filter>include/f1\pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\param_list.hxx">
+      <Filter>include/f1\pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\variant.hxx">
+      <Filter>include/f1\pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Idirective.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Iframe.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Ifunction.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Imacro.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Ioption.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Ioutput.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Ioutput_class.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Iparser.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Istandard.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Istorage.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Istorage_class.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Isyntax.hxx">
+      <Filter>include/f1\pp\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\attributes\attribute.hxx">
+      <Filter>include/f1\pp\interfaces\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\attributes\attribute_list.hxx">
+      <Filter>include/f1\pp\interfaces\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\directives\known.hxx">
+      <Filter>include/f1\pp\interfaces\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\macros\Iuser_macro.hxx">
+      <Filter>include/f1\pp\interfaces\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\outputs\null_output.hxx">
+      <Filter>include/f1\pp\interfaces\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\outputs\raw_output.hxx">
+      <Filter>include/f1\pp\interfaces\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\storages\buffer_storage.hxx">
+      <Filter>include/f1\pp\interfaces\storages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\storages\file_storage.hxx">
+      <Filter>include/f1\pp\interfaces\storages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\storages\null_storage.hxx">
+      <Filter>include/f1\pp\interfaces\storages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\storages\stream_storage.hxx">
+      <Filter>include/f1\pp\interfaces\storages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\storages\string_storage.hxx">
+      <Filter>include/f1\pp\interfaces\storages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\options\option.hxx">
+      <Filter>include/f1\pp\interfaces\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\context.hxx">
+      <Filter>include/f1\pp\service classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Iprovider.hxx">
+      <Filter>include/f1\pp\service classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\service.hxx">
+      <Filter>include/f1\pp\service classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\Itokenizer.hxx">
+      <Filter>todo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp\directives\ignored.hxx">
+      <Filter>include/f1\pp\interfaces\directives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\f1\pp\variant.inl">
+      <Filter>include/f1\pp</Filter>
+    </None>
+    <None Include="..\..\docs\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>
