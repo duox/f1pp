@@ -1,0 +1,2 @@
+drct_in_mac_args.c(13) : warning W12336: undefined macro in expression: DEBUG_ENABLED
+drct_in_mac_args.c(23) : warning W12336: undefined macro in expression: DEBUG_ENABLED

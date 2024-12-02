@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<tests>
+  <include>__has_embed/test.xml</include>
+  <include>__STDC_EMBED_EMPTY__/test.xml</include>
+  <include>__STDC_EMBED_FOUND__/test.xml</include>
+  <include>__STDC_EMBED_NOT_FOUND__/test.xml</include>
+</tests>

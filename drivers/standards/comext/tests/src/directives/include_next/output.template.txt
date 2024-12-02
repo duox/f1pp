@@ -1,0 +1,9 @@
+#1 "test.c":
+#1 "file-sys.h":
+#1 "file-sys.h":
+#3 "file-sys.h":
+#7 "test.c":
+#1 "file-loc.h":
+#1 "file-loc.h":
+#3 "file-loc.h":
+#10 "test.c":

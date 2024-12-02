@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.whitespace.test" name="C-PP whitespace parsing test" timeout="30000">
+		<inputs>
+			<input test_file="whitespace.c" dest="whitespace.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="whitespace.c.ii" template="whitespace.template" /> 
+		</outputs>
+	</test>
+</tests>

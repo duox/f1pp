@@ -1,0 +1,2 @@
+Before the #fatalerror
+test.c(6) : fatal error F4096: Leaving due to a fatal error

@@ -1,0 +1,67 @@
+#1 "test.c":
+#8:---- 8 ----
+#1 "include.0.h":
+#3:[include.0.h]
+#9 "test.c":
+#10:---- 10 ----
+#1 "include.1.h":
+#3:[include.1.h]
+#11 "test.c":
+#12:---- 12 ----
+#1 "include.2.h":
+#3:[include.2.h]
+#13 "test.c":
+#14:---- 14 ----
+#1 "include.3.h":
+#3:[include.3.h]
+#15 "test.c":
+#16:---- 16 ----
+#1 "include.4.h":
+#3:[include.4.h]
+#17 "test.c":
+#18:---- 18 ----
+#1 "include.5.h":
+#3:[include.5.h]
+#19 "test.c":
+#22:---- 22 ----
+#1 "file1.h":
+#1 "file2.h":
+#3 "file1.h":
+#23 "test.c":
+#26:---- 26 ----
+#1 "include.0.h":
+#3:[include.0.h]
+#27 "test.c":
+#29:---- 29 ----
+#1 "include.0.h":
+#3:[include.0.h]
+#31 "test.c":
+#33:---- 33 ----
+#1 "include.0.h":
+#3:[include.0.h]
+#35 "test.c":
+#37:---- 37 ----
+#1 "include.0.h":
+#3:[include.0.h]
+#39 "test.c":
+#42:---- 42 ----
+#53:"./common/./include.0.h"
+#1 "include.0.h":
+#3:[include.0.h]
+#55 "test.c":
+#59:---- 59 ----
+#66:<include.0.h>
+#1 "include.0.h":
+#3:[include.0.h]
+#67 "test.c":
+#70:---- 70 ----
+#1 "file1.h":
+#1 "file2.h":
+#3 "file1.h":
+#71 "test.c":
+#1 "recur.h":
+#2:.
+#1 "recur.h":
+#2:.
+#6 "recur.h":
+#75 "test.c":

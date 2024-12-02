@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{d91a0a6d-70c1-43f0-af73-d0eb35630154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches">
+      <UniqueIdentifier>{b74c102c-7d16-4ecc-be19-e0f379529e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\General">
+      <UniqueIdentifier>{74365e2a-56a4-4761-81d3-d966774ee7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\Includes">
+      <UniqueIdentifier>{17d36255-e296-4225-8362-4cbe6ecab8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\Input">
+      <UniqueIdentifier>{ebd4fa18-9d03-4d60-aa71-ad215e276e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\Macros">
+      <UniqueIdentifier>{4cf0c0d4-ea91-4bc2-b543-453b57e6cd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\Messages">
+      <UniqueIdentifier>{9b0953d6-6e1b-4f5d-83d1-2b9a62b7a316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\switches\Output">
+      <UniqueIdentifier>{7f6a9ea8-247f-4376-ba47-46c67e78aaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp">
+      <UniqueIdentifier>{5ada7322-ccd0-4fe9-b7ed-fea20f0e0bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches">
+      <UniqueIdentifier>{cd30cc92-2bc6-43d4-9676-a0dd18b262b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\General">
+      <UniqueIdentifier>{689896e0-b70c-4c29-95e3-eb7538494a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\Includes">
+      <UniqueIdentifier>{0ebb4279-54e2-4687-8446-18644d37ac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\Input">
+      <UniqueIdentifier>{e1147961-859f-44c2-90a6-580b84a9622d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\Macros">
+      <UniqueIdentifier>{548b235d-574e-484a-87e8-70c827c0dd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\Messages">
+      <UniqueIdentifier>{c4662e1e-7aa3-431d-99d7-cb2c51581f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switches\Output">
+      <UniqueIdentifier>{96b074a3-871e-4046-b2a9-e92a10a316d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.frontend.f1pp\switch_types">
+      <UniqueIdentifier>{8ba20b84-b3bb-4447-87d7-6285ba3e33e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{538901ef-2693-48cf-ae7d-7461d99f4828}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\application.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\application_switches.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iswitch_numeric_arg.cxx">
+      <Filter>src\classes\switches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_syntax_check_only.cxx">
+      <Filter>src\classes\switches\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_timings.cxx">
+      <Filter>src\classes\switches\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_auto_once_includes.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_deprecate_include.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_deprecate_system_include.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_include.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_include_dir.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_max_include_depth.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_atsigns_in_identifiers.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_digraphs.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_directive.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_dollars_in_identifiers.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_endianness.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_input_encoding.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_standard.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_trigraphs.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_unsigned_char.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_define.cxx">
+      <Filter>src\classes\switches\Macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_ignore_macros.cxx">
+      <Filter>src\classes\switches\Macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_macro.cxx">
+      <Filter>src\classes\switches\Macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_undefine.cxx">
+      <Filter>src\classes\switches\Macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_export_messages.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_full_paths.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_import_messages.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_severity.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_disable_output.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_dump.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_keep_comments.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_keep_doxygen_comments.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_merge_strings.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_encoding.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_format.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_full_paths.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_print_filename.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename_base.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename_only.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_known_pragma.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_base_dir_disallow.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_base_dir_allow.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_debug.cxx">
+      <Filter>src\classes\switches\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_filename_base.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_filename_only.cxx">
+      <Filter>src\classes\switches\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_system_include_dir.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_user_include_dir.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_newline.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_long_wide_char.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_system_include_base.cxx">
+      <Filter>src\classes\switches\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_character_encoding.cxx">
+      <Filter>src\classes\switches\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_write_bom.cxx">
+      <Filter>src\classes\switches\Output</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\application.hxx">
+      <Filter>include/f1\pp.frontend.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_syntax_check_only.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_timings.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_auto_once_includes.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_deprecate_include.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_deprecate_system_include.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_include.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_include_dir.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_max_include_depth.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_atsigns_in_identifiers.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_digraphs.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_directive.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_dollars_in_identifiers.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_endianness.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_input_encoding.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_standard.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_trigraphs.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_unsigned_char.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_define.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_ignore_macros.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_macro.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_undefine.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_export_messages.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_full_paths.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_import_messages.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_severity.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_disable_output.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_dump.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_keep_comments.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_keep_doxygen_comments.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_merge_strings.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_encoding.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_format.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_full_paths.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_print_filename.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switch_types\Iswitch_numeric_arg.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switch_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_filename_base.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_filename_only.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_base_dir_disallow.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_base_dir_allow.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_known_pragma.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_debug.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_long_wide_char.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_system_include_base.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_system_include_dir.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_user_include_dir.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_filename_only.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_filename_base.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_newline.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_character_encoding.hxx">
+      <Filter>include/f1\pp.frontend.f1pp\switches\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\docs\pp-command-line.txt">
+      <Filter>docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\readme.md" />
+  </ItemGroup>
+</Project>

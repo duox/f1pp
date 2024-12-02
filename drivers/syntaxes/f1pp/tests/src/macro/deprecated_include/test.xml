@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-f1-pp-f1pp-macro-deprecated_include" path="test://f1/pp/f1pp/macro/deprecated_include" name="Tests deprecated_include() pseudo-function parsing and functionality" timeout="30000">
+		<cmdline>--message-filename-only --deprecate-include:deprecated.h</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

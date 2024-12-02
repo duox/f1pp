@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c553af12-0326-4674-841f-aaad5fac6373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{8f000bd3-1248-4783-85ae-180a1c2ef98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{42dc1d3e-4bdb-4166-b4c1-0240388227c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.cpp20">
+      <UniqueIdentifier>{c93489f3-4673-4288-ae65-3bf71b2b096a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.cpp20\macros">
+      <UniqueIdentifier>{f8026936-4418-418d-9d51-54f2c4ac9779}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_VA_OPT.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.cpp20-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.cpp20-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.cpp20.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.cpp20\standard.hxx">
+      <Filter>include/f1\pp.standard.cpp20</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.cpp20\macros\macro_VA_OPT.hxx">
+      <Filter>include/f1\pp.standard.cpp20\macros</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

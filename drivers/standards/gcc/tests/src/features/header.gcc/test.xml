@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-f1.pp.gcc.features.header.gcc" path="test://f1/pp/gcc/features/header.gcc" name="GCC-PP headers.gcc test" timeout="30000">
+		<cmdline>--standard:gcc --include-dir:./inc --remap-include-list:header.gcc</cmdline>
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" />
+		</outputs>
+	</test>
+</tests>

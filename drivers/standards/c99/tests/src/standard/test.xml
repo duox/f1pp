@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>6_10_3_3/test.xml</include>
+  <include>6_10_3_5_Example_3/test.xml</include>
+  <include>6_10_3_5_Example_4/test.xml</include>
+  <include>6_10_3_5_Example_5/test.xml</include>
+  <include>6_10_3_5_Example_6/test.xml</include>
+  <include>6_10_3_5_Example_7/test.xml</include>
+</tests>

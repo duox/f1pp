@@ -1,0 +1,157 @@
+
+
+Command line switches:
+
+			[COMMON]
+			
+/HELP		/H		/?
+	Display command line help.
+/NOLOGO
+	Do not display application logo.
+/QUIET		/Q
+	Quiet mode.
+/VERBOSE	/V
+	Verbose mode.
+/VERSION	/VER
+	Display version information as a list of "component:version\n" strings.
+
+			[PREPROCESSING]
+			
+/CASE		/C			[{class}]
+	Case sensitivity, where class is D (directive), M (macros), X (expansions)
+	For example: /C:DM (no case sensitivity for directives and macros)
+/DEFINE		/D			[[attributes]]SYM[(...)][=VALUE]
+	Define macro, for example:	/D:"[deprecated]VERIFY(expr)=__dbg_verify( expr, #expr )"
+	Quotes around whole parameters is removed, quotes around macro definition is kept.
+/DEPRECATE				symbol[,...]
+	Deprecates macro.
+/ENCODING	/E			encoding-id
+	Specify input text encoding (see also /OUTENCODING).
+/FORCEINCLUDE			file
+	Include file.
+/FORMAT		/F			format-id
+	Use output format format-id (see below).
+/IGNORE					directive
+	Ignore directive and copy it to the output stream (if supported by output format).
+/INCLUDE	/I			directory
+	Define include directory.
+	/-INCLUDE removes include directory.
+/INCLENV				name;...
+	Search in dirs specified in environment variable(s) (e.g. "INCLUDE").
+	/-INCLENV cancels search in dirs specified in environment variable (e.g. "INCLUDE").
+/OUTENCODING			encoding-id
+	Specify encoding of the output file.
+/OUTPUT		/O			file
+	Specify output file.
+/THREADS				count
+	Specify maximum number of threads. /THREADS:* uses separate thread for each file.
+/UNDEFINE	/U			SYM[,...]
+	Undefine macro(s), same as /-DEFINE:name
+	UNDEFINE:* undefines all macros.
+
+			[MESSAGES]
+
+/MSGFILE				file
+	Use message file.
+/MSGEXPORT				file
+	Export internal message list to a file
+
+Output formats supported:
+TEXT				just plane text without line or file information
+FILE				use #file directives
+FILELINE			use #file and #line directive to correct line discrepancy
+LINENO				start each line with line number or file name
+DLINENO				start each line with '#' and line number or file name
+
+================================================================================
+
+	[COMMON]
+-?
+	Display command line help.
+-h		--help
+	Display command line help.
+.		--nologo
+	Do not display application logo.
++q		++quiet
+	Quiet mode.
+-q		--quiet
+	No quiet mode.
++v		++verbose
+	Verbose mode.
+-v		--verbose
+	No verbose mode.
+-ver	--version
+	Display tool version.
+
+	[PREPROCESSOR]
++c		++case-sensitive	[:{class}]
+	Case sensitivity, where class is D (directive), M (macros), X (expansions)
+	For example: -c:DM (no case sensitivity for directives and macros)
++d		++define			SYM[( param, ...)][=VALUE]
+	Define a macro, with optional parameters and optional value.
+-d		--define			SYM[,...]
+	Undefine macro(s). If SYM is *, all (except internal) macros are undefined.
+.		--deprecate			directive[,...]
+	Deprecate specified directives.
+-f		--format			format-id
+	Specify output format (see format list below).
++I		++forceinclude		file
+	Force include file
++i		++include			directory
+	Specify include directory.
+-i		--include			directory
+	Remove include directory.
++E		++encoding			encoding-id
+	Specify source encoding.
++e		++include-env		env-var[, ...]
+	Search in dirs specified in environment variable (e.g. "INCLUDE")
+-e		--include-env		env-var[, ...]
+	Cancel search in dirs specified in environment variable (e.g. "INCLUDE")
+-mf		--message-file		file
+	Use message file for errors.warnings reporting.
+-mx		--message-export	file
+	Export internal message list to a file.
++O		++outencoding		encoding-id
+	Specify output file encoding.
+-o		--output			file
+	Specify output file.
+-t		--threaded
+	Use a separate thread for each file.
+-u		--undef				SYM[,...]
+	Undefine macro(s). If SYM is *, all (except internal) macros are undefined.
+
++c.-c
+Several parameterless switches can be combined in a single argument separated by '.':
+
+=============================================
+RESPONSE FILE DIRECTIVES
+=============================================
+
+INCLUDE	<resp-file>
+INCLUDE	"resp-file"
+
+OPTION CASESENSITIVE ON
+DEFINE name( params )	definition
+DEPRECATE sym, ...
+ENCODING	encoding
+INCLUDEDIR	dir; %ENV%
+INCLUDEFILE file
+MESSAGEFILE file
+OUTENCODDING	encoding
+UNDEF name
+
+
+=============================================
+JSON RESPONSE FILE DIRECTIVES
+=============================================
+
+{
+"case-sensitivity-directives": true
+}
+
+
+================================================
+
+cli pp : public Icli {
+	switch define( 
+};

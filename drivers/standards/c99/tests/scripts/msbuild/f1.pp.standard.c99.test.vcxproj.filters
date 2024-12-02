@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a0e32a4b-7025-47b7-88fb-0957c04b5ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{81cfa655-0250-4d45-98c0-bc501bda8fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\define">
+      <UniqueIdentifier>{eca27180-fa2f-4550-a72d-971b623b0270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\error">
+      <UniqueIdentifier>{a19e33ed-dce8-49d2-b8e8-c6f4ccada6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\if">
+      <UniqueIdentifier>{d6924f92-2b94-4f47-94a4-e484f1311fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\ifdef">
+      <UniqueIdentifier>{4b33c4e7-589e-4845-b816-7d1c488d12b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\include">
+      <UniqueIdentifier>{44af8980-613f-468f-bf0c-4cdd4f966fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\include\common">
+      <UniqueIdentifier>{2e52de0b-6b94-4eb4-b17f-71588e9b592c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\line">
+      <UniqueIdentifier>{49c12ec5-c364-41f1-8a17-d24ef458a5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\null">
+      <UniqueIdentifier>{fa891a1c-c828-4359-abe0-4893881ea350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\pragma">
+      <UniqueIdentifier>{f7907094-0e77-45a4-b445-42bf35494fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\undef">
+      <UniqueIdentifier>{a8c55bc7-c154-4122-a43d-769e61e23370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{3d896c34-6182-4a3a-ab84-a519a2d30fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__LINE__">
+      <UniqueIdentifier>{6360a5b2-eaf0-400d-8826-ed290a527fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\defined">
+      <UniqueIdentifier>{24aac4a2-a1f7-434d-a6e9-4b962dda29e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__DATE__">
+      <UniqueIdentifier>{25a79a30-8e8a-43d6-9e12-fc8488973d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__FILE__">
+      <UniqueIdentifier>{c507445c-54d0-4cce-abd2-5a3ff4c1ae24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\_Pragma">
+      <UniqueIdentifier>{fc7fdb6f-1f77-45fc-bf05-f51c0c530dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__TIME__">
+      <UniqueIdentifier>{54aa0767-706b-4833-8ed1-3300b6412958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__VA_ARGS__">
+      <UniqueIdentifier>{200d146a-d43e-41c1-aad8-f3a89aedec7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas">
+      <UniqueIdentifier>{0f2157b8-b77c-4eb0-a6c0-3f009f4ed465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\known-pragma">
+      <UniqueIdentifier>{e6812fa6-52bc-43a1-a48b-b1792f770630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\unknown-pragma">
+      <UniqueIdentifier>{42b7f747-7dd8-4ae9-b4da-c3880fdf30d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\define\define.c.ii">
+      <Filter>src\directives\define</Filter>
+    </None>
+    <None Include="..\..\src\directives\define\define.template">
+      <Filter>src\directives\define</Filter>
+    </None>
+    <None Include="..\..\src\directives\define\README.md">
+      <Filter>src\directives\define</Filter>
+    </None>
+    <None Include="..\..\src\directives\error\error.c.ii">
+      <Filter>src\directives\error</Filter>
+    </None>
+    <None Include="..\..\src\directives\error\README.md">
+      <Filter>src\directives\error</Filter>
+    </None>
+    <None Include="..\..\src\directives\if\if.c.ii">
+      <Filter>src\directives\if</Filter>
+    </None>
+    <None Include="..\..\src\directives\if\if.template">
+      <Filter>src\directives\if</Filter>
+    </None>
+    <None Include="..\..\src\directives\if\README.md">
+      <Filter>src\directives\if</Filter>
+    </None>
+    <None Include="..\..\src\directives\ifdef\ifdef.c.ii">
+      <Filter>src\directives\ifdef</Filter>
+    </None>
+    <None Include="..\..\src\directives\ifdef\ifdef.template">
+      <Filter>src\directives\ifdef</Filter>
+    </None>
+    <None Include="..\..\src\directives\ifdef\README.md">
+      <Filter>src\directives\ifdef</Filter>
+    </None>
+    <None Include="..\..\src\directives\include\README.md">
+      <Filter>src\directives\include</Filter>
+    </None>
+    <None Include="..\..\src\directives\include\test.c.ii">
+      <Filter>src\directives\include</Filter>
+    </None>
+    <None Include="..\..\src\directives\line\README.md">
+      <Filter>src\directives\line</Filter>
+    </None>
+    <None Include="..\..\src\directives\line\test.c.ii">
+      <Filter>src\directives\line</Filter>
+    </None>
+    <None Include="..\..\src\directives\null\null.c.ii">
+      <Filter>src\directives\null</Filter>
+    </None>
+    <None Include="..\..\src\directives\null\null.template">
+      <Filter>src\directives\null</Filter>
+    </None>
+    <None Include="..\..\src\directives\null\README.md">
+      <Filter>src\directives\null</Filter>
+    </None>
+    <None Include="..\..\src\directives\pragma\output.template">
+      <Filter>src\directives\pragma</Filter>
+    </None>
+    <None Include="..\..\src\directives\pragma\pragma.c.ii">
+      <Filter>src\directives\pragma</Filter>
+    </None>
+    <None Include="..\..\src\directives\pragma\README.md">
+      <Filter>src\directives\pragma</Filter>
+    </None>
+    <None Include="..\..\src\directives\undef\README.md">
+      <Filter>src\directives\undef</Filter>
+    </None>
+    <None Include="..\..\src\directives\undef\undef.c.ii">
+      <Filter>src\directives\undef</Filter>
+    </None>
+    <None Include="..\..\src\directives\undef\undef.template">
+      <Filter>src\directives\undef</Filter>
+    </None>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\__line__\LINE.c.ii">
+      <Filter>src\macros\__LINE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__line__\LINE.i">
+      <Filter>src\macros\__LINE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__line__\output.template">
+      <Filter>src\macros\__LINE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__line__\README.md">
+      <Filter>src\macros\__LINE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\defined\output.template">
+      <Filter>src\macros\defined</Filter>
+    </None>
+    <None Include="..\..\src\macros\defined\README.md">
+      <Filter>src\macros\defined</Filter>
+    </None>
+    <None Include="..\..\src\macros\__date__\output.template">
+      <Filter>src\macros\__DATE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__date__\README.md">
+      <Filter>src\macros\__DATE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__file__\output.template">
+      <Filter>src\macros\__FILE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__file__\README.md">
+      <Filter>src\macros\__FILE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\_Pragma\output.template">
+      <Filter>src\macros\_Pragma</Filter>
+    </None>
+    <None Include="..\..\src\macros\_Pragma\README.md">
+      <Filter>src\macros\_Pragma</Filter>
+    </None>
+    <None Include="..\..\src\macros\__time__\output.template">
+      <Filter>src\macros\__TIME__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__time__\README.md">
+      <Filter>src\macros\__TIME__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_args__\output.template">
+      <Filter>src\macros\__VA_ARGS__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_args__\README.md">
+      <Filter>src\macros\__VA_ARGS__</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\README.md">
+      <Filter>src\pragmas</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\known-pragma\README.md">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\known-pragma\test.c.ii">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\unknown-pragma\README.md">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\unknown-pragma\test.c.ii">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\__line__\test.xml">
+      <Filter>src\macros\__LINE__</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\defined\test.xml">
+      <Filter>src\macros\defined</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\__date__\test.xml">
+      <Filter>src\macros\__DATE__</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\__file__\test.xml">
+      <Filter>src\macros\__FILE__</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\_Pragma\test.xml">
+      <Filter>src\macros\_Pragma</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\__time__\test.xml">
+      <Filter>src\macros\__TIME__</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\__va_args__\test.xml">
+      <Filter>src\macros\__VA_ARGS__</Filter>
+    </Xml>
+    <Xml Include="..\..\src\pragmas\test.xml">
+      <Filter>src\pragmas</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\directives\define\define.c">
+      <Filter>src\directives\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\error\error.c">
+      <Filter>src\directives\error</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\if\if.c">
+      <Filter>src\directives\if</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifdef\ifdef.c">
+      <Filter>src\directives\ifdef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include\test-.c">
+      <Filter>src\directives\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include\test.c">
+      <Filter>src\directives\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\line\test.c">
+      <Filter>src\directives\line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\null\null.c">
+      <Filter>src\directives\null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\pragma\pragma.c">
+      <Filter>src\directives\pragma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef\undef.c">
+      <Filter>src\directives\undef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__line__\LINE.c">
+      <Filter>src\macros\__LINE__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\defined\defined.c">
+      <Filter>src\macros\defined</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__date__\DATE.c">
+      <Filter>src\macros\__DATE__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__file__\FILE.c">
+      <Filter>src\macros\__FILE__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\_Pragma\test.c">
+      <Filter>src\macros\_Pragma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__time__\TIME.c">
+      <Filter>src\macros\__TIME__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__va_args__\VA_ARGS.c">
+      <Filter>src\macros\__VA_ARGS__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\known-pragma\test.c">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\unknown-pragma\test.c">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\directives\define\stdout.template.txt">
+      <Filter>src\directives\define</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\error\error.stdout.txt">
+      <Filter>src\directives\error</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\if\stdout.template.txt">
+      <Filter>src\directives\if</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\ifdef\stdout.template.txt">
+      <Filter>src\directives\ifdef</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include\output.template.txt">
+      <Filter>src\directives\include</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include\stdout.template.txt">
+      <Filter>src\directives\include</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\line\output.template.txt">
+      <Filter>src\directives\line</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\line\stdout.template.txt">
+      <Filter>src\directives\line</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\undef\stdout.template.txt">
+      <Filter>src\directives\undef</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\_Pragma\stdout.template.txt">
+      <Filter>src\macros\_Pragma</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\known-pragma\output.template.txt">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\known-pragma\stdout.template.txt">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\unknown-pragma\output.template.txt">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\unknown-pragma\stdout.template.txt">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\directives\include\common\include.0.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\common\include.1.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\common\include.2.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\common\include.3.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\common\include.4.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\common\include.5.h">
+      <Filter>src\directives\include\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\directives\error\test.xml">
+      <Filter>src\directives\error</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\known-pragma\test.xml">
+      <Filter>src\pragmas\known-pragma</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\unknown-pragma\test.xml">
+      <Filter>src\pragmas\unknown-pragma</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\define\test.xml">
+      <Filter>src\directives\define</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\if\test.xml">
+      <Filter>src\directives\if</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\ifdef\test.xml">
+      <Filter>src\directives\ifdef</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\include\test.xml">
+      <Filter>src\directives\include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\line\test.xml">
+      <Filter>src\directives\line</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\null\test.xml">
+      <Filter>src\directives\null</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\pragma\test.xml">
+      <Filter>src\directives\pragma</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\undef\test.xml">
+      <Filter>src\directives\undef</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

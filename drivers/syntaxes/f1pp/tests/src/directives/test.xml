@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <!-->A<!-->
+  <include>abort/test.xml</include>
+  <include>alias/test.xml</include>
+  <include>assert/test.xml</include>
+  <include>assignment/test.xml</include>
+
+  <!-->B<!-->
+  <include>block/test.xml</include>
+  <include>break/test.xml</include>
+
+  <!-->C<!-->
+  <include>channel/test.xml</include>
+  <include>continue/test.xml</include>
+  <include>comment/test.xml</include>
+  <include>concat/test.xml</include>
+
+  <!-->D<!-->
+  <include>debugout/test.xml</include>
+  <include>do-until/test.xml</include>
+
+  <!-->E<!-->
+  <include>echo/test.xml</include>
+  <include>embed/test.xml</include>
+  <include>enum/test.xml</include>
+  <include>env/test.xml</include>
+  <include>exec/test.xml</include>
+  <include>exit/test.xml</include>
+  <include>export/test.xml</include>
+
+  <!-->F<!-->
+  <include>fallthrough/test.xml</include>
+  <include>fatalerror/test.xml</include>
+  <include>for/test.xml</include>
+  <include>foreach/test.xml</include>
+  <include>format/test.xml</include>
+  <include>function/test.xml</include>
+
+  <!-->G<!-->
+  <include>goto/test.xml</include>
+
+  <!-->H<!-->
+
+  <!-->I<!-->
+  <include>import/test.xml</include>
+  <include>include/test.xml</include>
+  <include>includeonce/test.xml</include>
+
+  <!-->J<!-->
+
+  <!-->K<!-->
+
+  <!-->L<!-->
+  <!--include>line/test.xml</include!-->
+  <include>local/test.xml</include>
+
+  <!-->M<!-->
+  <include>macro/test.xml</include>
+  <include>message/test.xml</include>
+
+  <!-->N<!-->
+  <include>namespace/test.xml</include>
+
+  <!-->O<!-->
+  <include>option/test.xml</include>
+
+  <!-->P<!-->
+  <include>param/test.xml</include>
+  <include>print/test.xml</include>
+
+  <!-->Q<!-->
+  
+  <!-->R<!-->
+  <include>return/test.xml</include>
+  <include>raw/test.xml</include>
+  <include>redefine/test.xml</include>
+  <include>repeat/test.xml</include>
+
+  <!-->S<!-->
+  <include>set/test.xml</include>
+  <include>shell/test.xml</include>
+  <include>status/test.xml</include>
+  <include>switch/test.xml</include>
+
+  <!-->T<!-->
+  <include>tryinclude/test.xml</include>
+
+  <!-->U<!-->
+  <include>undef/test.xml</include>
+  <include>using/test.xml</include>
+
+  <!-->V<!-->
+  <!--include>version/test.xml</include!-->
+
+  <!-->W<!-->
+  <include>while/test.xml</include>
+
+  <!-->X<!-->
+
+  <!-->Y<!-->
+
+  <!-->Z<!-->
+</tests>

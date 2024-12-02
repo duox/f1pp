@@ -1,0 +1,9 @@
+#1 "test.c":
+#3:Main file
+#1 "once_inc.h":
+#6:Once included
+#4 "test.c":
+#5:Main file
+#7:Main file
+#9:Main file
+#11:Main file

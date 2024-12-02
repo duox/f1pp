@@ -1,0 +1,14 @@
+#1 "doxygen_comments.c":
+#1:1
+#4:/**
+ * @brief A Doxygen comment.
+ */
+#5:2
+#8:/*!
+ * @brief A Doxygen comment.
+ */
+#9:3
+#10:/// A Doxygen comment.
+#11:4
+#12://! A Doxygen comment.
+#13:5

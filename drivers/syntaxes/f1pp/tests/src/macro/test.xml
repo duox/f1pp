@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>__GLOBAL_LINE__/test.xml</include>
+  <include>countof/test.xml</include>
+  <include>deprecated/test.xml</include>
+  <include>deprecated_directive/test.xml</include>
+  <include>deprecated_include/test.xml</include>
+  <include>_Embed/test.xml</include>
+  <include>empty/test.xml</include>
+  <include>env/test.xml</include>
+  <include>__has_directive/test.xml</include>
+  <include>__has_include/test.xml</include>
+  <include>__has_option/test.xml</include>
+  <include>option/test.xml</include>
+</tests>

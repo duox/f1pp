@@ -1,0 +1,1 @@
+Character escapes parsing test.

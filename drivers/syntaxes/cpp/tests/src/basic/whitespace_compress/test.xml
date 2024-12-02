@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.whitespace_compress.test" name="C-PP whitespace collapse test" timeout="30000">
+		<inputs>
+			<input test_file="whitespace_compress.c" dest="whitespace_compress.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="whitespace_compress.c.ii" template="whitespace_compress.template" /> 
+		</outputs>
+	</test>
+</tests>

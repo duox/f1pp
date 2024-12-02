@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c99.6_10_3_6.test" name="C99 standard section 6.10.3.6 example 6" timeout="30000">
+		<cmdline>--message:12317:enable</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

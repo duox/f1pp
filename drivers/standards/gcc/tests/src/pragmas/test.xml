@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>pragma_GCC/test.xml</include>
+  <include>pragma_GCC_error/test.xml</include>
+  <include>pragma_GCC_warning/test.xml</include>
+</tests>

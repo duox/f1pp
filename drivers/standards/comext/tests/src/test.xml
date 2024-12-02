@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>directives/test.xml</include>
+  <include>macros/test.xml</include>
+  <include>pragmas/test.xml</include>
+</tests>

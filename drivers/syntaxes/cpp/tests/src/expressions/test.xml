@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>expression/test.xml</include>
+
+  <include>operators/binary/bitwise/and/test.xml</include>
+  <include>operators/binary/bitwise/or/test.xml</include>
+  <include>operators/binary/bitwise/xor/test.xml</include>
+  
+  <include>operators/ternary/comparison/test.xml</include>
+</tests>

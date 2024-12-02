@@ -1,0 +1,2 @@
+The 'bitwise' attribute test.
+

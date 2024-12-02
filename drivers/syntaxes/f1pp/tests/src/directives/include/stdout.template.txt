@@ -1,0 +1,32 @@
+Param A = 1
+Param B = 2.0
+Param A = abc
+Param B = defg
+Param A = 10
+Param B = 20
+Include contents: MM = 10 + 20
+Param A = 10
+Param B = 20
+Include contents: MM = 10 + 20
+Before: AA = 0
+Param A = 1
+Param B = 0
+Param A = 9
+Param B = 2
+MM = 10 + 20  
+After: AA = 0  
+Param A = 1
+Param B = 0
+Param A = 10 + 20
+Param B = 2
+XX = 1 + 0
+YY = 10 + 20 + 2
+Param A = 1
+Param B = 1
+2
+Param A = 1
+2
+Param B = 2
+XX = 1 + 1
+21
+2 + 2

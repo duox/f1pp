@@ -1,0 +1,4 @@
+#1 "subpass.c":
+#6:int a = 0;
+#10:int a = 0;
+#14:int a = 0;

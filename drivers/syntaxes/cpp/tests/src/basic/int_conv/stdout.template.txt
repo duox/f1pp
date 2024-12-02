@@ -1,0 +1,1 @@
+int_conv.c(3) : warning W12303: mixed signed and unsigned operands; result is unsigned

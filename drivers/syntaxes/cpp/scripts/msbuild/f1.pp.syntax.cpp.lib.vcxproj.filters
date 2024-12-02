@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{80c997a1-4918-4283-8efb-68d1e93e0961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\parsers">
+      <UniqueIdentifier>{7c37ab06-fbc8-4d3e-af68-5b6132e9d3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\c-pp">
+      <UniqueIdentifier>{bd42f27d-8c9e-45f8-aa28-17f6c0b7beb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{2a4fb999-852d-49a9-bba7-b5c96a4ebfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{1698b2f3-f4b6-4356-a740-0f05cf7bc462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\pragmas">
+      <UniqueIdentifier>{48d97e83-6490-4baa-80de-030c0a81b3e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iframe.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ipragma.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syntax.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_arg_list.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_char.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_comment.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_directive.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_escape.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_expression.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_float.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_identifier.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_include.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_integer.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_macros.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_multigraph.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_newline.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_param_list.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_string.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\Isuper_pragma.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_pragma.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_macro_value.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\Iframe.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\Ipragma.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\macro.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\parser.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\syntax.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.cpp\pragmas\Isuper_pragma.hxx">
+      <Filter>include/f1\c-pp\pragmas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

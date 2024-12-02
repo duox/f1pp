@@ -1,0 +1,6 @@
+#1 "test.c":
+#4:PASSED
+#16:PASSED
+#22:PASSED
+#29:PASSED
+#35:PASSED

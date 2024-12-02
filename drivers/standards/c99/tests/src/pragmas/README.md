@@ -1,0 +1,2 @@
+`#pragma` directive tests.
+

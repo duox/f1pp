@@ -1,0 +1,1 @@
+test.c(7) : warning W12288: Warning message

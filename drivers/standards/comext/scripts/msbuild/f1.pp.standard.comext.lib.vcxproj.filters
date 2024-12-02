@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{3d5d5ac9-0595-4839-8eac-2c81775938c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives">
+      <UniqueIdentifier>{d74c5c11-61ed-4695-a83a-81dd80554897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{25115ece-f037-4ff9-8818-1b40f5731063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{6132da28-4ac3-4ad2-8797-0e88d68fe5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.comext">
+      <UniqueIdentifier>{9519918f-627d-41a9-9ccd-c0fb1aed033e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.comext\directives">
+      <UniqueIdentifier>{09c52161-f8a5-433c-9466-36ca62ef2596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.comext\macros">
+      <UniqueIdentifier>{d9752221-605b-4d6d-81f1-42abaf1145dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.comext\pragmas">
+      <UniqueIdentifier>{05b7a045-3193-465b-b2b4-25d900a9bf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{6f25a7cb-5d8c-4b7e-b45a-68524d926353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include_next_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\includepath_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\info_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\warning_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_COUNTER.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_TIMESTAMP.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_include_alias.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_message.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_once.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_pop_macro.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_push_macro.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ident_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\sccs_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\file_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\standard.hxx">
+      <Filter>include/f1\pp.standard.comext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\include_next.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\includepath.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\info.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\warning.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\macros\macro_COUNTER.hxx">
+      <Filter>include/f1\pp.standard.comext\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\macros\macro_TIMESTAMP.hxx">
+      <Filter>include/f1\pp.standard.comext\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\pragmas\pragma_include_alias.hxx">
+      <Filter>include/f1\pp.standard.comext\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\pragmas\pragma_message.hxx">
+      <Filter>include/f1\pp.standard.comext\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\pragmas\pragma_once.hxx">
+      <Filter>include/f1\pp.standard.comext\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\pragmas\pragma_pop_macro.hxx">
+      <Filter>include/f1\pp.standard.comext\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\pragmas\pragma_push_macro.hxx">
+      <Filter>include/f1\pp.standard.comext\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\ident.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.comext\directives\sccs.hxx">
+      <Filter>include/f1\pp.standard.comext\directives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\contents.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\docs\todo.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

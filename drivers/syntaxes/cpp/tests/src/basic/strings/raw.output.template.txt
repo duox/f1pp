@@ -1,0 +1,8 @@
+#1 "raw.c":
+#4:R"x(aaa)bbb)x"
+#7:R"x(aaa
+)bbb)x"
+#10:R"prefix(aaa
+)bbb prefix)prefix"
+#14:R"aaa"
+#15:R"(aaa)bbb)"

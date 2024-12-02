@@ -1,0 +1,2 @@
+`#sccs` directive parsing test.
+

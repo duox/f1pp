@@ -1,0 +1,18 @@
+#1 "merge_operator.c":
+#3:II;
+#9:const char * sss = "xxx"; 
+#14:const char * sss = "xxx"; 
+#18:const char * sss = "xxx"; 
+#23:i++; 
+#25:--i; 
+#29:i++; 
+#31:--i; 
+#36:Hi;
+#40:H10;
+#45:a1
+#46:a bc d
+#49:IDENT1
+#52:1IDENT
+#55:identIDENT
+#59:printf( "plain string" );
+#60:printf( "%d %d",1, 1 );

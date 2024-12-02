@@ -1,0 +1,1 @@
+test.c(3) : informational I16384: Informational message

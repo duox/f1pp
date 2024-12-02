@@ -1,0 +1,4 @@
+#1 "screening-with-spaces.c":
+#2:A
+#3:B
+#6:AB

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{61f7dc7f-82de-4c5b-8347-15e60447f923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.output.nullout">
+      <UniqueIdentifier>{8d0b0a97-765e-40f1-992c-2de4a9e062f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\output.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\output_class.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.output.nullout-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.output.nullout-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.output.nullout.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.output.nullout\output.hxx">
+      <Filter>include/f1\pp.output.nullout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.output.nullout\output_class.hxx">
+      <Filter>include/f1\pp.output.nullout</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\readme.md" />
+  </ItemGroup>
+</Project>

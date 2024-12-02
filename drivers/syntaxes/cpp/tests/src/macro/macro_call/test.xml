@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.macro_call.test" name="C-PP macro call parsing test" timeout="30000">
+		<inputs>
+			<input test_file="macro_call.c" dest="macro_call.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="macro_call.c.ii" template="macro_call.template" /> 
+		</outputs>
+	</test>
+</tests>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>bignum/test.xml</include>
+  <include>bigoutput/test.xml</include>
+  <include>macro_recurse_n/test.xml</include>
+  <include>single_or_tuple_args/test.xml</include>
+  <include>vargs_count/test.xml</include>
+</tests>

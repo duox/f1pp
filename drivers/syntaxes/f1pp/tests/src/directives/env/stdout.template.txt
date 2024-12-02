@@ -1,0 +1,4 @@
+VAR =  1
+VAR2 =  1
+VAR2 =  2
+VAR =  2

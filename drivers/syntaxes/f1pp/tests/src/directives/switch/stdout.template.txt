@@ -1,0 +1,6 @@
+All switch elements:
+Default clause
+A = 1
+Nested switches:
+A = 3
+A.3 = 3

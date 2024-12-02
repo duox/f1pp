@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.macro_inline_redef.test" name="C-PP macro inline redefinition parsing test" timeout="30000">
+		<inputs>
+			<input test_file="macro_inline_redef.c" dest="macro_inline_redef.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="macro_inline_redef.c.ii" template="macro_inline_redef.template" /> 
+		</outputs>
+	</test>
+</tests>

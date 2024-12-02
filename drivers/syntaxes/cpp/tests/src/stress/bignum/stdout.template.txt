@@ -1,0 +1,1 @@
+test.c(17) : warning W12303: mixed signed and unsigned operands; result is unsigned

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-f1-pp-f1pp-attribute-protected" path="test://f1/pp/f1pp/attributes/protected" name="Tests `protected' attribute parsing" timeout="30000">
+		<env name="F1_PP_TEST_ENV" value="1" />
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

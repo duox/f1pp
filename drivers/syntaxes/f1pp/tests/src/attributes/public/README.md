@@ -1,0 +1,2 @@
+The 'public' attribute test.
+

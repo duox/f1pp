@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.error.test" name="C-PP #error directive test" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="error.c" dest="error.c.ii" /> 
+		</inputs>
+	</test>
+</tests>

@@ -1,0 +1,19 @@
+A
+B
+C
+test.c(12) : error E8199: expected identifier
+test.c(18) : error E8240: expected argument list: _Pragma
+test.c(18) : error E8196: expected _Pragma("string")
+test.c(19) : error E8199: expected identifier
+test.c(20) : error E8196: expected _Pragma("string")
+test.c(21) : error E8196: expected _Pragma("string")
+test.c(22) : error E8196: expected _Pragma("string")
+test.c(24) : error E8196: expected _Pragma("string")
+test.c(25) : error E8196: expected _Pragma("string")
+test.c(26) : error E8196: expected _Pragma("string")
+OK
+OK
+test.c(38) : error E8221: unterminated macro call: "_Pragma"
+test.c(36) : informational I16388: started here
+test.c(38) : error E8221: unterminated macro call: "_Pragma"
+test.c(37) : informational I16388: started here

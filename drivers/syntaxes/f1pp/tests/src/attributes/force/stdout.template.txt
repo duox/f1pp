@@ -1,0 +1,1 @@
+test.c(4) : error E8230: macro is immutable

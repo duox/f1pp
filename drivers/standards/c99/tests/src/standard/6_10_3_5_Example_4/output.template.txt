@@ -1,0 +1,8 @@
+#1 "test.c":
+#10:printf("x" "1" "= %d, x" "2" "= %s", x1, x2);
+#11:fputs("strncmp(\"abc\\0d\", \"abc\", '\\4') == 0" ": @\n", s);
+#1 "vers2.h":
+#1:"VERS2"
+#13 "test.c":
+#14:"hello";
+#15:"hello" ", world"

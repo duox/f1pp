@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3f560df3-640b-429b-8f93-ff23039961e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{8c64fb11-8da9-4e79-8400-82362408aedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c23">
+      <UniqueIdentifier>{fabbfd4b-8006-4363-8144-301873593bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives">
+      <UniqueIdentifier>{fb3378f0-16d6-42a1-ad3e-6d4ef8e6f43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{07948378-7aab-4ac0-8902-62ba09dfb272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c23\directives">
+      <UniqueIdentifier>{f4cf80f3-7079-43dc-96ba-3488fd9959d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c23\macros">
+      <UniqueIdentifier>{b516d0c3-4250-464e-818a-ac48c2418c66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\embed_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_has_embed.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_STDC_EMBED_EMPTY.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_STDC_EMBED_FOUND.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_STDC_EMBED_NOT_FOUND.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\standard.hxx">
+      <Filter>include/f1\pp.standard.c23</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\directives\embed.hxx">
+      <Filter>include/f1\pp.standard.c23\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\macros\macro_has_embed.hxx">
+      <Filter>include/f1\pp.standard.c23\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\macros\macro_STDC_EMBED_EMPTY.hxx">
+      <Filter>include/f1\pp.standard.c23\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\macros\macro_STDC_EMBED_FOUND.hxx">
+      <Filter>include/f1\pp.standard.c23\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c23\macros\macro_STDC_EMBED_NOT_FOUND.hxx">
+      <Filter>include/f1\pp.standard.c23\macros</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

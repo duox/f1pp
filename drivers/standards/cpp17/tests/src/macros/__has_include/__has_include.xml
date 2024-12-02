@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test(valid)-f1.pp.c17.macro.__has_include" name="C17 __has_include pseudo-function test for validness" timeout="30000">
+		<cmdline>--standard:cpp17 --standard-:f1pp -I:includes</cmdline>
+		<stdout template="valid.stdout.template" />
+		<inputs>
+			<input test_file="valid.c" dest="valid.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="valid.c.ii" template="valid.output.template" /> 
+		</outputs>
+	</test>
+	<test id="test(invalid)-f1.pp.c17.macro.__has_include" name="C17 __has_include pseudo-function test for invalidness" timeout="30000">
+		<cmdline>--standard:cpp17 --standard-:f1pp --message-severity:4097:error -I:includes</cmdline>
+		<stdout template="invalid.stdout.template" />
+		<inputs>
+			<input test_file="invalid.c" dest="invalid.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="invalid.c.ii" template="invalid.output.template" /> 
+		</outputs>
+	</test>
+</tests>

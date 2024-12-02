@@ -1,0 +1,3 @@
+test.c(2) : A
+test_exit.h(1) : 1
+test.c(4) : B

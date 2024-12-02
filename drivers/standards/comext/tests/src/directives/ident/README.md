@@ -1,0 +1,2 @@
+`#ident` directive parsing test.
+

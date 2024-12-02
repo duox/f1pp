@@ -1,0 +1,2 @@
+test.c(3) : warning W12357: no channel active
+test.c(16) : warning W12357: no channel active

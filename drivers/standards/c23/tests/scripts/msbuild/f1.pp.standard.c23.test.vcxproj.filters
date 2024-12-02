@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{22b04fb7-b36f-4418-b074-1e8fdaf38a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{b9605644-22b3-42d2-930e-2d5580704b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\embed">
+      <UniqueIdentifier>{f0b0dbd9-4d2b-4133-baf7-88c9a10230ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{0e9f58fa-4414-4cf2-9d05-4d23579998d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_embed">
+      <UniqueIdentifier>{55459c76-f011-44ea-92c1-1dd8c085ede0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__STDC_EMBED_EMPTY__">
+      <UniqueIdentifier>{e9af295a-b9b5-4864-825a-07839a481eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__STDC_EMBED_FOUND__">
+      <UniqueIdentifier>{b8fa9a0a-085e-4015-a801-5bb35dad4ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__STDC_EMBED_NOT_FOUND__">
+      <UniqueIdentifier>{e2c21d26-7ee0-401a-8eac-a5db0a0a25e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\embed\embed.c.ii">
+      <Filter>src\directives\embed</Filter>
+    </None>
+    <None Include="..\..\src\directives\embed\README.md">
+      <Filter>src\directives\embed</Filter>
+    </None>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_embed\__has_embed-file0.bin">
+      <Filter>src\macros\__has_embed</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_embed\__has_embed-file1.bin">
+      <Filter>src\macros\__has_embed</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_embed\README.md">
+      <Filter>src\macros\__has_embed</Filter>
+    </None>
+    <None Include="..\..\src\macros\__STDC_EMBED_EMPTY__\README.md">
+      <Filter>src\macros\__STDC_EMBED_EMPTY__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__STDC_EMBED_FOUND__\README.md">
+      <Filter>src\macros\__STDC_EMBED_FOUND__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__STDC_EMBED_NOT_FOUND__\README.md">
+      <Filter>src\macros\__STDC_EMBED_NOT_FOUND__</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\macros\__has_embed\test.c">
+      <Filter>src\macros\__has_embed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__STDC_EMBED_EMPTY__\STDC_EMBED_EMPTY.c">
+      <Filter>src\macros\__STDC_EMBED_EMPTY__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__STDC_EMBED_FOUND__\STDC_EMBED_FOUND.c">
+      <Filter>src\macros\__STDC_EMBED_FOUND__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__STDC_EMBED_NOT_FOUND__\STDC_EMBED_NOT_FOUND.c">
+      <Filter>src\macros\__STDC_EMBED_NOT_FOUND__</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\directives\embed\output.template.txt">
+      <Filter>src\directives\embed</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\embed\stdout.template.txt">
+      <Filter>src\directives\embed</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__has_embed\output.template.txt">
+      <Filter>src\macros\__has_embed</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__has_embed\stdout.template.txt">
+      <Filter>src\macros\__has_embed</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__STDC_EMBED_EMPTY__\output.template.txt">
+      <Filter>src\macros\__STDC_EMBED_EMPTY__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__stdc_embed_empty__\stdout.template.txt">
+      <Filter>src\macros\__STDC_EMBED_EMPTY__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__STDC_EMBED_FOUND__\output.template.txt">
+      <Filter>src\macros\__STDC_EMBED_FOUND__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__stdc_embed_found__\stdout.template.txt">
+      <Filter>src\macros\__STDC_EMBED_FOUND__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__STDC_EMBED_NOT_FOUND__\output.template.txt">
+      <Filter>src\macros\__STDC_EMBED_NOT_FOUND__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__stdc_embed_not_found__\stdout.template.txt">
+      <Filter>src\macros\__STDC_EMBED_NOT_FOUND__</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\embed\embed.c">
+      <Filter>src\directives\embed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\embed\test.xml">
+      <Filter>src\directives\embed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__has_embed\test.xml">
+      <Filter>src\macros\__has_embed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__STDC_EMBED_EMPTY__\test.xml">
+      <Filter>src\macros\__STDC_EMBED_EMPTY__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__STDC_EMBED_FOUND__\test.xml">
+      <Filter>src\macros\__STDC_EMBED_FOUND__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__STDC_EMBED_NOT_FOUND__\test.xml">
+      <Filter>src\macros\__STDC_EMBED_NOT_FOUND__</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

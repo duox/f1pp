@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>BASE_FILE/test.xml</include>
+  <include>FILE_NAME/test.xml</include>
+  <include>INCLUDE_LEVEL/test.xml</include>
+</tests>

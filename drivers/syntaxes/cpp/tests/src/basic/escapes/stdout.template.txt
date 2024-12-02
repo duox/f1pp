@@ -1,0 +1,3 @@
+test.c(98) : warning W12344: the digit is not part of numeric sequence: 8
+test.c(118) : warning W12333: character constant overflow
+B

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.null.test" name="C-PP #null directive test" timeout="30000">
+		<inputs>
+			<input test_file="null.c" dest="null.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="null.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

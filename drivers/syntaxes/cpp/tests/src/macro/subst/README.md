@@ -1,0 +1,1 @@
+Simple macro substitution test.

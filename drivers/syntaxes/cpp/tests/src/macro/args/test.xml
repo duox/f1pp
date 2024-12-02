@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.args.test" name="C-PP macro argument parsing test" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="args.c" dest="args.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="args.c.ii" template="args.template" /> 
+		</outputs>
+	</test>
+</tests>

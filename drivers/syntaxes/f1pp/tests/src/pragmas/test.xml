@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>debugout/test.xml</include>
+  <include>error/test.xml</include>
+  <include>fatalerror/test.xml</include>
+  <include>includedir/test.xml</include>
+  <include>info/test.xml</include>
+  <include>option/test.xml</include>
+  <include>status/test.xml</include>
+  <include>warning/test.xml</include>
+</tests>

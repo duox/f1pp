@@ -1,0 +1,2 @@
+The 'disabled' attribute test.
+

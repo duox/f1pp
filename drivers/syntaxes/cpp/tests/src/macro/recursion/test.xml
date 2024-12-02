@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.recursion.test" name="C-PP recursion at substitution test" timeout="30000">
+		<inputs>
+			<input test_file="recursion.c" dest="recursion.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="recursion.c.ii" template="recursion.template" /> 
+		</outputs>
+	</test>
+</tests>

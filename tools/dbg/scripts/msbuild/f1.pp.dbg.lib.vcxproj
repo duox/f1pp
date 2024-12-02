@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|Win32">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|x64">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|Win32">
+      <Configuration>final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|x64">
+      <Configuration>final</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CA22936-759A-424E-A63E-511B6DCD8D0E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.33801.447</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <OutDir>../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../devel/lang/pp/drivers/standards/c99/include;../../../../../../../devel/lang/pp/drivers/standards/c23/include;../../../../../../../devel/lang/pp/drivers/standards/comext/include;../../../../../../../devel/lang/pp/drivers/standards/cpp23/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEV_PCH;WIN32;_DEBUG;_WINDOWS;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEV_PCH;WIN32;_DEBUG;_WINDOWS;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;;../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../devel/lang/pp/drivers/standards/c99/include;../../../../../../../devel/lang/pp/drivers/standards/c23/include;../../../../../../../devel/lang/pp/drivers/standards/comext/include;../../../../../../../devel/lang/pp/drivers/standards/cpp23/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;;../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../devel/lang/pp/drivers/standards/c99/include;../../../../../../../devel/lang/pp/drivers/standards/c23/include;../../../../../../../devel/lang/pp/drivers/standards/comext/include;../../../../../../../devel/lang/pp/drivers/standards/cpp23/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;;../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../devel/lang/pp/drivers/standards/c99/include;../../../../../../../devel/lang/pp/drivers/standards/c23/include;../../../../../../../devel/lang/pp/drivers/standards/comext/include;../../../../../../../devel/lang/pp/drivers/standards/cpp23/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../../../../../../ThirdParty/sources/tinyxml;../../../../../../../../unix/posix/include;../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../unix/libcext/include;../../../../../../../base/core/include;../../../../../../../base/io/include;../../../../../../../base/io/plugins/windows/include;../../../../../../../base/mt/include;../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../base/nls/include;../../../../../../../base/ns/include;../../../../../../../base/fs/include;../../../../../../../base/msgout/include;../../../../../../../base/unicode/include;../../../../../../../base/util/include;../../include;../../../../../../../devel/core/parser/include;../../../../../../../devel/lang/pp/include;../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../devel/lang/pp/drivers/frontends/f1pp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\context.cxx" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\f1\pp.dbg-config.h" />
+    <ClInclude Include="..\..\include\f1\pp.dbg-forward.h" />
+    <ClInclude Include="..\..\include\f1\pp.dbg.h" />
+    <ClInclude Include="..\..\include\f1\pp.dbg\context.hxx" />
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\doc\manual.md" />
+    <None Include="..\..\doc\todo.md" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

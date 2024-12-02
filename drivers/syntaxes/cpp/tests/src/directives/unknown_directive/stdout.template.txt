@@ -1,0 +1,4 @@
+unknown_directive.c(4) : error E8194: unknown directive: kvas
+unknown_directive.c(7) : error E8194: unknown directive: kvas
+unknown_directive.c(11) : error E8194: unknown directive: undif
+unknown_directive.c(14) : error E8194: unknown directive: difine

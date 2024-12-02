@@ -1,0 +1,7 @@
+X = 1
+Y = 7
+A = 1
+B = 3
+NS.B = 7
+test.c(24) : error E8267: name is already present in the current namespace: NS2.B
+B = 3

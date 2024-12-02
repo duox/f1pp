@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{e65b8ff4-b81f-4018-a4b5-2c8cae7531f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives">
+      <UniqueIdentifier>{4ace34a4-eee2-4c3c-ac8d-3d83786a9dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\predefined directives">
+      <UniqueIdentifier>{6f38096d-6649-4b89-911a-7635f18b0c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\parsers">
+      <UniqueIdentifier>{f961e909-e229-4d7d-a6fc-1dc2eb9f0243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{d68e177a-2023-41e1-a37c-d483d489d6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros\predefined macros">
+      <UniqueIdentifier>{748780b1-d985-4f0a-b8b9-fa9de8550d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{35382ca4-e385-4ab6-b9a6-7b967d4b01ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas\predefined pragmas">
+      <UniqueIdentifier>{fc49bda2-0bec-42b3-8511-5a0e714f9612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\c-pp">
+      <UniqueIdentifier>{e6eca5c4-c686-464f-b572-01db5d16ed56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\directives">
+      <UniqueIdentifier>{3677ba4b-d7c5-44c6-9085-c3d28e694511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\directives\predefined directives">
+      <UniqueIdentifier>{0ebef9cc-d798-4f2d-a7ad-31d528467cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\macros">
+      <UniqueIdentifier>{a0b0bba5-9325-4252-9e50-0c79b472de3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\pragmas">
+      <UniqueIdentifier>{67a460a5-8ded-404f-b12c-02444439c43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\pragmas\predefined pragmas">
+      <UniqueIdentifier>{0617c6a0-2668-498e-b72d-55861d8feac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{fb3da046-7c28-47ac-8165-f255ded77175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\c-pp\standards">
+      <UniqueIdentifier>{51a8f7ba-12db-467f-b1f3-287d85aaf553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\standards">
+      <UniqueIdentifier>{07056c4f-5688-4eae-92d4-7e658841935a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syntax.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directive_list.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Idirective.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\define_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elif_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\else_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endif_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\error_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\if_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifdef_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifndef_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\line_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\pragma_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_arg_list.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_char.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_comment.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_directive.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_escape.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_expression.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_identifier.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_include.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_integer.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_macros.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_multigraph.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_newline.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_param_list.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_string.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_COUNTER.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_DATE.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_defined.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_F1PP.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_FILE.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_LINE.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_Pragma.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_TIME.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_TIMESTAMP.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_VA_ARGS.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_VA_OPT.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ipragma.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_include_alias.cxx">
+      <Filter>src\classes\pragmas\predefined pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_message.cxx">
+      <Filter>src\classes\pragmas\predefined pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_once.cxx">
+      <Filter>src\classes\pragmas\predefined pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_pop_macro.cxx">
+      <Filter>src\classes\pragmas\predefined pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_push_macro.cxx">
+      <Filter>src\classes\pragmas\predefined pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standards\standard_C89.cxx">
+      <Filter>src\classes\standards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_has_include.cxx">
+      <Filter>src\classes\macros\predefined macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elifdef_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elifndef_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\includepath_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\info_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\warning_directive.cxx">
+      <Filter>src\classes\directives\predefined directives</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\c-pp-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\c-pp-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\parser.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\syntax.hxx">
+      <Filter>include/f1\c-pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directive_list.hxx">
+      <Filter>include/f1\c-pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\Idirective.hxx">
+      <Filter>include/f1\c-pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\define.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\elif.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\else.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\endif.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\error.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\if.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\ifdef.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\ifndef.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\include.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\line.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\pragma.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\undef.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_COUNTER.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_DATE.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_defined.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_F1PP.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_FILE.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_LINE.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_Pragma.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_TIME.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_TIMESTAMP.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_VA_ARGS.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_VA_OPT.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\tools\Ipragma.hxx">
+      <Filter>include/f1\c-pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\pragmas\pragma_include_alias.hxx">
+      <Filter>include/f1\c-pp\pragmas\predefined pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\pragmas\pragma_message.hxx">
+      <Filter>include/f1\c-pp\pragmas\predefined pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\pragmas\pragma_once.hxx">
+      <Filter>include/f1\c-pp\pragmas\predefined pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\pragmas\pragma_pop_macro.hxx">
+      <Filter>include/f1\c-pp\pragmas\predefined pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\pragmas\pragma_push_macro.hxx">
+      <Filter>include/f1\c-pp\pragmas\predefined pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\macros\macro_has_include.hxx">
+      <Filter>include/f1\c-pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\standards\standard_C89.hxx">
+      <Filter>include/f1\c-pp\standards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\elifdef.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\elifndef.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\includepath.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\info.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\c-pp\directives\directives\warning.hxx">
+      <Filter>include/f1\c-pp\directives\predefined directives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\include\f1\c-pp\standards\README.md">
+      <Filter>include/f1\c-pp\standards</Filter>
+    </None>
+  </ItemGroup>
+</Project>

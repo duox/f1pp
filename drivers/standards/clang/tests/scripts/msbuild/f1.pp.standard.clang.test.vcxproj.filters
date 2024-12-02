@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1b994972-97fc-4e35-8239-449d8183b6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas">
+      <UniqueIdentifier>{1cc07adb-7151-47a6-af87-956f292e5a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma clang">
+      <UniqueIdentifier>{7ef1ee10-98ca-46f3-8247-01fe27db1ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma clang deprecated">
+      <UniqueIdentifier>{0f160ad2-6867-458f-83aa-b438092c5c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma clang final">
+      <UniqueIdentifier>{af8eceab-0abf-4418-9972-88a2bbc90ec6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\README.md">
+      <Filter>src\pragmas</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang\README.md">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang\test.c.ii">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang_deprecated\README.md">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang_deprecated\test.c.ii">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang_final\README.md">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_clang_final\test.c.ii">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\pragmas\pragma_clang\output.template.txt">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_clang\stdout.template.txt">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_clang_deprecated\output.template.txt">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_clang_deprecated\stdout.template.txt">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_clang_final\output.template.txt">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_clang_final\stdout.template.txt">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang\test.c">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang_deprecated\test.c">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang_final\test.c">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\test.xml">
+      <Filter>src\pragmas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_clang\test.xml">
+      <Filter>src\pragmas\#pragma clang</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_clang_deprecated\test.xml">
+      <Filter>src\pragmas\#pragma clang deprecated</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_clang_final\test.xml">
+      <Filter>src\pragmas\#pragma clang final</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

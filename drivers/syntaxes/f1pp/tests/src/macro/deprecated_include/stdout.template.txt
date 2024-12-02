@@ -1,0 +1,5 @@
+test.c(2) : warning W12307: deprecated include: d:\Projects\freetools\f1\devel\lang\pp\drivers\syntaxes\f1pp\tests\src\macro\deprecated_include\deprecated.h
+test.c(3) : warning W12307: deprecated include: d:\Projects\freetools\f1\devel\lang\pp\drivers\syntaxes\f1pp\tests\src\macro\deprecated_include\deprecated.h
+test.c(4) : warning W12307: deprecated include: d:\Projects\freetools\f1\devel\lang\pp\drivers\syntaxes\f1pp\tests\src\macro\deprecated_include\deprecated.h
+test.c(5) : warning W12307: deprecated include: d:\Projects\freetools\f1\devel\lang\pp\drivers\syntaxes\f1pp\tests\src\macro\deprecated_include\deprecated.h
+test.c(6) : warning W12307: deprecated include: d:\Projects\freetools\f1\devel\lang\pp\drivers\syntaxes\f1pp\tests\src\macro\deprecated_include\deprecated.h

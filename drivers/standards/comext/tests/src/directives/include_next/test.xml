@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-f1.pp.comext.directives.include_next" path="test://f1/pp/comext/directives/include_next" name="Tests #include_next directive parsing" timeout="30000">
+		<cmdline>
+		-I:inc0 -I:inc1
+		</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

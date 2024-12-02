@@ -1,0 +1,6 @@
+invalid.c(14) : error E8204: expected double-quoted or angle-bracketed file name
+invalid.c(26) : error E8204: expected double-quoted or angle-bracketed file name
+invalid.c(12) : warning W12340: macro is never used: QUOTED_DIRECTORY
+invalid.c(13) : warning W12340: macro is never used: QUOTED_FILENAME
+invalid.c(24) : warning W12340: macro is never used: ANGLE_DIRECTORY
+invalid.c(25) : warning W12340: macro is never used: ANGLE_FILENAME

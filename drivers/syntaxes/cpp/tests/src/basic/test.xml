@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>chars/test.xml</include>
+  <include>comments/test.xml</include>
+  <include>empty/test.xml</include>
+  <include>escapes/test.xml</include>
+  <include>idents/test.xml</include>
+  <include>int_conv/test.xml</include>
+  <include>multigraphs/test.xml</include>
+  <include>parenthesis/test.xml</include>
+  <!--include>screening/test.xml</include-->
+  <include>strings/test.xml</include>
+  <include>whitespace/test.xml</include>
+  <include>whitespace_compress/test.xml</include>
+</tests>

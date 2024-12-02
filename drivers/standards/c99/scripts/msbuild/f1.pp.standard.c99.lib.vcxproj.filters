@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{503abebb-7b4d-425d-bfbc-14b6e3107712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives">
+      <UniqueIdentifier>{7a2d8494-0ca0-4cfd-90b6-1f906eb67f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{32841e19-df2a-4e47-be0f-fe32b7d153fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c99">
+      <UniqueIdentifier>{c5657f05-86f7-4afa-a241-7451772c8e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c99\directives">
+      <UniqueIdentifier>{dd9fd9e5-efc9-4a99-826e-4eb4f417990f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.c99\macros">
+      <UniqueIdentifier>{26ea431f-e78a-4fef-a1b9-6746234668de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{2de43d51-f055-476e-a6ef-2359cd35ee5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\define_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elif_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\else_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endif_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\error_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\if_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifdef_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifndef_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\line_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\pragma_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_DATE.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_defined.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_FILE.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_LINE.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_Pragma.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_TIME.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_VA_ARGS.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\standard.hxx">
+      <Filter>include/f1\pp.standard.c99</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\define.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\elif.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\else.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\endif.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\error.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\if.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\ifdef.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\ifndef.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\include.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\line.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\pragma.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\directives\undef.hxx">
+      <Filter>include/f1\pp.standard.c99\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_DATE.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_defined.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_FILE.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_LINE.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_Pragma.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_TIME.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.c99\macros\macro_VA_ARGS.hxx">
+      <Filter>include/f1\pp.standard.c99\macros</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\contents.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\docs\todo.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

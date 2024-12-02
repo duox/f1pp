@@ -1,0 +1,16 @@
+define.c(39) : warning W12317: macro is already defined with the same value
+define.c(9) : informational I16387: previously defined here
+define.c(40) : warning W12318: possibly detached parameter list
+define.c(49) : error E8199: expected identifier
+define.c(52) : error E8199: expected identifier
+define.c(53) : error E8199: expected identifier
+define.c(56) : error E8229: macro is already defined: OL_1
+define.c(9) : informational I16387: previously defined here
+define.c(60) : error E8198: expected ',' or ')'
+define.c(61) : error E8198: expected ',' or ')'
+define.c(62) : error E8199: expected identifier
+define.c(65) : error E8198: expected ',' or ')'
+define.c(68) : error E8230: macro is immutable
+define.c(68) : informational I16385: previously defined by standard
+define.c(40) : warning W12340: macro is never used: max
+define.c(41) : warning W12340: macro is never used: add

@@ -1,0 +1,2 @@
+elifdef.c(30) : error E8199: expected identifier
+elifdef.c(40) : warning W12292: unexpected characters after #elifdef

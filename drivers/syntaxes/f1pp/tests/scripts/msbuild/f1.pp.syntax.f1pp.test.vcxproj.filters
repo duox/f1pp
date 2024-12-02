@@ -1,0 +1,1840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{eaf30624-fb72-46fa-bb75-2997c205dc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes">
+      <UniqueIdentifier>{22e93e41-5f8d-4060-9d55-a1474141fdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\nonl">
+      <UniqueIdentifier>{13b76f2b-20ce-418b-b2cc-4dde48dbd1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{858d34d5-4a7d-4194-8ce8-5b6676ef6e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\A">
+      <UniqueIdentifier>{eee63dc9-6f6b-4262-af77-c62dbbe2986d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\A\abort">
+      <UniqueIdentifier>{f27686db-99a6-4f63-be80-61f3f236d088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\A\alias">
+      <UniqueIdentifier>{8742b6f5-a847-4623-8d69-9e377e903ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\A\assert">
+      <UniqueIdentifier>{783c0d5b-a093-44d7-9747-5c35df00d1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\A\assignment">
+      <UniqueIdentifier>{07a7ebd4-6ecc-41b2-8203-007309fe61a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\B">
+      <UniqueIdentifier>{e9d580ed-7b47-40a5-8f9a-11bb20615680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\B\block">
+      <UniqueIdentifier>{ea64d84b-0978-4259-8241-d2836bb53d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\B\break">
+      <UniqueIdentifier>{bfd2431b-68a4-4f61-864c-433691e388c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!C">
+      <UniqueIdentifier>{a9cafc07-cf84-49de-baae-6233957eb4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!C\!channel">
+      <UniqueIdentifier>{7839ce68-1ab9-416b-a4bc-b3f2ee237fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!C\continue">
+      <UniqueIdentifier>{e5696cee-9bf7-40b0-b566-2ef39f25b861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!C\comment">
+      <UniqueIdentifier>{4006ab90-64f5-4048-8874-a1083f96ff29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!C\concat">
+      <UniqueIdentifier>{9faf8645-32b8-4b03-b852-ff79d3cf08a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\D">
+      <UniqueIdentifier>{ae8a13e4-7e2e-4b62-a0a6-89540bb180f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\D\debugout">
+      <UniqueIdentifier>{0917bdb8-70ac-40a3-8c6d-8770fe5af927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\D\do-until">
+      <UniqueIdentifier>{14e6cf24-910c-4154-934f-40c8e959da96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F">
+      <UniqueIdentifier>{5903fa21-37ac-450c-b4d1-8733500d0311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\fallthrough">
+      <UniqueIdentifier>{723aefa3-96bd-466d-a692-cf6e41aa7bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\fatalerror">
+      <UniqueIdentifier>{453d6014-5c3d-467c-a97b-b741188d7c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\for">
+      <UniqueIdentifier>{18bc786a-8ac9-47c5-a50e-d0b6732e1941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\!foreach">
+      <UniqueIdentifier>{94d8b883-9ee9-4d7e-aa96-9bf20a45ccf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\format">
+      <UniqueIdentifier>{29937b1d-cb8f-438e-a3bb-bfcd3da8da64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\F\function">
+      <UniqueIdentifier>{16d3fe39-b53c-4788-b9ba-222d1e26ee26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\G">
+      <UniqueIdentifier>{6d78d9d6-6591-41b2-9130-43fbf0345879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\G\goto">
+      <UniqueIdentifier>{602b8ce3-6ae7-40d2-b071-9dae2c6117c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\H">
+      <UniqueIdentifier>{ee1e05cb-3660-47af-8b65-78d022ed473b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\I">
+      <UniqueIdentifier>{b4e09b5a-028d-4671-bc2d-938e131da387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\I\import">
+      <UniqueIdentifier>{ea0f9259-5475-44dc-934d-e35c71520f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\I\include">
+      <UniqueIdentifier>{e77a8be1-3e51-4338-b788-75bcfd2a25bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\I\includeonce">
+      <UniqueIdentifier>{35091f2c-f858-4c88-a6d4-2ae5fb8992ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\J">
+      <UniqueIdentifier>{c034c819-06d3-45dc-bdc3-cdb9d75140af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\K">
+      <UniqueIdentifier>{d704bc57-ec65-4357-913c-7a8dd8a65d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!L">
+      <UniqueIdentifier>{bdc6cf0a-a960-403d-9e99-812f49595e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!L\!line">
+      <UniqueIdentifier>{f6a22795-ece5-434b-b075-9d67354587ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!L\local">
+      <UniqueIdentifier>{cb6cedda-83d1-47cd-aeba-2c6c90af885c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\M">
+      <UniqueIdentifier>{2f05ca7d-0e0a-43f1-a5d1-1cd51904d487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\M\macro">
+      <UniqueIdentifier>{e9d3ac58-468a-4dd5-8ed3-48b039e2c626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\M\message">
+      <UniqueIdentifier>{44936f1c-cb43-4a36-96f9-c4609b592fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\N">
+      <UniqueIdentifier>{8796dfe4-6e45-4014-be28-4b4a760306e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\N\namespace">
+      <UniqueIdentifier>{44ccb2fc-0e35-41d7-99cd-57ecf304b277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\O">
+      <UniqueIdentifier>{2acd7c98-68aa-4f5a-a483-3231bbbcb194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\O\option">
+      <UniqueIdentifier>{b48526d6-6fba-4934-a4c2-7e3517b271e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\P">
+      <UniqueIdentifier>{4001c0a9-3add-4171-92db-49a049e32e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\P\param">
+      <UniqueIdentifier>{45bbb3d4-2a7a-4d10-8eef-1a968b5d9683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\P\print">
+      <UniqueIdentifier>{820df844-6bb2-40e6-870e-0f095460d99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\Q">
+      <UniqueIdentifier>{5b1dd35b-20bd-409e-89eb-809b2e0c9b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\R">
+      <UniqueIdentifier>{68484f57-706f-4426-ac04-1935dc91786c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\R\return">
+      <UniqueIdentifier>{fb03c460-6c71-4cf0-94fe-d9c7ce188931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\R\raw">
+      <UniqueIdentifier>{ee58ba4d-de60-4075-bb2b-973d14fcbbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\R\redefine">
+      <UniqueIdentifier>{6689effe-692d-4243-9ec8-ea8cc68e88ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\R\repeat">
+      <UniqueIdentifier>{53a5d36b-538d-4301-98c1-2b192c638051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\S">
+      <UniqueIdentifier>{fc66580e-8ab3-45e7-a16d-dbd57c015edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\S\set">
+      <UniqueIdentifier>{00ed4fb7-b8fe-4d07-8020-766badc73210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\S\shell">
+      <UniqueIdentifier>{2cb2b226-7122-42e6-9d68-8cda30603f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\S\status">
+      <UniqueIdentifier>{5b15742d-422a-47af-b979-9d1be9f869af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\S\switch">
+      <UniqueIdentifier>{4127131a-acfc-447f-9baa-6cced5f70850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\T">
+      <UniqueIdentifier>{738f52e5-6c8b-4446-861e-102fb6cbab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\T\tryinclude">
+      <UniqueIdentifier>{332dbabf-27af-4a9f-ab26-42995b831235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\U">
+      <UniqueIdentifier>{9240c8a0-ff10-4b2b-bcf8-0fea028cb0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\U\undef">
+      <UniqueIdentifier>{d3684812-8f71-4a14-9e9d-f621e500cfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\U\using">
+      <UniqueIdentifier>{ba08ce63-4867-4469-979f-535b1e08c972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!V">
+      <UniqueIdentifier>{4329d982-4790-4a60-9b2d-acd9d051834a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\!V\!version">
+      <UniqueIdentifier>{ab421262-1471-4e16-b996-1cdbbabbbe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\W">
+      <UniqueIdentifier>{35cdf16b-cfa6-47a8-b955-f27829c99423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\W\while">
+      <UniqueIdentifier>{bb86fb69-5f6f-440b-a394-36b90370eeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\X-Z">
+      <UniqueIdentifier>{988ffc3f-8b65-4d78-84a8-9204e7296919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{f8ad3181-9361-4474-8ca8-b64fbf45f662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\scopes">
+      <UniqueIdentifier>{9d8a5593-4d5d-4f4a-b6f4-422867f7a66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{c717cff4-b7c5-4501-870f-8cef52c16764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\countof">
+      <UniqueIdentifier>{2e92e57e-3a1a-46c0-8615-f5f3f40b7814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\deprecated">
+      <UniqueIdentifier>{9a4a9516-34fc-484e-934c-841f2b259659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\deprecated_directive">
+      <UniqueIdentifier>{0b469214-148b-449f-acb0-1828d09c9f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\!deprecated_include">
+      <UniqueIdentifier>{5b54e59d-d991-4bc6-8df1-2f9a5795e664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\empty">
+      <UniqueIdentifier>{0bdf8cfe-2c9e-487b-87d0-300f92760b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\env">
+      <UniqueIdentifier>{ae621507-353c-4314-8935-87c9d4c58a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_directive">
+      <UniqueIdentifier>{7d36f847-5459-4212-84c3-a8c1d54bfff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_option">
+      <UniqueIdentifier>{bdeaf289-933d-45f6-b8af-c73390f94f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\option">
+      <UniqueIdentifier>{d4bd8c94-454f-419b-b333-351907522648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas">
+      <UniqueIdentifier>{6dd54221-7607-4040-880e-aba1942dfb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\debugout">
+      <UniqueIdentifier>{3f4aa9bb-29df-4a58-8fb5-4e40c5f54f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\error">
+      <UniqueIdentifier>{43d56a9d-5487-46ce-8a70-52a248d2bbb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\fatalerror">
+      <UniqueIdentifier>{026327c8-d538-4ad8-8463-95520a999e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\includedir">
+      <UniqueIdentifier>{3e9d7d43-cd83-4fd7-851e-855057b3ad79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\includedir\subdir">
+      <UniqueIdentifier>{fa9d3669-a1ec-4a51-bf32-23f92c530cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\info">
+      <UniqueIdentifier>{d2bc42c7-06cd-48cf-8886-c35967777493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\option">
+      <UniqueIdentifier>{ff98a5c0-9cf9-4483-97b5-b59b4703ffd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\status">
+      <UniqueIdentifier>{cb4d5b0a-ebce-4878-98a2-946485d30210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\warning">
+      <UniqueIdentifier>{dcfa2704-858e-48b2-81b0-eda3fe24f714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E">
+      <UniqueIdentifier>{65c9a500-3cd9-4c6d-8a3e-2e4684891ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\echo">
+      <UniqueIdentifier>{3b7ea276-8df0-4da5-bcda-b6005f8f982e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\export">
+      <UniqueIdentifier>{39a9005b-6632-4c1b-8e66-caa902ccceda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\embed">
+      <UniqueIdentifier>{645e6bce-a294-4050-a8b4-45bc5072f663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\endinput">
+      <UniqueIdentifier>{fcd8b338-daa5-43cb-bd6e-c57e45fab666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\enum">
+      <UniqueIdentifier>{2ba7e43c-093a-477a-8df1-84ad766f4882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\env">
+      <UniqueIdentifier>{4a3e2799-3631-402c-93a8-3195269d96ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\exec">
+      <UniqueIdentifier>{07af41ff-d6ca-4197-a0d4-e8e84343ecd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\E\exit">
+      <UniqueIdentifier>{b4555c87-c651-4091-8ffe-c9d295e16d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\backward">
+      <UniqueIdentifier>{c1cd9d42-ea21-45bc-b0c9-c89b7e628e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\bitwise">
+      <UniqueIdentifier>{f2d20a22-569f-40a4-b6fc-c41c03379081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\const">
+      <UniqueIdentifier>{00d73884-599d-450a-be11-33a62e692999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\deprecated">
+      <UniqueIdentifier>{cc17decb-f2b0-472d-8b48-a0c948743925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\force">
+      <UniqueIdentifier>{31d1b4a7-d52a-4e97-8b15-e74982b8e255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!disabled">
+      <UniqueIdentifier>{e7a578a9-a3f6-4423-8a8a-3c37baa91e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!global">
+      <UniqueIdentifier>{04c7fda4-0a55-4c2c-a3e9-d9003bf0e816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!weak">
+      <UniqueIdentifier>{be0be801-5a31-4a31-8ee9-762f40128891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!soft">
+      <UniqueIdentifier>{d0f711c0-4955-467f-9bce-a98299bc9c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!sealed">
+      <UniqueIdentifier>{f7b26091-15a4-4885-ad59-780a72a5fbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!raw">
+      <UniqueIdentifier>{cf228930-018a-4d2a-a70d-d9cec65381df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!public">
+      <UniqueIdentifier>{25edbff8-0d1c-471f-8da0-cbdac2cc9957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!protected">
+      <UniqueIdentifier>{b2de3026-e723-4013-8c7e-449d1c9b7aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!open">
+      <UniqueIdentifier>{2343f8eb-855d-4f9d-8872-0685e6f5f3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\attributes\!once">
+      <UniqueIdentifier>{d62debfa-c816-4373-b008-1c102e0f790b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_include">
+      <UniqueIdentifier>{c710a734-d0dd-446e-b64d-db8398f03866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_include\includes">
+      <UniqueIdentifier>{97f37c6a-bc6b-4da1-ae41-1dff2a3aad01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__GLOBAL_LINE__">
+      <UniqueIdentifier>{12fb5dc4-e103-4d5e-ae5d-e55ce2d1f24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\_Embed">
+      <UniqueIdentifier>{7a14860a-ee4a-4108-8760-6f234a5b2663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\attributes\README.md">
+      <Filter>src\attributes</Filter>
+    </None>
+    <None Include="..\..\src\attributes\nonl\README.md">
+      <Filter>src\attributes\nonl</Filter>
+    </None>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\abort\README.md">
+      <Filter>src\directives\A\abort</Filter>
+    </None>
+    <None Include="..\..\src\directives\alias\README.md">
+      <Filter>src\directives\A\alias</Filter>
+    </None>
+    <None Include="..\..\src\directives\assert\README.md">
+      <Filter>src\directives\A\assert</Filter>
+    </None>
+    <None Include="..\..\src\directives\assignment\README.md">
+      <Filter>src\directives\A\assignment</Filter>
+    </None>
+    <None Include="..\..\src\directives\block\README.md">
+      <Filter>src\directives\B\block</Filter>
+    </None>
+    <None Include="..\..\src\directives\break\README.md">
+      <Filter>src\directives\B\break</Filter>
+    </None>
+    <None Include="..\..\src\directives\channel\README.md">
+      <Filter>src\directives\!C\!channel</Filter>
+    </None>
+    <None Include="..\..\src\directives\continue\README.md">
+      <Filter>src\directives\!C\continue</Filter>
+    </None>
+    <None Include="..\..\src\directives\comment\README.md">
+      <Filter>src\directives\!C\comment</Filter>
+    </None>
+    <None Include="..\..\src\directives\concat\README.md">
+      <Filter>src\directives\!C\concat</Filter>
+    </None>
+    <None Include="..\..\src\directives\debugout\README.md">
+      <Filter>src\directives\D\debugout</Filter>
+    </None>
+    <None Include="..\..\src\directives\debugout\test.c.ii">
+      <Filter>src\directives\D\debugout</Filter>
+    </None>
+    <None Include="..\..\src\directives\do-until\README.md">
+      <Filter>src\directives\D\do-until</Filter>
+    </None>
+    <None Include="..\..\src\directives\echo\README.md">
+      <Filter>src\directives\E\echo</Filter>
+    </None>
+    <None Include="..\..\src\directives\echo\test.c.ii">
+      <Filter>src\directives\E\echo</Filter>
+    </None>
+    <None Include="..\..\src\directives\export\README.md">
+      <Filter>src\directives\E\export</Filter>
+    </None>
+    <None Include="..\..\src\directives\embed\file1.bin">
+      <Filter>src\directives\E\embed</Filter>
+    </None>
+    <None Include="..\..\src\directives\embed\README.md">
+      <Filter>src\directives\E\embed</Filter>
+    </None>
+    <None Include="..\..\src\directives\endinput\README.md">
+      <Filter>src\directives\E\endinput</Filter>
+    </None>
+    <None Include="..\..\src\directives\enum\README.md">
+      <Filter>src\directives\E\enum</Filter>
+    </None>
+    <None Include="..\..\src\directives\enum\test.c.ii">
+      <Filter>src\directives\E\enum</Filter>
+    </None>
+    <None Include="..\..\src\directives\env\README.md">
+      <Filter>src\directives\E\env</Filter>
+    </None>
+    <None Include="..\..\src\directives\env\test.c.ii">
+      <Filter>src\directives\E\env</Filter>
+    </None>
+    <None Include="..\..\src\directives\exec\README.md">
+      <Filter>src\directives\E\exec</Filter>
+    </None>
+    <None Include="..\..\src\directives\exec\test.c.ii">
+      <Filter>src\directives\E\exec</Filter>
+    </None>
+    <None Include="..\..\src\directives\exit\README.md">
+      <Filter>src\directives\E\exit</Filter>
+    </None>
+    <None Include="..\..\src\directives\exit\test.c.ii">
+      <Filter>src\directives\E\exit</Filter>
+    </None>
+    <None Include="..\..\src\directives\fallthrough\README.md">
+      <Filter>src\directives\F\fallthrough</Filter>
+    </None>
+    <None Include="..\..\src\directives\fatalerror\README.md">
+      <Filter>src\directives\F\fatalerror</Filter>
+    </None>
+    <None Include="..\..\src\directives\for\README.md">
+      <Filter>src\directives\F\for</Filter>
+    </None>
+    <None Include="..\..\src\directives\foreach\README.md">
+      <Filter>src\directives\F\!foreach</Filter>
+    </None>
+    <None Include="..\..\src\directives\format\README.md">
+      <Filter>src\directives\F\format</Filter>
+    </None>
+    <None Include="..\..\src\directives\function\README.md">
+      <Filter>src\directives\F\function</Filter>
+    </None>
+    <None Include="..\..\src\directives\function\test.c.ii">
+      <Filter>src\directives\F\function</Filter>
+    </None>
+    <None Include="..\..\src\directives\goto\README.md">
+      <Filter>src\directives\G\goto</Filter>
+    </None>
+    <None Include="..\..\src\directives\import\README.md">
+      <Filter>src\directives\I\import</Filter>
+    </None>
+    <None Include="..\..\src\directives\include\README.md">
+      <Filter>src\directives\I\include</Filter>
+    </None>
+    <None Include="..\..\src\directives\includeonce\README.md">
+      <Filter>src\directives\I\includeonce</Filter>
+    </None>
+    <None Include="..\..\src\directives\line\README.md">
+      <Filter>src\directives\!L\!line</Filter>
+    </None>
+    <None Include="..\..\src\directives\line\test.c.ii">
+      <Filter>src\directives\!L\!line</Filter>
+    </None>
+    <None Include="..\..\src\directives\local\README.md">
+      <Filter>src\directives\!L\local</Filter>
+    </None>
+    <None Include="..\..\src\directives\macro\README.md">
+      <Filter>src\directives\M\macro</Filter>
+    </None>
+    <None Include="..\..\src\directives\macro\test.c.ii">
+      <Filter>src\directives\M\macro</Filter>
+    </None>
+    <None Include="..\..\src\directives\message\README.md">
+      <Filter>src\directives\M\message</Filter>
+    </None>
+    <None Include="..\..\src\directives\namespace\README.md">
+      <Filter>src\directives\N\namespace</Filter>
+    </None>
+    <None Include="..\..\src\directives\option\README.md">
+      <Filter>src\directives\O\option</Filter>
+    </None>
+    <None Include="..\..\src\directives\param\README.md">
+      <Filter>src\directives\P\param</Filter>
+    </None>
+    <None Include="..\..\src\directives\print\README.md">
+      <Filter>src\directives\P\print</Filter>
+    </None>
+    <None Include="..\..\src\directives\return\README.md">
+      <Filter>src\directives\R\return</Filter>
+    </None>
+    <None Include="..\..\src\directives\raw\README.md">
+      <Filter>src\directives\R\raw</Filter>
+    </None>
+    <None Include="..\..\src\directives\redefine\README.md">
+      <Filter>src\directives\R\redefine</Filter>
+    </None>
+    <None Include="..\..\src\directives\repeat\README.md">
+      <Filter>src\directives\R\repeat</Filter>
+    </None>
+    <None Include="..\..\src\directives\set\README.md">
+      <Filter>src\directives\S\set</Filter>
+    </None>
+    <None Include="..\..\src\directives\shell\README.md">
+      <Filter>src\directives\S\shell</Filter>
+    </None>
+    <None Include="..\..\src\directives\status\README.md">
+      <Filter>src\directives\S\status</Filter>
+    </None>
+    <None Include="..\..\src\directives\switch\README.md">
+      <Filter>src\directives\S\switch</Filter>
+    </None>
+    <None Include="..\..\src\directives\tryinclude\README.md">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </None>
+    <None Include="..\..\src\directives\undef\README.md">
+      <Filter>src\directives\U\undef</Filter>
+    </None>
+    <None Include="..\..\src\directives\using\README.md">
+      <Filter>src\directives\U\using</Filter>
+    </None>
+    <None Include="..\..\src\directives\version\README.md">
+      <Filter>src\directives\!V\!version</Filter>
+    </None>
+    <None Include="..\..\src\directives\while\README.md">
+      <Filter>src\directives\W\while</Filter>
+    </None>
+    <None Include="..\..\src\features\README.md">
+      <Filter>src\features</Filter>
+    </None>
+    <None Include="..\..\src\features\scopes\README.md">
+      <Filter>src\features\scopes</Filter>
+    </None>
+    <None Include="..\..\src\macro\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macro\__global_line__\README.md">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </None>
+    <None Include="..\..\src\macro\countof\README.md">
+      <Filter>src\macros\countof</Filter>
+    </None>
+    <None Include="..\..\src\macro\deprecated\README.md">
+      <Filter>src\macros\deprecated</Filter>
+    </None>
+    <None Include="..\..\src\macro\deprecated_directive\README.md">
+      <Filter>src\macros\deprecated_directive</Filter>
+    </None>
+    <None Include="..\..\src\macro\deprecated_include\README.md">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\_Embed\README.md">
+      <Filter>src\macros\_Embed</Filter>
+    </None>
+    <None Include="..\..\src\macro\_Embed\test.dat">
+      <Filter>src\macros\_Embed</Filter>
+    </None>
+    <None Include="..\..\src\macro\empty\README.md">
+      <Filter>src\macros\empty</Filter>
+    </None>
+    <None Include="..\..\src\macro\env\README.md">
+      <Filter>src\macros\env</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_directive\README.md">
+      <Filter>src\macros\__has_directive</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\invalid.c.ii">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\invalid.output.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\invalid.stdout.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\README.md">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\valid.c.ii">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\valid.output.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_include\valid.stdout.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macro\__has_option\README.md">
+      <Filter>src\macros\__has_option</Filter>
+    </None>
+    <None Include="..\..\src\macro\option\README.md">
+      <Filter>src\macros\option</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\README.md">
+      <Filter>src\pragmas</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\debugout\README.md">
+      <Filter>src\pragmas\debugout</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\error\README.md">
+      <Filter>src\pragmas\error</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\fatalerror\README.md">
+      <Filter>src\pragmas\fatalerror</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\includedir\README.md">
+      <Filter>src\pragmas\includedir</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\info\README.md">
+      <Filter>src\pragmas\info</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\option\README.md">
+      <Filter>src\pragmas\option</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\status\README.md">
+      <Filter>src\pragmas\status</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\warning\README.md">
+      <Filter>src\pragmas\warning</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\src\directives\embed\test.c.ii">
+      <Filter>src\directives\E\embed</Filter>
+    </None>
+    <None Include="..\..\src\attributes\backward\README.md">
+      <Filter>src\attributes\backward</Filter>
+    </None>
+    <None Include="..\..\src\attributes\bitwise\README.md">
+      <Filter>src\attributes\bitwise</Filter>
+    </None>
+    <None Include="..\..\src\attributes\const\README.md">
+      <Filter>src\attributes\const</Filter>
+    </None>
+    <None Include="..\..\src\attributes\deprecated\README.md">
+      <Filter>src\attributes\deprecated</Filter>
+    </None>
+    <None Include="..\..\src\attributes\disabled\README.md">
+      <Filter>src\attributes\!disabled</Filter>
+    </None>
+    <None Include="..\..\src\attributes\force\README.md">
+      <Filter>src\attributes\force</Filter>
+    </None>
+    <None Include="..\..\src\attributes\global\README.md">
+      <Filter>src\attributes\!global</Filter>
+    </None>
+    <None Include="..\..\src\attributes\weak\README.md">
+      <Filter>src\attributes\!weak</Filter>
+    </None>
+    <None Include="..\..\src\attributes\soft\README.md">
+      <Filter>src\attributes\!soft</Filter>
+    </None>
+    <None Include="..\..\src\attributes\sealed\README.md">
+      <Filter>src\attributes\!sealed</Filter>
+    </None>
+    <None Include="..\..\src\attributes\once\README.md">
+      <Filter>src\attributes\!once</Filter>
+    </None>
+    <None Include="..\..\src\attributes\open\README.md">
+      <Filter>src\attributes\!open</Filter>
+    </None>
+    <None Include="..\..\src\attributes\protected\README.md">
+      <Filter>src\attributes\!protected</Filter>
+    </None>
+    <None Include="..\..\src\attributes\public\README.md">
+      <Filter>src\attributes\!public</Filter>
+    </None>
+    <None Include="..\..\src\attributes\raw\README.md">
+      <Filter>src\attributes\!raw</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </Xml>
+    <Xml Include="..\..\src\attributes\test.xml">
+      <Filter>src\attributes</Filter>
+    </Xml>
+    <Xml Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </Xml>
+    <Xml Include="..\..\src\features\test.xml">
+      <Filter>src\features</Filter>
+    </Xml>
+    <Xml Include="..\..\src\features\scopes\test.xml">
+      <Filter>src\features\scopes</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macro\test.xml">
+      <Filter>src\macros</Filter>
+    </Xml>
+    <Xml Include="..\..\src\pragmas\test.xml">
+      <Filter>src\pragmas</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\attributes\nonl\output.template.txt">
+      <Filter>src\attributes\nonl</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\nonl\stdout.template.txt">
+      <Filter>src\attributes\nonl</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\abort\output.template.txt">
+      <Filter>src\directives\A\abort</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\abort\stdout.template.txt">
+      <Filter>src\directives\A\abort</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\alias\output.template.txt">
+      <Filter>src\directives\A\alias</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\alias\stdout.template.txt">
+      <Filter>src\directives\A\alias</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\assert\output.template.txt">
+      <Filter>src\directives\A\assert</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\assert\stdout.template.txt">
+      <Filter>src\directives\A\assert</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\assignment\output.template.txt">
+      <Filter>src\directives\A\assignment</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\assignment\stdout.template.txt">
+      <Filter>src\directives\A\assignment</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\block\output.template.txt">
+      <Filter>src\directives\B\block</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\block\stdout.template.txt">
+      <Filter>src\directives\B\block</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\break\output.template.txt">
+      <Filter>src\directives\B\break</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\break\stdout.template.txt">
+      <Filter>src\directives\B\break</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\channel\output.template.txt">
+      <Filter>src\directives\!C\!channel</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\channel\stdout.template.txt">
+      <Filter>src\directives\!C\!channel</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\continue\output.template.txt">
+      <Filter>src\directives\!C\continue</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\continue\stdout.template.txt">
+      <Filter>src\directives\!C\continue</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\comment\output.template.txt">
+      <Filter>src\directives\!C\comment</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\comment\stdout.template.txt">
+      <Filter>src\directives\!C\comment</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\concat\output.template.txt">
+      <Filter>src\directives\!C\concat</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\concat\stdout.template.txt">
+      <Filter>src\directives\!C\concat</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\debugout\output.template.txt">
+      <Filter>src\directives\D\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\debugout\stddbg.template.txt">
+      <Filter>src\directives\D\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\debugout\stdout.template.txt">
+      <Filter>src\directives\D\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\do-until\output.template.txt">
+      <Filter>src\directives\D\do-until</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\do-until\stdout.template.txt">
+      <Filter>src\directives\D\do-until</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\echo\output.template.txt">
+      <Filter>src\directives\E\echo</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\echo\stdout.template.txt">
+      <Filter>src\directives\E\echo</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\export\output.template.txt">
+      <Filter>src\directives\E\export</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\export\stdout.template.txt">
+      <Filter>src\directives\E\export</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\embed\output.template.txt">
+      <Filter>src\directives\E\embed</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\embed\stdout.template.txt">
+      <Filter>src\directives\E\embed</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\endinput\output.template.txt">
+      <Filter>src\directives\E\endinput</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\endinput\stdout.template.txt">
+      <Filter>src\directives\E\endinput</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\enum\output.template.txt">
+      <Filter>src\directives\E\enum</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\enum\stdout.template.txt">
+      <Filter>src\directives\E\enum</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\env\output.template.txt">
+      <Filter>src\directives\E\env</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\env\stdout.template.txt">
+      <Filter>src\directives\E\env</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\exec\output.template.txt">
+      <Filter>src\directives\E\exec</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\exec\stdout.template.txt">
+      <Filter>src\directives\E\exec</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\exit\output.template.txt">
+      <Filter>src\directives\E\exit</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\exit\stdout.template.txt">
+      <Filter>src\directives\E\exit</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\fallthrough\output.template.txt">
+      <Filter>src\directives\F\fallthrough</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\fallthrough\stdout.template.txt">
+      <Filter>src\directives\F\fallthrough</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\fatalerror\output.template.txt">
+      <Filter>src\directives\F\fatalerror</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\fatalerror\stdout.template.txt">
+      <Filter>src\directives\F\fatalerror</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\for\output.template.txt">
+      <Filter>src\directives\F\for</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\for\stdout.template.txt">
+      <Filter>src\directives\F\for</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\foreach\output.template.txt">
+      <Filter>src\directives\F\!foreach</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\foreach\stdout.template.txt">
+      <Filter>src\directives\F\!foreach</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\format\output.template.txt">
+      <Filter>src\directives\F\format</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\format\stdout.template.txt">
+      <Filter>src\directives\F\format</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\function\output.template.txt">
+      <Filter>src\directives\F\function</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\function\stdout.template.txt">
+      <Filter>src\directives\F\function</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\goto\output.template.txt">
+      <Filter>src\directives\G\goto</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\goto\stdout.template.txt">
+      <Filter>src\directives\G\goto</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\import\output.template.txt">
+      <Filter>src\directives\I\import</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\import\stdout.template.txt">
+      <Filter>src\directives\I\import</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include\output.template.txt">
+      <Filter>src\directives\I\include</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include\stdout.template.txt">
+      <Filter>src\directives\I\include</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\includeonce\output.template.txt">
+      <Filter>src\directives\I\includeonce</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\includeonce\stdout.template.txt">
+      <Filter>src\directives\I\includeonce</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\line\output.template.txt">
+      <Filter>src\directives\!L\!line</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\line\stdout.template.txt">
+      <Filter>src\directives\!L\!line</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\local\output.template.txt">
+      <Filter>src\directives\!L\local</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\local\stdout.template.txt">
+      <Filter>src\directives\!L\local</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\macro\output.template.txt">
+      <Filter>src\directives\M\macro</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\macro\stdout.template.txt">
+      <Filter>src\directives\M\macro</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\message\output.template.txt">
+      <Filter>src\directives\M\message</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\message\stdout.template.txt">
+      <Filter>src\directives\M\message</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\namespace\output.template.txt">
+      <Filter>src\directives\N\namespace</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\namespace\stdout.template.txt">
+      <Filter>src\directives\N\namespace</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\option\output.template.txt">
+      <Filter>src\directives\O\option</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\option\stdout.template.txt">
+      <Filter>src\directives\O\option</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\param\output.template.txt">
+      <Filter>src\directives\P\param</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\param\stdout.template.txt">
+      <Filter>src\directives\P\param</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\print\output.template.txt">
+      <Filter>src\directives\P\print</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\print\stdout.template.txt">
+      <Filter>src\directives\P\print</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\return\output.template.txt">
+      <Filter>src\directives\R\return</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\return\stdout.template.txt">
+      <Filter>src\directives\R\return</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\raw\output.template.txt">
+      <Filter>src\directives\R\raw</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\raw\stdout.template.txt">
+      <Filter>src\directives\R\raw</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\redefine\output.template.txt">
+      <Filter>src\directives\R\redefine</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\redefine\stdout.template.txt">
+      <Filter>src\directives\R\redefine</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\repeat\output.template.txt">
+      <Filter>src\directives\R\repeat</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\repeat\stdout.template.txt">
+      <Filter>src\directives\R\repeat</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\set\output.template.txt">
+      <Filter>src\directives\S\set</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\set\stdout.template.txt">
+      <Filter>src\directives\S\set</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\shell\output.template.txt">
+      <Filter>src\directives\S\shell</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\shell\stdout.template.txt">
+      <Filter>src\directives\S\shell</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\status\output.template.txt">
+      <Filter>src\directives\S\status</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\status\stdout.template.txt">
+      <Filter>src\directives\S\status</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\switch\output.template.txt">
+      <Filter>src\directives\S\switch</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\switch\stdout.template.txt">
+      <Filter>src\directives\S\switch</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\tryinclude\output.template.txt">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\tryinclude\stdout.template.txt">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\undef\output.template.txt">
+      <Filter>src\directives\U\undef</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\undef\stdout.template.txt">
+      <Filter>src\directives\U\undef</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\using\output.template.txt">
+      <Filter>src\directives\U\using</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\using\stdout.template.txt">
+      <Filter>src\directives\U\using</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\version\output.template.txt">
+      <Filter>src\directives\!V\!version</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\version\stdout.template.txt">
+      <Filter>src\directives\!V\!version</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\while\output.template.txt">
+      <Filter>src\directives\W\while</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\while\stdout.template.txt">
+      <Filter>src\directives\W\while</Filter>
+    </Text>
+    <Text Include="..\..\src\features\scopes\output.template.txt">
+      <Filter>src\features\scopes</Filter>
+    </Text>
+    <Text Include="..\..\src\features\scopes\stdout.template.txt">
+      <Filter>src\features\scopes</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__global_line__\output.template.txt">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__global_line__\stdout.template.txt">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\countof\output.template.txt">
+      <Filter>src\macros\countof</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\countof\stdout.template.txt">
+      <Filter>src\macros\countof</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated\output.template.txt">
+      <Filter>src\macros\deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated\stdout.template.txt">
+      <Filter>src\macros\deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated_directive\output.template.txt">
+      <Filter>src\macros\deprecated_directive</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated_directive\stdout.template.txt">
+      <Filter>src\macros\deprecated_directive</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated_include\output.template.txt">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\deprecated_include\stdout.template.txt">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\_Embed\output.template.txt">
+      <Filter>src\macros\_Embed</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\_Embed\stdout.template.txt">
+      <Filter>src\macros\_Embed</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\empty\output.template.txt">
+      <Filter>src\macros\empty</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\empty\stdout.template.txt">
+      <Filter>src\macros\empty</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\env\output.template.txt">
+      <Filter>src\macros\env</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\env\stdout.template.txt">
+      <Filter>src\macros\env</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__has_directive\output.template.txt">
+      <Filter>src\macros\__has_directive</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__has_directive\stdout.template.txt">
+      <Filter>src\macros\__has_directive</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__has_option\output.template.txt">
+      <Filter>src\macros\__has_option</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\__has_option\stdout.template.txt">
+      <Filter>src\macros\__has_option</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\option\output.template.txt">
+      <Filter>src\macros\option</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\option\stdout.template.txt">
+      <Filter>src\macros\option</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\debugout\output.template.txt">
+      <Filter>src\pragmas\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\debugout\stddbg.template.txt">
+      <Filter>src\pragmas\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\debugout\stdout.template.txt">
+      <Filter>src\pragmas\debugout</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\error\output.template.txt">
+      <Filter>src\pragmas\error</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\error\stdout.template.txt">
+      <Filter>src\pragmas\error</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\fatalerror\output.template.txt">
+      <Filter>src\pragmas\fatalerror</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\fatalerror\stdout.template.txt">
+      <Filter>src\pragmas\fatalerror</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\includedir\output.template.txt">
+      <Filter>src\pragmas\includedir</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\includedir\stdout.template.txt">
+      <Filter>src\pragmas\includedir</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\info\output.template.txt">
+      <Filter>src\pragmas\info</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\info\stdout.template.txt">
+      <Filter>src\pragmas\info</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\option\output.template.txt">
+      <Filter>src\pragmas\option</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\option\stdout.template.txt">
+      <Filter>src\pragmas\option</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\status\output.template.txt">
+      <Filter>src\pragmas\status</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\status\stdout.template.txt">
+      <Filter>src\pragmas\status</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\warning\output.template.txt">
+      <Filter>src\pragmas\warning</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\warning\stdout.template.txt">
+      <Filter>src\pragmas\warning</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\backward\output.template.txt">
+      <Filter>src\attributes\backward</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\backward\stdout.template.txt">
+      <Filter>src\attributes\backward</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\bitwise\output.template.txt">
+      <Filter>src\attributes\bitwise</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\bitwise\stdout.template.txt">
+      <Filter>src\attributes\bitwise</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\const\output.template.txt">
+      <Filter>src\attributes\const</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\const\stdout.template.txt">
+      <Filter>src\attributes\const</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\deprecated\output.template.txt">
+      <Filter>src\attributes\deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\deprecated\stdout.template.txt">
+      <Filter>src\attributes\deprecated</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\disabled\output.template.txt">
+      <Filter>src\attributes\!disabled</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\disabled\stdout.template.txt">
+      <Filter>src\attributes\!disabled</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\force\output.template.txt">
+      <Filter>src\attributes\force</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\force\stdout.template.txt">
+      <Filter>src\attributes\force</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\global\output.template.txt">
+      <Filter>src\attributes\!global</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\global\stdout.template.txt">
+      <Filter>src\attributes\!global</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\weak\output.template.txt">
+      <Filter>src\attributes\!weak</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\weak\stdout.template.txt">
+      <Filter>src\attributes\!weak</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\soft\output.template.txt">
+      <Filter>src\attributes\!soft</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\soft\stdout.template.txt">
+      <Filter>src\attributes\!soft</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\sealed\output.template.txt">
+      <Filter>src\attributes\!sealed</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\sealed\stdout.template.txt">
+      <Filter>src\attributes\!sealed</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\once\output.template.txt">
+      <Filter>src\attributes\!once</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\once\stdout.template.txt">
+      <Filter>src\attributes\!once</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\open\output.template.txt">
+      <Filter>src\attributes\!open</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\open\stdout.template.txt">
+      <Filter>src\attributes\!open</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\protected\output.template.txt">
+      <Filter>src\attributes\!protected</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\protected\stdout.template.txt">
+      <Filter>src\attributes\!protected</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\public\output.template.txt">
+      <Filter>src\attributes\!public</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\public\stdout.template.txt">
+      <Filter>src\attributes\!public</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\raw\output.template.txt">
+      <Filter>src\attributes\!raw</Filter>
+    </Text>
+    <Text Include="..\..\src\attributes\raw\stdout.template.txt">
+      <Filter>src\attributes\!raw</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\attributes\nonl\test.c">
+      <Filter>src\attributes\nonl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\abort\test.c">
+      <Filter>src\directives\A\abort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\alias\test.c">
+      <Filter>src\directives\A\alias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\assert\test.c">
+      <Filter>src\directives\A\assert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\assignment\test.c">
+      <Filter>src\directives\A\assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\block\test.c">
+      <Filter>src\directives\B\block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\break\test.c">
+      <Filter>src\directives\B\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\channel\test-channels.c">
+      <Filter>src\directives\!C\!channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\continue\test.c">
+      <Filter>src\directives\!C\continue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\comment\test.c">
+      <Filter>src\directives\!C\comment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\concat\test.c">
+      <Filter>src\directives\!C\concat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\debugout\test.c">
+      <Filter>src\directives\D\debugout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\do-until\test.c">
+      <Filter>src\directives\D\do-until</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\echo\test.c">
+      <Filter>src\directives\E\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\export\test.c">
+      <Filter>src\directives\E\export</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\embed\test.c">
+      <Filter>src\directives\E\embed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endinput\test.c">
+      <Filter>src\directives\E\endinput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\enum\test.c">
+      <Filter>src\directives\E\enum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\env\test.c">
+      <Filter>src\directives\E\env</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\exec\test.c">
+      <Filter>src\directives\E\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\exit\test.c">
+      <Filter>src\directives\E\exit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\fallthrough\test.c">
+      <Filter>src\directives\F\fallthrough</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\fatalerror\test.c">
+      <Filter>src\directives\F\fatalerror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\for\test.c">
+      <Filter>src\directives\F\for</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\foreach\test-enum.c">
+      <Filter>src\directives\F\!foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\foreach\test-ns.c">
+      <Filter>src\directives\F\!foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\foreach\test-raw.c">
+      <Filter>src\directives\F\!foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\foreach\test-typed.c">
+      <Filter>src\directives\F\!foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\format\test.c">
+      <Filter>src\directives\F\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\function\test-redef.c">
+      <Filter>src\directives\F\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\function\test.c">
+      <Filter>src\directives\F\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\goto\test.c">
+      <Filter>src\directives\G\goto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\import\test.c">
+      <Filter>src\directives\I\import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include\test.c">
+      <Filter>src\directives\I\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\includeonce\test.c">
+      <Filter>src\directives\I\includeonce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\line\test.c">
+      <Filter>src\directives\!L\!line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\local\test.c">
+      <Filter>src\directives\!L\local</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\macro\test.c">
+      <Filter>src\directives\M\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\message\test.c">
+      <Filter>src\directives\M\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\namespace\test.c">
+      <Filter>src\directives\N\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\option\test.c">
+      <Filter>src\directives\O\option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\param\test.c">
+      <Filter>src\directives\P\param</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\print\test.c">
+      <Filter>src\directives\P\print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\return\test.c">
+      <Filter>src\directives\R\return</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\raw\test.c">
+      <Filter>src\directives\R\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\redefine\test.c">
+      <Filter>src\directives\R\redefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\repeat\test.c">
+      <Filter>src\directives\R\repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\set\test.c">
+      <Filter>src\directives\S\set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\shell\test.c">
+      <Filter>src\directives\S\shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\status\test.c">
+      <Filter>src\directives\S\status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\switch\test.c">
+      <Filter>src\directives\S\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\tryinclude\test.c">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef\test.c">
+      <Filter>src\directives\U\undef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\using\test.c">
+      <Filter>src\directives\U\using</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\version\test.c">
+      <Filter>src\directives\!V\!version</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\while\test.c">
+      <Filter>src\directives\W\while</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\features\scopes\test.c">
+      <Filter>src\features\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\__global_line__\test.c">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\countof\test.c">
+      <Filter>src\macros\countof</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\deprecated\test.c">
+      <Filter>src\macros\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\deprecated_directive\test.c">
+      <Filter>src\macros\deprecated_directive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\deprecated_include\test.c">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\_Embed\test.c">
+      <Filter>src\macros\_Embed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\empty\test.c">
+      <Filter>src\macros\empty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\env\test.c">
+      <Filter>src\macros\env</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\__has_directive\test.c">
+      <Filter>src\macros\__has_directive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\__has_include\invalid.c">
+      <Filter>src\macros\__has_include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\__has_include\valid.c">
+      <Filter>src\macros\__has_include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\__has_option\test.c">
+      <Filter>src\macros\__has_option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\option\test.c">
+      <Filter>src\macros\option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\debugout\test.c">
+      <Filter>src\pragmas\debugout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\error\test.c">
+      <Filter>src\pragmas\error</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\fatalerror\test.c">
+      <Filter>src\pragmas\fatalerror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\includedir\test.c">
+      <Filter>src\pragmas\includedir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\info\test.c">
+      <Filter>src\pragmas\info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\option\test.c">
+      <Filter>src\pragmas\option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\status\test.c">
+      <Filter>src\pragmas\status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\warning\test.c">
+      <Filter>src\pragmas\warning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\backward\test.c">
+      <Filter>src\attributes\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\bitwise\test.c">
+      <Filter>src\attributes\bitwise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\const\test.c">
+      <Filter>src\attributes\const</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\deprecated\test.c">
+      <Filter>src\attributes\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\disabled\test.c">
+      <Filter>src\attributes\!disabled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\force\test.c">
+      <Filter>src\attributes\force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\global\test.c">
+      <Filter>src\attributes\!global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\weak\test.c">
+      <Filter>src\attributes\!weak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\soft\test.c">
+      <Filter>src\attributes\!soft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\sealed\test.c">
+      <Filter>src\attributes\!sealed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\once\test.c">
+      <Filter>src\attributes\!once</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\open\test.c">
+      <Filter>src\attributes\!open</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\protected\test.c">
+      <Filter>src\attributes\!protected</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\public\test.c">
+      <Filter>src\attributes\!public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\raw\test.c">
+      <Filter>src\attributes\!raw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\directives\endinput\test_endinput.h">
+      <Filter>src\directives\E\endinput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\exit\test_exit.h">
+      <Filter>src\directives\E\exit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\import\test.h">
+      <Filter>src\directives\I\import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include\test.h">
+      <Filter>src\directives\I\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\includeonce\test.h">
+      <Filter>src\directives\I\includeonce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\param\test.h">
+      <Filter>src\directives\P\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\tryinclude\existing.h">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macro\__GLOBAL_LINE__\twolines.h">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macro\deprecated_include\deprecated.h">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macro\__has_include\includes\existing.h">
+      <Filter>src\macros\__has_include\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pragmas\includedir\subdir\test.h">
+      <Filter>src\pragmas\includedir\subdir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\attributes\once\test_inc.h">
+      <Filter>src\attributes\!once</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\attributes\nonl\test.xml">
+      <Filter>src\attributes\nonl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\abort\test.xml">
+      <Filter>src\directives\A\abort</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\alias\test.xml">
+      <Filter>src\directives\A\alias</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\assert\test.xml">
+      <Filter>src\directives\A\assert</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\assignment\test.xml">
+      <Filter>src\directives\A\assignment</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\block\test.xml">
+      <Filter>src\directives\B\block</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\break\test.xml">
+      <Filter>src\directives\B\break</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\channel\test.xml">
+      <Filter>src\directives\!C\!channel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\continue\test.xml">
+      <Filter>src\directives\!C\continue</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\comment\test.xml">
+      <Filter>src\directives\!C\comment</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\concat\test.xml">
+      <Filter>src\directives\!C\concat</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\debugout\test.xml">
+      <Filter>src\directives\D\debugout</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\do-until\test.xml">
+      <Filter>src\directives\D\do-until</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\echo\test.xml">
+      <Filter>src\directives\E\echo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\export\test.xml">
+      <Filter>src\directives\E\export</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\embed\test.xml">
+      <Filter>src\directives\E\embed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\endinput\test.xml">
+      <Filter>src\directives\E\endinput</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\enum\test.xml">
+      <Filter>src\directives\E\enum</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\env\test.xml">
+      <Filter>src\directives\E\env</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\exec\test.xml">
+      <Filter>src\directives\E\exec</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\exit\test.xml">
+      <Filter>src\directives\E\exit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\fallthrough\test.xml">
+      <Filter>src\directives\F\fallthrough</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\fatalerror\test.xml">
+      <Filter>src\directives\F\fatalerror</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\for\test.xml">
+      <Filter>src\directives\F\for</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\foreach\test.xml">
+      <Filter>src\directives\F\!foreach</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\format\test.xml">
+      <Filter>src\directives\F\format</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\function\test.xml">
+      <Filter>src\directives\F\function</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\goto\test.xml">
+      <Filter>src\directives\G\goto</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\import\test.xml">
+      <Filter>src\directives\I\import</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\include\test.xml">
+      <Filter>src\directives\I\include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\includeonce\test.xml">
+      <Filter>src\directives\I\includeonce</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\line\test.xml">
+      <Filter>src\directives\!L\!line</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\local\test.xml">
+      <Filter>src\directives\!L\local</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\macro\test.xml">
+      <Filter>src\directives\M\macro</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\message\test.xml">
+      <Filter>src\directives\M\message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\namespace\test.xml">
+      <Filter>src\directives\N\namespace</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\option\test.xml">
+      <Filter>src\directives\O\option</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\param\test.xml">
+      <Filter>src\directives\P\param</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\print\test.xml">
+      <Filter>src\directives\P\print</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\return\test.xml">
+      <Filter>src\directives\R\return</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\raw\test.xml">
+      <Filter>src\directives\R\raw</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\redefine\test.xml">
+      <Filter>src\directives\R\redefine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\repeat\test.xml">
+      <Filter>src\directives\R\repeat</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\set\test.xml">
+      <Filter>src\directives\S\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\shell\test.xml">
+      <Filter>src\directives\S\shell</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\status\test.xml">
+      <Filter>src\directives\S\status</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\switch\test.xml">
+      <Filter>src\directives\S\switch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\tryinclude\test.xml">
+      <Filter>src\directives\T\tryinclude</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\undef\test.xml">
+      <Filter>src\directives\U\undef</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\using\test.xml">
+      <Filter>src\directives\U\using</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\version\test.xml">
+      <Filter>src\directives\!V\!version</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\while\test.xml">
+      <Filter>src\directives\W\while</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\__global_line__\test.xml">
+      <Filter>src\macros\__GLOBAL_LINE__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\countof\test.xml">
+      <Filter>src\macros\countof</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\deprecated\test.xml">
+      <Filter>src\macros\deprecated</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\deprecated_directive\test.xml">
+      <Filter>src\macros\deprecated_directive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\deprecated_include\test.xml">
+      <Filter>src\macros\!deprecated_include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\_Embed\test.xml">
+      <Filter>src\macros\_Embed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\empty\test.xml">
+      <Filter>src\macros\empty</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\env\test.xml">
+      <Filter>src\macros\env</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\__has_directive\test.xml">
+      <Filter>src\macros\__has_directive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\__has_include\test.xml">
+      <Filter>src\macros\__has_include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\__has_option\test.xml">
+      <Filter>src\macros\__has_option</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\option\test.xml">
+      <Filter>src\macros\option</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\debugout\test.xml">
+      <Filter>src\pragmas\debugout</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\error\test.xml">
+      <Filter>src\pragmas\error</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\fatalerror\test.xml">
+      <Filter>src\pragmas\fatalerror</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\includedir\test.xml">
+      <Filter>src\pragmas\includedir</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\info\test.xml">
+      <Filter>src\pragmas\info</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\option\test.xml">
+      <Filter>src\pragmas\option</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\status\test.xml">
+      <Filter>src\pragmas\status</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\warning\test.xml">
+      <Filter>src\pragmas\warning</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\once\test.xml">
+      <Filter>src\attributes\!once</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\open\test.xml">
+      <Filter>src\attributes\!open</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\protected\test.xml">
+      <Filter>src\attributes\!protected</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\public\test.xml">
+      <Filter>src\attributes\!public</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\raw\test.xml">
+      <Filter>src\attributes\!raw</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\sealed\test.xml">
+      <Filter>src\attributes\!sealed</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\soft\test.xml">
+      <Filter>src\attributes\!soft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\weak\test.xml">
+      <Filter>src\attributes\!weak</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\global\test.xml">
+      <Filter>src\attributes\!global</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\force\test.xml">
+      <Filter>src\attributes\force</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\disabled\test.xml">
+      <Filter>src\attributes\!disabled</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\deprecated\test.xml">
+      <Filter>src\attributes\deprecated</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\const\test.xml">
+      <Filter>src\attributes\const</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\bitwise\test.xml">
+      <Filter>src\attributes\bitwise</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\attributes\backward\test.xml">
+      <Filter>src\attributes\backward</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

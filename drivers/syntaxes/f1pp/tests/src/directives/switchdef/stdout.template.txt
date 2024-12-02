@@ -1,0 +1,15 @@
+Default clause 
+X is not defined
+X or Y is not defined
+------------------------ 
+------------------------ 
+X is defined
+X or Y is defined
+X or Y is not defined
+------------------------ 
+------------------------ 
+Z is defined
+X is not defined
+X or Y is not defined
+------------------------ 
+Either X or Z is defined

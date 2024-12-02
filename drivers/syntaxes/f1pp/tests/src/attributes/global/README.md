@@ -1,0 +1,2 @@
+The 'global' attribute test.
+

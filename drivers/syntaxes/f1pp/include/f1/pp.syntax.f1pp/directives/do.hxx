@@ -1,0 +1,45 @@
+/*do.hxx*/
+
+class F1_SYNTAX_F1PP_API f1::f1pp::do_directive : public f1::pp::Idirective
+{
+public:
+	typedef f1::pp::Idirective		super;
+	typedef f1::f1pp::do_directive	self;
+
+	struct frame;
+
+	explicit do_directive( unsigned flags = 0 );
+
+	// Properties
+public:
+	virtual const char *	get_name() const override;
+	static const f1::guid_t		m_guid;
+	virtual const f1::guid_t &	get_guid() const override;
+
+	virtual unsigned		get_caps( unsigned mask = unsigned(-1) ) const __noexcept override;
+
+	// Operations
+public:
+	virtual const status_t	parse( pp::Iparser & parser ) override;
+protected:
+public:
+	struct frame : public f1::f1pp::Iscoped_frame {
+		typedef f1::f1pp::Iscoped_frame	super;
+		typedef frame							self;
+
+		explicit frame( f1pp::parser & par );
+
+		//core::Tref<do_directive>		m_do_directive;
+		core::Tref<pp::Imacro>			m_control_macro;
+		f1::parser::Iparser::position	m_position;		// position where #do is located
+		uint32_t	m_iteration_count;
+
+		virtual const char *	get_openning_directive_name() const override;
+		virtual const char *	get_closing_directive_name() const override;
+		virtual const f1::guid_t & get_openning_directive_guid() const override;
+		virtual const f1::guid_t & get_closing_directive_guid() const override;
+	};
+	virtual pp::Iframe *	alloc_idle_frame( f1::pp::Iparser & parser ) override;
+};
+
+/*END OF do.hxx*/

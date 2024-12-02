@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|Win32">
+      <Configuration>final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7205B12F-315B-4C77-B904-AFD508263629}</ProjectGuid>
+    <RootNamespace>f1.pp.standard.c99.test</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.33801.447</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\..\output\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.testout%3b*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\..\output\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.testout%3b*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\..\output\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.testout%3b*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\src\directives\define\define.c.ii" />
+    <None Include="..\..\src\directives\define\define.template" />
+    <None Include="..\..\src\directives\define\README.md" />
+    <None Include="..\..\src\directives\error\error.c.ii" />
+    <None Include="..\..\src\directives\error\README.md" />
+    <None Include="..\..\src\directives\ifdef\ifdef.c.ii" />
+    <None Include="..\..\src\directives\ifdef\ifdef.template" />
+    <None Include="..\..\src\directives\ifdef\README.md" />
+    <None Include="..\..\src\directives\if\if.c.ii" />
+    <None Include="..\..\src\directives\if\if.template" />
+    <None Include="..\..\src\directives\if\README.md" />
+    <None Include="..\..\src\directives\include\README.md" />
+    <None Include="..\..\src\directives\include\test.c.ii" />
+    <None Include="..\..\src\directives\line\README.md" />
+    <None Include="..\..\src\directives\line\test.c.ii" />
+    <None Include="..\..\src\directives\null\null.c.ii" />
+    <None Include="..\..\src\directives\null\null.template" />
+    <None Include="..\..\src\directives\null\README.md" />
+    <None Include="..\..\src\directives\pragma\output.template" />
+    <None Include="..\..\src\directives\pragma\pragma.c.ii" />
+    <None Include="..\..\src\directives\pragma\README.md" />
+    <None Include="..\..\src\directives\README.md" />
+    <None Include="..\..\src\directives\undef\README.md" />
+    <None Include="..\..\src\directives\undef\undef.c.ii" />
+    <None Include="..\..\src\directives\undef\undef.template" />
+    <None Include="..\..\src\macros\defined\output.template" />
+    <None Include="..\..\src\macros\defined\README.md" />
+    <None Include="..\..\src\macros\README.md" />
+    <None Include="..\..\src\macros\_Pragma\output.template" />
+    <None Include="..\..\src\macros\_Pragma\README.md" />
+    <None Include="..\..\src\macros\__date__\output.template" />
+    <None Include="..\..\src\macros\__date__\README.md" />
+    <None Include="..\..\src\macros\__file__\output.template" />
+    <None Include="..\..\src\macros\__file__\README.md" />
+    <None Include="..\..\src\macros\__line__\LINE.c.ii" />
+    <None Include="..\..\src\macros\__line__\LINE.i" />
+    <None Include="..\..\src\macros\__line__\output.template" />
+    <None Include="..\..\src\macros\__line__\README.md" />
+    <None Include="..\..\src\macros\__time__\output.template" />
+    <None Include="..\..\src\macros\__time__\README.md" />
+    <None Include="..\..\src\macros\__va_args__\output.template" />
+    <None Include="..\..\src\macros\__va_args__\README.md" />
+    <None Include="..\..\src\pragmas\known-pragma\README.md" />
+    <None Include="..\..\src\pragmas\known-pragma\test.c.ii" />
+    <None Include="..\..\src\pragmas\README.md" />
+    <None Include="..\..\src\pragmas\unknown-pragma\README.md" />
+    <None Include="..\..\src\pragmas\unknown-pragma\test.c.ii" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\directives\define\test.xml">
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#define directive test</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#define directive test</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#define directive test</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='final|Win32'">false</LinkObjects>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\error\test.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">The #error directive test</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">The #error directive test</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">The #error directive test</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\ifdef\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#ifdef/#ifndef directives test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#ifdef/#ifndef directives test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#ifdef/#ifndef directives test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\if\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#if directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#if directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#if directive test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\include\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#include directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#include directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#include directive test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\line\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#line directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#line directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#line directive test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\null\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'"># (null) directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"># (null) directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'"># (null) directive test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\pragma\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#pragma directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#pragma directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#pragma directive test</Message>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml" />
+    <CustomBuild Include="..\..\src\directives\undef\test.xml">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)\contest.exe run -k --text -z -c:"-w" --workdir:$(InputDir) $(OutDir)\f1.pp.frontend.f1pp.exe $(InputPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(InputDir)\$(InputName).c.ii;successful</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|Win32'">#undef directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">#undef directive test</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='final|Win32'">#undef directive test</Message>
+    </CustomBuild>
+    <Xml Include="..\..\src\macros\defined\test.xml" />
+    <Xml Include="..\..\src\macros\test.xml" />
+    <Xml Include="..\..\src\macros\_Pragma\test.xml" />
+    <Xml Include="..\..\src\macros\__date__\test.xml" />
+    <Xml Include="..\..\src\macros\__file__\test.xml" />
+    <Xml Include="..\..\src\macros\__line__\test.xml" />
+    <Xml Include="..\..\src\macros\__time__\test.xml" />
+    <Xml Include="..\..\src\macros\__va_args__\test.xml" />
+    <CustomBuild Include="..\..\src\pragmas\known-pragma\test.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">Known pragma reflection.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+    </CustomBuild>
+    <Xml Include="..\..\src\pragmas\test.xml" />
+    <CustomBuild Include="..\..\src\pragmas\unknown-pragma\test.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">Unknown pragma reporting testing</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='final|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='final|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(OutDir)contest.exe run -k --text -c:"-w --output-filename-only" --workdir:%(RootDir)%(Directory) $(OutDir)f1.pp.frontend.f1pp.exe %(FullPath)</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|Win32'">%(RootDir)%(Directory)\%(Filename).c.ii;successful;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\directives\define\define.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\error\error.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifdef\ifdef.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\if\if.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include\test-.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include\test.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\line\test.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\null\null.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\pragma\pragma.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef\undef.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='final|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\defined\defined.c" />
+    <ClCompile Include="..\..\src\macros\_Pragma\test.c" />
+    <ClCompile Include="..\..\src\macros\__date__\DATE.c" />
+    <ClCompile Include="..\..\src\macros\__file__\FILE.c" />
+    <ClCompile Include="..\..\src\macros\__line__\LINE.c" />
+    <ClCompile Include="..\..\src\macros\__time__\TIME.c" />
+    <ClCompile Include="..\..\src\macros\__va_args__\VA_ARGS.c" />
+    <ClCompile Include="..\..\src\pragmas\known-pragma\test.c" />
+    <ClCompile Include="..\..\src\pragmas\unknown-pragma\test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\directives\define\stdout.template.txt" />
+    <Text Include="..\..\src\directives\error\error.stdout.txt" />
+    <Text Include="..\..\src\directives\ifdef\stdout.template.txt" />
+    <Text Include="..\..\src\directives\if\stdout.template.txt" />
+    <Text Include="..\..\src\directives\include\output.template.txt" />
+    <Text Include="..\..\src\directives\include\stdout.template.txt" />
+    <Text Include="..\..\src\directives\line\output.template.txt" />
+    <Text Include="..\..\src\directives\line\stdout.template.txt" />
+    <Text Include="..\..\src\directives\undef\stdout.template.txt" />
+    <Text Include="..\..\src\macros\_Pragma\stdout.template.txt" />
+    <Text Include="..\..\src\pragmas\known-pragma\output.template.txt" />
+    <Text Include="..\..\src\pragmas\known-pragma\stdout.template.txt" />
+    <Text Include="..\..\src\pragmas\unknown-pragma\output.template.txt" />
+    <Text Include="..\..\src\pragmas\unknown-pragma\stdout.template.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\directives\include\common\include.0.h" />
+    <ClInclude Include="..\..\src\directives\include\common\include.1.h" />
+    <ClInclude Include="..\..\src\directives\include\common\include.2.h" />
+    <ClInclude Include="..\..\src\directives\include\common\include.3.h" />
+    <ClInclude Include="..\..\src\directives\include\common\include.4.h" />
+    <ClInclude Include="..\..\src\directives\include\common\include.5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\scripts\msbuild\f1.pp.standard.c99.lib.vcxproj">
+      <Project>{c8d2e396-64ca-4faa-b33a-90295a3f7107}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

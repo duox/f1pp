@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.subpass.test" name="C-PP macro subsequent pass test" timeout="30000">
+		<inputs>
+			<input test_file="subpass.c" dest="subpass.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="subpass.c.ii" template="subpass.template" /> 
+		</outputs>
+	</test>
+</tests>

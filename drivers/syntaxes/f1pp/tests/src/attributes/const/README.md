@@ -1,0 +1,2 @@
+The 'const' attribute test.
+

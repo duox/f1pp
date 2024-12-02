@@ -1,0 +1,1 @@
+test.c(3) : error E8192: Error message

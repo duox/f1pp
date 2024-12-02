@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c99.pragma" name="C99 #pragma directive test" timeout="30000">
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

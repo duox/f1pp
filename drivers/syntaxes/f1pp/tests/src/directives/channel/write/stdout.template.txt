@@ -1,0 +1,2 @@
+test.c(7) : error E8257: expected channel name
+test.c(14) : error E8256: channel not found: A

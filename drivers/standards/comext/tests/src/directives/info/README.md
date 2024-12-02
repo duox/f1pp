@@ -1,0 +1,2 @@
+`#info` directive parsing test.
+

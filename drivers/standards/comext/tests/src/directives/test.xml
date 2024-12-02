@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>ident/test.xml</include>
+  <include>include_next/test.xml</include>
+  <include>includepath/test.xml</include>
+  <include>info/test.xml</include>
+  <include>sccs/test.xml</include>
+  <include>warning/test.xml</include>
+</tests>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<tests>
+  <include>__DATE__/test.xml</include>
+  <include>__FILE__/test.xml</include>
+  <include>__LINE__/test.xml</include>
+  <include>__TIME__/test.xml</include>
+  <include>__VA_ARGS__/test.xml</include>
+  <include>_Pragma/test.xml</include>
+  <include>defined/test.xml</include>
+</tests>

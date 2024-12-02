@@ -1,0 +1,3 @@
+test.c(3) : error E8257: expected channel name
+test.c(4) : error E8258: expected channel filename
+test.c(5) : error E8257: expected channel name

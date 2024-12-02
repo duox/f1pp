@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{fcddd9a5-6ecf-40eb-84b8-61411c24c39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{09f6732c-3b52-4767-88d9-6b93e7e8b233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\-header.gcc">
+      <UniqueIdentifier>{99494eb3-6d18-410f-8097-6597ac683c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\-header.gcc\inc">
+      <UniqueIdentifier>{2a8f4b22-e958-45fa-b496-117e9be4b0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{36e4d9ce-e5af-4d47-bfa0-6c8fdc893388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__BASE_FILE__">
+      <UniqueIdentifier>{9b11ef3d-85a4-4c71-b774-404ad9640fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__BASE_FILE__\inc">
+      <UniqueIdentifier>{cd37e251-3d28-4151-80f0-b574421cc44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__FILE_NAME__">
+      <UniqueIdentifier>{49b41427-494c-4093-a2cb-71591bf91934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__INCLUDE_LEVEL__">
+      <UniqueIdentifier>{a879e012-e446-40c8-a748-94854d28ca8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__INCLUDE_LEVEL__\inc">
+      <UniqueIdentifier>{4eb35999-ab92-4e6e-a25f-d3425567ab79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas">
+      <UniqueIdentifier>{f90c1a3d-4f93-4f8f-8c21-46e190387c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma GCC">
+      <UniqueIdentifier>{4f1c31ed-d003-455d-a43d-d9088899efaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma GCC error">
+      <UniqueIdentifier>{6b012277-134b-4872-a6cd-32c53f8e5227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\#pragma GCC warning">
+      <UniqueIdentifier>{16332c0a-d1d7-4c9a-8869-160e5db0dc2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\features\README.md">
+      <Filter>src\features</Filter>
+    </None>
+    <None Include="..\..\src\features\header.gcc\inc\header.gcc">
+      <Filter>src\features\-header.gcc\inc</Filter>
+    </None>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\Base_file\README.md">
+      <Filter>src\macros\__BASE_FILE__</Filter>
+    </None>
+    <None Include="..\..\src\macros\File_name\README.md">
+      <Filter>src\macros\__FILE_NAME__</Filter>
+    </None>
+    <None Include="..\..\src\macros\Include_level\README.md">
+      <Filter>src\macros\__INCLUDE_LEVEL__</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\README.md">
+      <Filter>src\pragmas</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC\README.md">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC\test.c.ii">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC_error\README.md">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC_error\test.c.ii">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC_warning\README.md">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\pragma_GCC_warning\test.c.ii">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\features\header.gcc\output.template.txt">
+      <Filter>src\features\-header.gcc</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\Base_file\output.template.txt">
+      <Filter>src\macros\__BASE_FILE__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\BASE_FILE\stdout.template.txt">
+      <Filter>src\macros\__BASE_FILE__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\File_name\output.template.txt">
+      <Filter>src\macros\__FILE_NAME__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\FILE_NAME\stdout.template.txt">
+      <Filter>src\macros\__FILE_NAME__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\Include_level\output.template.txt">
+      <Filter>src\macros\__INCLUDE_LEVEL__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\INCLUDE_LEVEL\stdout.template.txt">
+      <Filter>src\macros\__INCLUDE_LEVEL__</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC\output.template.txt">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC\stdout.template.txt">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC_error\output.template.txt">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC_error\stdout.template.txt">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC_warning\output.template.txt">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\pragma_GCC_warning\stdout.template.txt">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\features\header.gcc\test.c">
+      <Filter>src\features\-header.gcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\Base_file\test.c">
+      <Filter>src\macros\__BASE_FILE__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\File_name\test.c">
+      <Filter>src\macros\__FILE_NAME__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\Include_level\test.c">
+      <Filter>src\macros\__INCLUDE_LEVEL__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC\test.c">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC_error\test.c">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC_warning\test.c">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\features\header.gcc\inc\file1.h">
+      <Filter>src\features\-header.gcc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\features\header.gcc\inc\file2.h">
+      <Filter>src\features\-header.gcc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macros\BASE_FILE\inc\file1.h">
+      <Filter>src\macros\__BASE_FILE__\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macros\BASE_FILE\inc\file2.h">
+      <Filter>src\macros\__BASE_FILE__\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macros\INCLUDE_LEVEL\inc\file1.h">
+      <Filter>src\macros\__INCLUDE_LEVEL__\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macros\INCLUDE_LEVEL\inc\file2.h">
+      <Filter>src\macros\__INCLUDE_LEVEL__\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macros\INCLUDE_LEVEL\inc\file3.h">
+      <Filter>src\macros\__INCLUDE_LEVEL__\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\features\test.xml">
+      <Filter>src\features</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\features\header.gcc\test.xml">
+      <Filter>src\features\-header.gcc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\Base_file\test.xml">
+      <Filter>src\macros\__BASE_FILE__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\File_name\test.xml">
+      <Filter>src\macros\__FILE_NAME__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\Include_level\test.xml">
+      <Filter>src\macros\__INCLUDE_LEVEL__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\test.xml">
+      <Filter>src\pragmas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_GCC\test.xml">
+      <Filter>src\pragmas\#pragma GCC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_GCC_error\test.xml">
+      <Filter>src\pragmas\#pragma GCC error</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\pragma_GCC_warning\test.xml">
+      <Filter>src\pragmas\#pragma GCC warning</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

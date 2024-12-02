@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{1eda3232-fe3b-4ffa-a31e-4a5c692b0db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.clang">
+      <UniqueIdentifier>{c17ac431-758f-4274-bbf4-42c78dad8b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{09e5e772-b14e-44ed-a899-f31b47ede48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.clang\pragmas">
+      <UniqueIdentifier>{cb40821a-0ee5-4af4-a51c-637b0abc16b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{011fd26a-38cd-41e4-857e-e4cdc488257d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang_deprecated.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_clang_final.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang\standard.hxx">
+      <Filter>include/f1\pp.standard.clang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang\pragmas\pragma_clang.hxx">
+      <Filter>include/f1\pp.standard.clang\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang\pragmas\pragma_clang_deprecated.hxx">
+      <Filter>include/f1\pp.standard.clang\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.clang\pragmas\pragma_clang_final.hxx">
+      <Filter>include/f1\pp.standard.clang\pragmas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\todo.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

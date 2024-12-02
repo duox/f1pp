@@ -1,0 +1,2 @@
+raw.c(14) : warning W12339: invalid raw string
+raw.c(15) : warning W12345: unexpected raw string terminator in the middle of string

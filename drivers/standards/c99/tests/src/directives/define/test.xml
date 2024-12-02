@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c-pp.define.test" name="Tests #define directive parsing" timeout="30000">
+		<cmdline>--message:12317:enable</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="define.c" dest="define.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="define.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

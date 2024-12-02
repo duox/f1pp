@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="f1.pp.standard.gcc.test"
+	ProjectGUID="{C7433BBF-BB0B-42EC-B4E1-64B9801426ED}"
+	RootNamespace="f1.pp.standard.gcc.test"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="debug|Win32"
+			OutputDirectory="..\..\..\..\..\..\..\..\..\..\output\bin\$(ConfigurationName)-$(PlatformName)"
+			IntermediateDirectory="../../../../../../../../../../output/obj/$(ConfigurationName)-$(PlatformName)/$(ProjectName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			DeleteExtensionsOnClean="*.testout;*.obj;*.ilk;*.pdb;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.bat;$(TargetPath)"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				CommandLine="$(OutDir)\contest.exe run -k -q --text $(InputDir)..\..\src\test.xml -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w"/>
+		</Configuration>
+		<Configuration
+			Name="release|Win32"
+			OutputDirectory="..\..\..\..\..\..\..\..\..\..\output\bin\$(ConfigurationName)-$(PlatformName)"
+			IntermediateDirectory="../../../../../../../../../../output/obj/$(ConfigurationName)-$(PlatformName)/$(ProjectName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			DeleteExtensionsOnClean="*.testout;*.obj;*.ilk;*.pdb;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.bat;$(TargetPath)"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				CommandLine="$(OutDir)\contest.exe run -k -q --text $(InputDir)..\..\src\test.xml -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w"/>
+		</Configuration>
+		<Configuration
+			Name="final|Win32"
+			OutputDirectory="..\..\..\..\..\..\..\..\..\..\output\bin\$(ConfigurationName)-$(PlatformName)"
+			IntermediateDirectory="../../../../../../../../../../output/obj/$(ConfigurationName)-$(PlatformName)/$(ProjectName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			DeleteExtensionsOnClean="*.testout;*.obj;*.ilk;*.pdb;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.bat;$(TargetPath)"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				CommandLine="$(OutDir)\contest.exe run -k -q --text $(InputDir)..\..\src\test.xml -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w"/>
+		</Configuration>
+		<Configuration
+			Name="final-static-runtime|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			DeleteExtensionsOnClean="*.testout;*.obj;*.ilk;*.pdb;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.bat;$(TargetPath)"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				CommandLine="$(OutDir)\contest.exe run -k -q --text $(InputDir)..\..\src\test.xml -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w"/>
+		</Configuration>
+		<Configuration
+			Name="final_debuggable|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			DeleteExtensionsOnClean="*.testout;*.obj;*.ilk;*.pdb;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.bat;$(TargetPath)"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				CommandLine="$(OutDir)\contest.exe run -k -q --text $(InputDir)..\..\src\test.xml -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="src"
+			Filter="">
+			<File
+				RelativePath="..\..\src\README.md">
+			</File>
+			<File
+				RelativePath="..\..\src\test.xml">
+				<FileConfiguration
+					Name="debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+						AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+						Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+						AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+						Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="final|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+						AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+						Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="final-static-runtime|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+						AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+						Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="final_debuggable|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+						AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+						Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+				</FileConfiguration>
+			</File>
+			<Filter
+				Name="features"
+				Filter="">
+				<File
+					RelativePath="..\..\src\features\README.md">
+				</File>
+				<File
+					RelativePath="..\..\src\features\test.xml">
+					<FileConfiguration
+						Name="debug|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="release|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final-static-runtime|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final_debuggable|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+				</File>
+				<Filter
+					Name="-header.gcc"
+					Filter="">
+					<File
+						RelativePath="..\..\src\features\header.gcc\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\features\header.gcc\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\features\header.gcc\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+					<Filter
+						Name="inc"
+						Filter="">
+						<File
+							RelativePath="..\..\src\features\header.gcc\inc\file1.h">
+						</File>
+						<File
+							RelativePath="..\..\src\features\header.gcc\inc\file2.h">
+						</File>
+						<File
+							RelativePath="..\..\src\features\header.gcc\inc\header.gcc">
+						</File>
+					</Filter>
+				</Filter>
+			</Filter>
+			<Filter
+				Name="macros"
+				Filter="">
+				<File
+					RelativePath="..\..\src\macros\README.md">
+				</File>
+				<File
+					RelativePath="..\..\src\macros\test.xml">
+					<FileConfiguration
+						Name="debug|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="release|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final-static-runtime|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final_debuggable|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+				</File>
+				<Filter
+					Name="__BASE_FILE__"
+					Filter="">
+					<File
+						RelativePath="..\..\src\macros\Base_file\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Base_file\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\BASE_FILE\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Base_file\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Base_file\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+					<Filter
+						Name="inc"
+						Filter="">
+						<File
+							RelativePath="..\..\src\macros\BASE_FILE\inc\file1.h">
+						</File>
+						<File
+							RelativePath="..\..\src\macros\BASE_FILE\inc\file2.h">
+						</File>
+					</Filter>
+				</Filter>
+				<Filter
+					Name="__FILE_NAME__"
+					Filter="">
+					<File
+						RelativePath="..\..\src\macros\File_name\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\File_name\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\FILE_NAME\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\File_name\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\File_name\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+				</Filter>
+				<Filter
+					Name="__INCLUDE_LEVEL__"
+					Filter="">
+					<File
+						RelativePath="..\..\src\macros\Include_level\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Include_level\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\INCLUDE_LEVEL\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Include_level\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\macros\Include_level\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+					<Filter
+						Name="inc"
+						Filter="">
+						<File
+							RelativePath="..\..\src\macros\INCLUDE_LEVEL\inc\file1.h">
+						</File>
+						<File
+							RelativePath="..\..\src\macros\INCLUDE_LEVEL\inc\file2.h">
+						</File>
+						<File
+							RelativePath="..\..\src\macros\INCLUDE_LEVEL\inc\file3.h">
+						</File>
+					</Filter>
+				</Filter>
+			</Filter>
+			<Filter
+				Name="pragmas"
+				Filter="">
+				<File
+					RelativePath="..\..\src\pragmas\README.md">
+				</File>
+				<File
+					RelativePath="..\..\src\pragmas\test.xml">
+					<FileConfiguration
+						Name="debug|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="release|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final-static-runtime|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="final_debuggable|Win32">
+						<Tool
+							Name="VCCustomBuildTool"
+							Description=""
+							CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+							AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+							Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+					</FileConfiguration>
+				</File>
+				<Filter
+					Name="#pragma GCC"
+					Filter="">
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\test.c.ii">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+				</Filter>
+				<Filter
+					Name="#pragma GCC error"
+					Filter="">
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\test.c.ii">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_error\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+				</Filter>
+				<Filter
+					Name="#pragma GCC warning"
+					Filter="">
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\output.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\README.md">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\stdout.template.txt">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\test.c">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\test.c.ii">
+					</File>
+					<File
+						RelativePath="..\..\src\pragmas\pragma_GCC_warning\test.xml">
+						<FileConfiguration
+							Name="debug|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="release|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final-static-runtime|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="final_debuggable|Win32">
+							<Tool
+								Name="VCCustomBuildTool"
+								Description=""
+								CommandLine="$(OutDir)\contest.exe run -k -q --text --workdir:$(InputDir) $(InputPath) -- $(OutDir)\f1.pp.frontend.f1pp.exe --message-filename-only --output-filename-only -q -w
+"
+								AdditionalDependencies="$(InputDir)\$(InputName).c.ii"
+								Outputs="$(InputDir)\$(InputName).c.ii;successful"/>
+						</FileConfiguration>
+					</File>
+				</Filter>
+			</Filter>
+		</Filter>
+		<File
+			RelativePath="..\..\.gitignore">
+		</File>
+		<File
+			RelativePath="..\..\README.md">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,7 @@
+#1 "test.c":
+#3:#pragma unknown
+#4:#pragma unknown( 1: = "2";   (3) )
+#5:#pragma unknown 1: = "2";   (3)
+#7:#pragma unknown sub_pragma
+#8:#pragma unknown sub_pragma( 1: = "2";   (3) )
+#9:#pragma unknown sub_pragma 1: = "2";   (3)

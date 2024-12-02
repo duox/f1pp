@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.macro_non_macro.test" name="C-PP macro/non macro test" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="macro_non_macro.c" dest="macro_non_macro.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="macro_non_macro.c.ii" template="macro_non_macro.template" /> 
+		</outputs>
+	</test>
+</tests>

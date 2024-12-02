@@ -1,0 +1,4 @@
+#1 "test.c":
+#1:#define  X  1
+#2:A
+#3:#define X  1

@@ -1,0 +1,2 @@
+#abort is marked deprecated
+#print is not marked deprecated

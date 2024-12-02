@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c3e7c217-0f26-46ba-94f7-4b080a29becb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\conformance">
+      <UniqueIdentifier>{a59a8b70-5f56-45b8-b643-2d799340cae1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\conformance\test.output.template">
+      <Filter>src\conformance</Filter>
+    </None>
+    <None Include="..\..\src\conformance\test.stdout.template">
+      <Filter>src\conformance</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\conformance\test.c">
+      <Filter>src\conformance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\conformance\test.xml">
+      <Filter>src\conformance</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

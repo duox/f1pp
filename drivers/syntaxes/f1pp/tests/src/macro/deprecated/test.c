@@ -1,0 +1,3 @@
+
+#[deprecated]define A
+A

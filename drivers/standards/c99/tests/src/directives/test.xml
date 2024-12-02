@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>define/test.xml</include>
+  <include>error/test.xml</include>
+  <include>if/test.xml</include>
+  <include>ifdef/test.xml</include>
+  <include>include/test.xml</include>
+  <include>line/test.xml</include>
+  <include>null/test.xml</include>
+  <include>pragma/test.xml</include>
+  <include>undef/test.xml</include>
+</tests>

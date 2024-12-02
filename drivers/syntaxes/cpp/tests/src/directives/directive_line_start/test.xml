@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.directive_line_start.test" name="Tests directive escape char (#) parsing" timeout="30000">
+		<inputs>
+			<input test_file="directive_line_start.c" dest="directive_line_start.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="directive_line_start.c.ii" template="directive_line_start.template" /> 
+		</outputs>
+	</test>
+</tests>

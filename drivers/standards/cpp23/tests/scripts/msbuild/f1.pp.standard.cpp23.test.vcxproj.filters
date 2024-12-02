@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c812b514-a2f9-4e10-b6cf-7ba03d25e846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{d8a62e82-26d2-4cbf-ae7b-328e28fa4ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\elifdef">
+      <UniqueIdentifier>{257857e6-848a-47ef-9379-6eafd494ad2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\elifdef\elifdef.c.ii">
+      <Filter>src\directives\elifdef</Filter>
+    </None>
+    <None Include="..\..\src\directives\elifdef\README.md">
+      <Filter>src\directives\elifdef</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\directives\elifdef\elifdef.c">
+      <Filter>src\directives\elifdef</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\directives\elifdef\output.template.txt">
+      <Filter>src\directives\elifdef</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\elifdef\stdout.template.txt">
+      <Filter>src\directives\elifdef</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\elifdef\test.xml">
+      <Filter>src\directives\elifdef</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

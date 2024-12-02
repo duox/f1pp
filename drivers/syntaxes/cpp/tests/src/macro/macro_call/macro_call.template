@@ -1,0 +1,11 @@
+#1 "macro_call.c":
+#4:result = 10
+#5:result = result = 10
+#6:result = result = result = 10
+#8:result = 10
+#11:result = result = result = 10
+#17:result = 
+#19:10
+#20:result = 
+#22:10
+#25:1 + 2 

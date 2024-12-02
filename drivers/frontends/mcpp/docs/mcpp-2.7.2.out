@@ -1,0 +1,50 @@
+mcpp: illegal option --?
+MCPP V.2.7.2 (2008/11) compiler-independent-build compiled by Visual C 2008
+Usage:  mcpp [-<opts> [-<opts>]] [<infile> [-<opts>] [<outfile>] [-<opts>]]
+    <infile> defaults to stdin and <outfile> defaults to stdout.
+
+Commonly used options:
+-@MODE      Specify preprocessing mode. MODE should be one of these 4:
+    -@std               Standard conforming mode. (default)
+    -@poststd, -@post   special 'post-Standard' mode.
+    -@kr                K&R 1st mode.
+    -@oldprep, -@old    'old_preprocessor' mode (i.e. 'Reiser model' cpp).
+-C          Output also comments.
+-D <macro>[=<value>]    Define <macro> as <value> (default:1).
+-D <macro(args)>[=<replace>]    Define <macro(args)> as <replace>.
+-e <encoding>   Change the default multi-byte character encoding to one of:
+            euc_jp, gb2312, ksc5601, big5, sjis, iso2022_jp, utf8.
+-I <directory>      Add <directory> to the #include search list.
+-I-         Unset system or site specific include directories.
+-j          Don't output the source line in diagnostics.
+-M, -MM, -MD, -MMD, -MP, -MQ target, -MT target, -MF file
+            Output source file dependency line for makefile.
+-N          Don't predefine any non-standard macros.
+-o <file>   Output to <file>.
+-P          Don't output #line lines.
+-Q          Output diagnostics to "mcpp.err" (default:stderr).
+-U <macro>  Undefine <macro>.
+-v          Show version and include directories of mcpp.
+-W <level>  Set warning level to <level> (OR of {0,1,2,4,8,16}, default:1).
+-z          Don't output the included file, only defining macros.
+
+Options available with -@std (default) or -@poststd options:
+-+          Process C++ source.
+-2          Enable digraphs.
+-h <n>      Re-define the pre-defined macro __STDC_HOSTED__ as <n>.
+-S <n>      Redefine __STDC__ to <n>, undefine old style macros.
+-V <n>      Redefine __STDC_VERSION__ or __cplusplus to <n>.
+            C with -V199901L specifies C99 specs.
+            C++ with -V199901L specifies C99 compatible specs.
+
+Options available with only -@std (default) option:
+-@compat    Expand recursive macro more than Standard.
+-3          Enable trigraphs.
+-K          Output macro annotations embedding in comments.
+
+Options available with -@std (default), -@kr or -@oldprep options:
+-a          Process "assembler" source.
+-k          Keep white spaces of input lines as they are.
+
+For further details see mcpp-manual.html.
+1 error in preprocessor.

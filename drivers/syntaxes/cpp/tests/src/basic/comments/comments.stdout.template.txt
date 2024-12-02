@@ -1,0 +1,4 @@
+comments.c(30) : warning W12332: '*/' outside of comment
+comments.c(34) : warning W12332: '*/' outside of comment
+comments.c(37) : warning W12316: nested comment
+comments.c(40) : warning W12332: '*/' outside of comment

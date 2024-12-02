@@ -1,0 +1,2 @@
+In block: X =  3
+Out of block: X =  1

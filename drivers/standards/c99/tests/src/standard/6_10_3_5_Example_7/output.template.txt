@@ -1,0 +1,5 @@
+#1 "test.c":
+#5:fprintf(stderr, "Flag");
+#6:fprintf(stderr, "X = %d\n",x);
+#7:puts("The first, second, and third items.");
+#8:((x>y)?puts("x>y"): printf("x is %d but y is %d",x,y));

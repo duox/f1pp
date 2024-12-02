@@ -1,0 +1,6 @@
+X is defined: X =  2
+DONE!
+X =  0
+A=10
+a +  100
+a +  100, 200

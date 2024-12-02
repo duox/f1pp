@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>pragma_clang/test.xml</include>
+  <include>pragma_clang_deprecated/test.xml</include>
+  <include>pragma_clang_final/test.xml</include>
+</tests>

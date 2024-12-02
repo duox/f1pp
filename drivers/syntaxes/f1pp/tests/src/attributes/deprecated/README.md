@@ -1,0 +1,2 @@
+The 'deprecated' attribute test.
+

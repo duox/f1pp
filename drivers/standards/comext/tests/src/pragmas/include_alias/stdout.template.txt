@@ -1,0 +1,12 @@
+MSG
+MSG
+MSG
+test.c(13) : error E8196: expected '('
+test.c(14) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(15) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(16) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(17) : error E8196: expected ','
+test.c(18) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(19) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(20) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(21) : error E8204: expected double-quoted or angle-bracketed file name

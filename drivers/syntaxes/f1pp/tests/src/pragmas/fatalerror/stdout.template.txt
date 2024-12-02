@@ -1,0 +1,1 @@
+test.c(3) : fatal error F4096: Fatal error message

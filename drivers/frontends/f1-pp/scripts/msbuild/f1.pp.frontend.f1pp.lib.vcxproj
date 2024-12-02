@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|Win32">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|x64">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|Win32">
+      <Configuration>final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|x64">
+      <Configuration>final</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C999224-DA3F-4B71-A253-42716676C79A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.33423.256</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <OutDir>../../../../../../../../../output/lib/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../unix/posix/include;../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../unix/libcext/include;../../../../../../../../base/core/include;../../../../../../../../base/fs/include;../../../../../../../../base/fs/drivers/file_systems/f1.fs.file_system.windows/include;../../../../../../../../base/io/include;../../../../../../../../base/msgout/include;../../../../../../../../base/mt/include;../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../base/nls/include;../../../../../../../../base/ns/include;../../../../../../../../base/unicode/include;../../../../../../../../base/util/include;../../../../../../../../devel/core/ast/include;../../../../../../../../devel/core/parser/include;../../../../../../../../devel/core/ts/include;../../../../../../../../devel/lang/pp/include;../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\application.cxx" />
+    <ClCompile Include="..\..\src\application_switches.cxx" />
+    <ClCompile Include="..\..\src\Iswitch_numeric_arg.cxx" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_atsigns_in_identifiers.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_auto_once_includes.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_base_dir_allow.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_base_dir_disallow.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_character_encoding.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_debug.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_define.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_deprecate_include.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_deprecate_system_include.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_digraphs.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_directive.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_disable_output.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_dollars_in_identifiers.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_dump.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_endianness.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_export_messages.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_known_pragma.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_long_wide_char.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_filename_base.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_filename_only.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_newline.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename_base.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_full_paths.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_ignore_macros.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_import_messages.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_include.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_include_dir.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_input_encoding.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_keep_comments.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_keep_doxygen_comments.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_macro.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_max_include_depth.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_merge_strings.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_message_severity.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_encoding.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_filename_only.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_format.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_output_full_paths.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_print_filename.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_standard.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_syntax_check_only.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_system_include_base.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_system_include_dir.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_timings.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_trigraphs.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_undefine.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_unsigned_char.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_user_include_dir.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\switches\switch_write_bom.cxx">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|Win32'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='release|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='debug|x64'">../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='final|x64'">../pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp-config.h" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp-forward.h" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp.h" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\application.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_atsigns_in_identifiers.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_auto_once_includes.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_base_dir_allow.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_base_dir_disallow.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_character_encoding.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_debug.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_define.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_deprecate_include.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_deprecate_system_include.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_digraphs.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_directive.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_disable_output.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_dollars_in_identifiers.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_dump.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_endianness.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_export_messages.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_known_pragma.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_long_wide_char.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_filename_base.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_filename_only.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_newline.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_filename_base.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_full_paths.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_ignore_macros.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_import_messages.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_include.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_include_dir.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_input_encoding.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_keep_comments.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_keep_doxygen_comments.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_macro.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_max_include_depth.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_merge_strings.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_message_severity.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_encoding.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_filename_only.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_format.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_output_full_paths.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_print_filename.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_standard.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_syntax_check_only.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_system_include_base.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_system_include_dir.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_timings.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_trigraphs.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_undefine.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_unsigned_char.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switches\switch_user_include_dir.hxx" />
+    <ClInclude Include="..\..\include\f1\pp.frontend.f1pp\switch_types\Iswitch_numeric_arg.hxx" />
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\docs\pp-command-line.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\docs\TODO.md" />
+    <None Include="..\..\readme.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

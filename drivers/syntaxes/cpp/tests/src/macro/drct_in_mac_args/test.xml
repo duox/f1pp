@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.drct_in_mac_args.test" name="C-PP directive in macro arguments test" timeout="30000">
+		<cmdline>--message:12336:enable</cmdline>
+		<stdout template="drct_in_mac_args.stdout.template" />
+		<inputs>
+			<input test_file="drct_in_mac_args.c" dest="drct_in_mac_args.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="drct_in_mac_args.c.ii" template="drct_in_mac_args.template" /> 
+		</outputs>
+	</test>
+</tests>

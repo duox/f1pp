@@ -1,0 +1,4 @@
+if.c(105) : error E8203: expected expression
+if.c(113) : error E8209: expected expression operand
+if.c(119) : warning W12292: unexpected characters after #if
+if.c(130) : warning W12292: unexpected characters after #endif

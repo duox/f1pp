@@ -1,0 +1,7 @@
+#1 "varargs.c":
+#5:printf( "%d %c %s\n" , 7,'J',"PPP" );
+#6:printf( "plain string\n" );
+#10:printf( "%d %c %s\n",7, 'J', "PPP" );
+#11:printf( "plain string\n" );
+#15:print_args( "%d %c %s\n" , 7,'J',"PPP" , NULL );
+#16:print_args( "plain string\n" );

@@ -1,0 +1,6 @@
+#1 "test.c":
+#1 "chanA.ii":
+#5:A
+#6:B
+#8 "test.c":
+#9:C

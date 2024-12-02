@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>args/test.xml</include>
+  <include>drct_in_mac_args/test.xml</include>
+  <include>expansion/test.xml</include>
+  <include>macro_call/test.xml</include>
+  <include>macro_inline_redef/test.xml</include>
+  <include>macro_non_macro/test.xml</include>
+  <include>merge_operator/test.xml</include>
+  <include>paste/test.xml</include>
+  <include>recursion/test.xml</include>
+  <include>stringize/test.xml</include>
+  <include>subpass/test.xml</include>
+  <include>subst/test.xml</include>
+  <include>varargs/test.xml</include>
+</tests>

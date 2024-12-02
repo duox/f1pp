@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{9a2665b5-490a-464b-a085-ef3ceaf7aa08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives">
+      <UniqueIdentifier>{3aa29ab1-fdd7-481f-80b6-c618d9e1053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\switch">
+      <UniqueIdentifier>{b3ab0ef7-5752-4947-9eae-24941624648d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\pass-through directives">
+      <UniqueIdentifier>{0fbc895b-e9cf-4754-9c2d-50497fe2ff60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\namespace">
+      <UniqueIdentifier>{13c93030-2f9d-4aa9-a9ea-c7851a24ccc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\messages">
+      <UniqueIdentifier>{b48c4d12-94a1-4a4c-a25f-4d8dfbc3d9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\macros">
+      <UniqueIdentifier>{a9892752-4a0e-4033-bc88-23743966e5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps">
+      <UniqueIdentifier>{3cd73e47-ab91-4e4d-8c87-d6e70359f261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\assignments">
+      <UniqueIdentifier>{2488becf-5e36-4e04-8ebb-c8e4b6f309d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\frames">
+      <UniqueIdentifier>{6df2b9af-d5de-48ea-9406-0ff31a6382b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macro classes">
+      <UniqueIdentifier>{6f587a74-3af8-4baf-9e93-2adafdd8759d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{bd53238a-a7fe-4fda-a796-a71915358242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\parsers">
+      <UniqueIdentifier>{4e1b5b43-15a4-4a58-aaba-bf8253d701a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{95972257-a1a4-49c2-9d60-c8a4a7b680b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp">
+      <UniqueIdentifier>{9d574e63-d1b4-4ca2-8bd5-ec2f3141e0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives">
+      <UniqueIdentifier>{26bb2ab4-bce2-45bd-b9ed-2eec1dcc589a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\end directives">
+      <UniqueIdentifier>{1ed2925f-8d34-4f88-b88b-979350f233f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\switch">
+      <UniqueIdentifier>{348cea80-c2db-4565-a365-ff4e0c4b513f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\pass-through directives">
+      <UniqueIdentifier>{d418b007-01f6-445b-9290-bc620395d5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\namespace">
+      <UniqueIdentifier>{70603fd2-3083-48fb-abbb-879173ecbe31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\messages">
+      <UniqueIdentifier>{e23ce1f3-3a8f-4b55-bc16-a389c17309c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\branch directives">
+      <UniqueIdentifier>{ae628915-df23-47cb-83f9-0d4c7ec7b6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\assignments">
+      <UniqueIdentifier>{ba6af8ff-48e7-46c2-9b9b-053421308065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\frames">
+      <UniqueIdentifier>{8cc10607-9486-4832-a2d3-1578366a6555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\functions">
+      <UniqueIdentifier>{5c9bad0b-b5c8-4400-bd64-69f021f7f970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\macro classes">
+      <UniqueIdentifier>{506969ed-1f4d-471a-9389-aff347f06573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\macros">
+      <UniqueIdentifier>{2f6a7c33-a09c-4a58-a452-b64a5618b8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\pragmas">
+      <UniqueIdentifier>{48cf0fad-4d7b-4570-8bef-924f442e02c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{3529506a-3fce-4022-95ed-5b01ea9f23f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="old&amp;todo">
+      <UniqueIdentifier>{53bdce14-7337-4748-9ff6-08b664247116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\macro management">
+      <UniqueIdentifier>{c0b5bc31-19af-46ef-a0d0-7b7fb0a4433f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\inclusion">
+      <UniqueIdentifier>{1d0be060-ff12-4deb-8546-28aeb17d1dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.syntax.f1pp\directives\inclusion">
+      <UniqueIdentifier>{abfbf7f1-44f3-4059-b152-de4c93200a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps\while">
+      <UniqueIdentifier>{fec542b4-8ce8-4d1a-bdaa-39182d276610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps\repeat">
+      <UniqueIdentifier>{77d10469-cf43-4572-bc4b-d3d6ca71a4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps\foreach">
+      <UniqueIdentifier>{bc913678-de91-4d8b-94a5-56341b6fa3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps\for">
+      <UniqueIdentifier>{62c5baf6-38ea-410b-a66e-ee8ba29f1423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\jumps\do-until">
+      <UniqueIdentifier>{90120296-b13a-418b-be74-8c6f2dd4980e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\macros\enum">
+      <UniqueIdentifier>{60e223b3-66fc-4240-a36f-b39cac7ff76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\macros\function">
+      <UniqueIdentifier>{16b0ec11-276d-4945-98f2-3ea243a9df32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\directives\macros\macro">
+      <UniqueIdentifier>{3d615ef7-deb2-419c-83fa-f9c9f74ff626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\channel.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\enumeration.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\label.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\syntax.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\block_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\channel_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\concat_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\exec_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\format_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\local_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\raw_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\case_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\default_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endswitch_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\fallthrough_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\switch_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endregion_directive.cxx">
+      <Filter>src\classes\directives\pass-through directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\region_directive.cxx">
+      <Filter>src\classes\directives\pass-through directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\alias_directive.cxx">
+      <Filter>src\classes\directives\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endnamespace_directive.cxx">
+      <Filter>src\classes\directives\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\namespace_directive.cxx">
+      <Filter>src\classes\directives\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\using_directive.cxx">
+      <Filter>src\classes\directives\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\debugout_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\fatalerror_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\message_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\print_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\status_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\env_directive.cxx">
+      <Filter>src\classes\directives\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\redefine_directive.cxx">
+      <Filter>src\classes\directives\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\return_directive.cxx">
+      <Filter>src\classes\directives\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\abort_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\assert_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\break_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\continue_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\exit_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\goto_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\Iassignment_directive.cxx">
+      <Filter>src\classes\directives\assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\option_directive.cxx">
+      <Filter>src\classes\directives\assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\set_directive.cxx">
+      <Filter>src\classes\directives\assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\frames\function_frame.cxx">
+      <Filter>src\classes\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\frames\Idefinition_frame.cxx">
+      <Filter>src\classes\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\frames\Iscoped_frame.cxx">
+      <Filter>src\classes\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\frames\macro_frame.cxx">
+      <Filter>src\classes\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\env_macro.cxx">
+      <Filter>src\classes\macro classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro.cxx">
+      <Filter>src\classes\macro classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_countof.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_empty.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_env.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_GLOBAL_LINE.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_has_directive.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_has_include.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_has_option.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_option.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_attribute_list.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_channel.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_directive.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_enumeration.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_expression.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_function.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_identifier.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_label.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_type.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_debugout.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_error.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_fatalerror.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_info.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_option.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_status.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_warning.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\define_directive.cxx">
+      <Filter>src\classes\directives\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\undef_directive.cxx">
+      <Filter>src\classes\directives\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\while_directive.cxx">
+      <Filter>src\classes\directives\jumps\while</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endwhile_directive.cxx">
+      <Filter>src\classes\directives\jumps\while</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endrepeat_directive.cxx">
+      <Filter>src\classes\directives\jumps\repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\repeat_directive.cxx">
+      <Filter>src\classes\directives\jumps\repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endforeach_directive.cxx">
+      <Filter>src\classes\directives\jumps\foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\foreach_directive.cxx">
+      <Filter>src\classes\directives\jumps\foreach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endfor_directive.cxx">
+      <Filter>src\classes\directives\jumps\for</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\for_directive.cxx">
+      <Filter>src\classes\directives\jumps\for</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\do_directive.cxx">
+      <Filter>src\classes\directives\jumps\do-until</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\until_directive.cxx">
+      <Filter>src\classes\directives\jumps\do-until</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\end_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endraw_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endblock_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endenum_directive.cxx">
+      <Filter>src\classes\directives\macros\enum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\enum_directive.cxx">
+      <Filter>src\classes\directives\macros\enum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endfunction_directive.cxx">
+      <Filter>src\classes\directives\macros\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\function_directive.cxx">
+      <Filter>src\classes\directives\macros\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\macro_directive.cxx">
+      <Filter>src\classes\directives\macros\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endmacro_directive.cxx">
+      <Filter>src\classes\directives\macros\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\tryinclude_directive.cxx">
+      <Filter>src\classes\directives\inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\includeonce_directive.cxx">
+      <Filter>src\classes\directives\inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\import_directive.cxx">
+      <Filter>src\classes\directives\inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include_directive.cxx">
+      <Filter>src\classes\directives\inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\param_directive.cxx">
+      <Filter>src\classes\directives\inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_include.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_includedir.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_Embed.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\echo_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\embed_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endexec_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endshell_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\shell_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\export_directive.cxx">
+      <Filter>src\classes\directives\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_deprecated_directive.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_deprecated_include.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_deprecated.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_character.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\enum_macro.cxx">
+      <Filter>src\classes\macro classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\assignment_directive.cxx">
+      <Filter>src\classes\directives\assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\comment_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endcomment_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\version_directive.cxx">
+      <Filter>src\classes\directives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_macro.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\parser_macro_expression.cxx">
+      <Filter>src\classes\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\dump_directive.cxx">
+      <Filter>src\classes\directives\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endswitchdef_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\endswitchndef_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\switchdef_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\switchndef_directive.cxx">
+      <Filter>src\classes\directives\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elifdef_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\elifndef_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifdef_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ifndef_directive.cxx">
+      <Filter>src\classes\directives\jumps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\channel.hxx">
+      <Filter>include/f1\pp.syntax.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\enumeration.hxx">
+      <Filter>include/f1\pp.syntax.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\label.hxx">
+      <Filter>include/f1\pp.syntax.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\parser.hxx">
+      <Filter>include/f1\pp.syntax.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\syntax.hxx">
+      <Filter>include/f1\pp.syntax.f1pp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\block.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\channel.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\concat.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\enum.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\env.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\exec.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\format.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\local.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\raw.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\redefine.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\end.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endblock.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endenum.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endfor.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endforeach.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endraw.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endrepeat.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endwhile.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\case.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\default.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endswitch.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\fallthrough.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\switch.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endregion.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\pass-through directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\region.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\pass-through directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\alias.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endnamespace.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\namespace.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\using.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\messages\debugout.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\messages\fatalerror.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\messages\message.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\messages\print.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\messages\status.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\abort.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\assert.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\break.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\continue.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\do.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\exit.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\for.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\foreach.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\goto.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\repeat.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\until.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\while.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endfunction.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endmacro.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\function.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\macro.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\return.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\Iassignment.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\assignments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\option.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\assignments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\set.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\assignments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\frames\function_frame.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\frames\Idefinition_frame.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\frames\Iscoped_frame.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\frames\macro_frame.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\env_macro.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macro classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macro.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macro classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_countof.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_empty.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_env.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_GLOBAL_LINE.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_has_directive.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_has_include.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_has_option.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_option.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_debugout.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_error.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_fatalerror.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_info.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_option.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_status.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_warning.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\define.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\undef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\macro management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\tryinclude.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\includeonce.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\import.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\include.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\param.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\includes\embed.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\inclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\echo.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\shell.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endexec.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endshell.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\end directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\export.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_deprecated_directive.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_deprecated_include.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_Embed.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\macros\macro_deprecated.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\enum_macro.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\macro classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\assignment.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\assignments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\version.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\comment.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endcomment.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\pragmas\pragma_includedir.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\dump.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endswitchdef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\endswitchndef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\switchdef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\switchndef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\elifdef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\elifndef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\ifdef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.syntax.f1pp\directives\ifndef.hxx">
+      <Filter>include/f1\pp.syntax.f1pp\directives\branch directives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

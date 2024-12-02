@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.vargs_count.test" name="C-PP macro variable argument list parser test" timeout="30000">
+		<stdout template="vargs_count1.stdout.template.txt" />
+		<inputs>
+			<input test_file="vargs_count1.c" dest="vargs_count1.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="vargs_count1.c.ii" template="vargs_count1.output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

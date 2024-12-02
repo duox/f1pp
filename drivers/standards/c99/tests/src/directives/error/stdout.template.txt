@@ -1,0 +1,1 @@
+error.c(3) : fatal error F4096: Error directive.

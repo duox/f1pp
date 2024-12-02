@@ -1,0 +1,1 @@
+test.c(5) : warning W12347: expected identifier

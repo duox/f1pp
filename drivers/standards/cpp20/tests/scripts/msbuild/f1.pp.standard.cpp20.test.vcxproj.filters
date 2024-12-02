@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{930ddba5-34fe-4732-9927-e23cdbc2ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{8060da87-0353-4439-8227-7ffa55773098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__VA_OPT__">
+      <UniqueIdentifier>{fed54487-df7e-429d-9ea1-1f80c0d5351c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_opt__\invalid.output.template">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_opt__\invalid.stdout.template">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_opt__\README.md">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_opt__\valid.output.template">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__va_opt__\valid.stdout.template">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </Xml>
+    <Xml Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\macros\__va_opt__\invalid.c">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__va_opt__\valid.c">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\macros\__va_opt__\test.xml">
+      <Filter>src\macros\__VA_OPT__</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+1
+1
+1
+Dumping NS1:
+NS2
+Dumping NS1.NS2:
+MAC
+PAC
+test.c(6) : warning W12340: macro is never used: PAC

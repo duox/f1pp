@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.subst.test" name="C-PP simple macro substitution test" timeout="30000">
+		<inputs>
+			<input test_file="subst.c" dest="subst.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="subst.c.ii" template="subst.template" /> 
+		</outputs>
+	</test>
+</tests>

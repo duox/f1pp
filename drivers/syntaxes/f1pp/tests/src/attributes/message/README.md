@@ -1,0 +1,2 @@
+The 'message' attribute test.
+

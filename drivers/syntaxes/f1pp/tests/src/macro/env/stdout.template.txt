@@ -1,0 +1,2 @@
+MY_ENV = 1
+PASSED

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<include>vargs_count1.xml</include>
+	<include>vargs_count2.xml</include>
+</tests>

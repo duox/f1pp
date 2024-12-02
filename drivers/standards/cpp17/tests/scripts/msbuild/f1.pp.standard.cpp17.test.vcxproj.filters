@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{38d5dff3-012c-4587-a667-3e61e75d3ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{0ef42292-12f8-467c-8826-6e649a966922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_include">
+      <UniqueIdentifier>{3e9107ec-ccb5-4756-9efa-81d9ebf469fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__has_include\includes">
+      <UniqueIdentifier>{d6171915-b5d4-4544-b0f5-fec8d760c7db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_include\invalid.output.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_include\invalid.stdout.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_include\README.md">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_include\valid.output.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\src\macros\__has_include\valid.stdout.template">
+      <Filter>src\macros\__has_include</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\macros\__has_include\invalid.c">
+      <Filter>src\macros\__has_include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__has_include\valid.c">
+      <Filter>src\macros\__has_include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\macros\__has_include\includes\existing.h">
+      <Filter>src\macros\__has_include\includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__has_include\__has_include.xml">
+      <Filter>src\macros\__has_include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

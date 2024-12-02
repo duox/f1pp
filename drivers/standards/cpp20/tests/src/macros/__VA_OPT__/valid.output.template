@@ -1,0 +1,13 @@
+#1 "valid.c":
+#11:int x = 42; 
+#15:f(0 ) 
+#18:"" 
+#21:a b 
+#26:ab 
+#33:printf("hello world" ); 
+#34:printf("hello world" , ); 
+#35:printf("hello %s" , "world"); 
+#39:S foo; 
+#40:S bar = { 1,2,3 }; 
+#46:printf("at line=%d" , 46); printf("\n"); 
+#47:printf("at line=%d" ": ", 47); printf("All well in zone %n",n); printf("\n"); 

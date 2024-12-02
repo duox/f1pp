@@ -1,0 +1,4 @@
+ifdef.c(43) : error E8199: expected identifier
+ifdef.c(49) : error E8199: expected identifier
+ifdef.c(57) : warning W12292: unexpected characters after #ifdef
+ifdef.c(63) : warning W12292: unexpected characters after #ifndef

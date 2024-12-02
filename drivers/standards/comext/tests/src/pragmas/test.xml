@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<tests>
+  <include>include_alias/test.xml</include>
+  <include>message/test.xml</include>
+  <include>once/test.xml</include>
+  <include>push_pop_macro/test.xml</include>
+</tests>

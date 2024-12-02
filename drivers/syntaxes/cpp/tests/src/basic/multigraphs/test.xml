@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.multigraphs.test" name="C-PP digraphs and trigraphs test" timeout="30000">
+		<cmdline>--digraphs --trigraphs</cmdline>
+		<inputs>
+			<input test_file="multigraphs.c" dest="multigraphs.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="multigraphs.c.ii" template="multigraphs.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

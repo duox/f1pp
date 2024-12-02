@@ -1,0 +1,16 @@
+#1 "test.c":
+#1 "deprecated.h":
+#1:deprecated
+#2 "test.c":
+#1 "deprecated.h":
+#1:deprecated
+#3 "test.c":
+#1 "deprecated.h":
+#1:deprecated
+#4 "test.c":
+#1 "deprecated.h":
+#1:deprecated
+#5 "test.c":
+#1 "deprecated.h":
+#1:deprecated
+#6 "test.c":

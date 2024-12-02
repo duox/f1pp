@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.comments.test" name="C-PP comments test" timeout="30000">
+		<cmdline>--nested-comments-</cmdline>
+		<!--tool-options>
+			<option>nested_comments:0</option>
+		</tool-options!-->
+		<stdout template="comments.stdout.template.txt" />
+		<inputs>
+			<input test_file="comments.c" dest="comments.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="comments.c.ii" template="comments.output.template.txt" />
+		</outputs>
+	</test>
+	<test id="pp.c-pp.doxygen-comments.test" name="C-PP Doxygen comments test" timeout="30000">
+		<cmdline>--keep-doxygen-comments</cmdline>
+		<!--tool-options>
+			<option>--doxygen-comments</option>
+		</tool-options!-->
+		<stdout template="doxygen_comments.stdout.template.txt" />
+		<inputs>
+			<input test_file="doxygen_comments.c" dest="doxygen_comments.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="doxygen_comments.c.ii" template="doxygen_comments.output.template.txt" />
+		</outputs>
+	</test>
+	<test id="pp.c-pp.nested-comments.test" name="C-PP nested comments test" timeout="30000">
+		<cmdline>--nested-comments</cmdline>
+		<!-- tool-options>
+			<option>--nested-comments</option>
+		</tool-options !-->
+		<stdout template="nested_comments.stdout.template.txt" />
+		<inputs>
+			<input test_file="nested_comments.c" dest="nested_comments.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="nested_comments.c.ii" template="nested_comments.output.template.txt" />
+		</outputs>
+	</test>
+	<test id="pp.c-pp.merged-comments.test" name="C-PP merged comments test" timeout="30000">
+		<stdout template="merged_comments.stdout.template.txt" />
+		<inputs>
+			<input test_file="merged_comments.c" dest="merged_comments.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="merged_comments.c.ii" template="merged_comments.output.template.txt" />
+		</outputs>
+	</test>
+</tests>

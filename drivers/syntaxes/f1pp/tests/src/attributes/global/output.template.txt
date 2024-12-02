@@ -1,0 +1,6 @@
+#1 "test.c":
+#14:NS.AX 1 2 AY
+#22:NS.CX "1" "2" CY
+#30:NS.DX 1 2 DY
+#38:NS.SX 1 2 SY
+#50:NS.EX.A 0 0 EY.B

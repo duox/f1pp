@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{1eda3232-fe3b-4ffa-a31e-4a5c692b0db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\macros">
+      <UniqueIdentifier>{011fd26a-38cd-41e4-857e-e4cdc488257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.gcc">
+      <UniqueIdentifier>{c17ac431-758f-4274-bbf4-42c78dad8b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.gcc\macros">
+      <UniqueIdentifier>{cb40821a-0ee5-4af4-a51c-637b0abc16b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{09e5e772-b14e-44ed-a899-f31b47ede48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\pragmas">
+      <UniqueIdentifier>{755db6dc-554d-44f2-a3aa-b322eeb39413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/f1\pp.standard.gcc\pragmas">
+      <UniqueIdentifier>{aee56b70-cf9e-4695-8a49-46c99a8797d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\standard.cxx">
+      <Filter>src\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_BASE_FILE.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_FILE_NAME.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\macro_INCLUDE_LEVEL.cxx">
+      <Filter>src\classes\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC_error.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\pragma_GCC_warning.cxx">
+      <Filter>src\classes\pragmas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc-config.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc-forward.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc.h">
+      <Filter>include/f1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\standard.hxx">
+      <Filter>include/f1\pp.standard.gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\macros\macro_BASE_FILE.hxx">
+      <Filter>include/f1\pp.standard.gcc\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\macros\macro_FILE_NAME.hxx">
+      <Filter>include/f1\pp.standard.gcc\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\macros\macro_INCLUDE_LEVEL.hxx">
+      <Filter>include/f1\pp.standard.gcc\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\pragmas\pragma_GCC.hxx">
+      <Filter>include/f1\pp.standard.gcc\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\pragmas\pragma_GCC_error.hxx">
+      <Filter>include/f1\pp.standard.gcc\pragmas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\f1\pp.standard.gcc\pragmas\pragma_GCC_warning.hxx">
+      <Filter>include/f1\pp.standard.gcc\pragmas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\todo.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

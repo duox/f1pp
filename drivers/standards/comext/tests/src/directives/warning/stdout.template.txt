@@ -1,0 +1,1 @@
+test.c(6) : warning W12288: Warning text

@@ -1,0 +1,4 @@
+#1 "test.c":
+#9 "line.c":
+#8 "test.c":
+#9:VAL.1: PASSED

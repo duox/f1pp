@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\expressions">
+      <UniqueIdentifier>{5921307f-7332-4906-a0d5-b2a63426819d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\expressions\expression">
+      <UniqueIdentifier>{f0464715-cbac-4d0d-9e22-74075aabbd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic">
+      <UniqueIdentifier>{9283ac8a-f30e-4f9f-b9d6-3d8d34bdeec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\parenthesis">
+      <UniqueIdentifier>{b023042e-ced5-4880-8750-cc9b458053fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-chars">
+      <UniqueIdentifier>{965681b2-58e2-4b28-9121-df522bc147c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\whitespace_compress">
+      <UniqueIdentifier>{2224cfd3-6aea-46df-b7d5-f1df459f24aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-comments">
+      <UniqueIdentifier>{3db1d87a-a285-48d7-8ddc-1a739dba3fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-comments\general">
+      <UniqueIdentifier>{9e734a43-9a0d-4d98-ab6a-41d19ec93cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-comments\nested comments">
+      <UniqueIdentifier>{863b6c6a-3195-4bda-8f21-6bd29f166f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-comments\merged comments">
+      <UniqueIdentifier>{7a6be94b-04fa-45ce-9e96-9a8ff82bf9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-comments\doxygen comments">
+      <UniqueIdentifier>{364b2cae-b9f2-4731-ab99-1fb2a5eedf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\empty">
+      <UniqueIdentifier>{996658bf-93d2-4860-8902-e8bd7ac4fea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-escapes">
+      <UniqueIdentifier>{7cd7f2a7-2120-44ac-87ea-bdf75e436dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\idents">
+      <UniqueIdentifier>{8f612f33-90fa-43b7-8d5a-2b625185d179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\int_conv">
+      <UniqueIdentifier>{3d1cfa75-21ad-440b-8e05-b8010f769c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-multigraphs">
+      <UniqueIdentifier>{8be4e847-7bf3-46d0-8cbf-2efc980f4a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-screening">
+      <UniqueIdentifier>{ac34a347-d092-4f52-8ad1-23676e7a7ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-screening\screening-with-spaces">
+      <UniqueIdentifier>{85214294-380b-4508-9277-18dba37e1f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-screening\screening-without-spaces">
+      <UniqueIdentifier>{1bcc8aec-d86b-434a-9258-17fe43c71f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-strings">
+      <UniqueIdentifier>{9fabb715-aad0-4c20-92f4-ef857a179441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-strings\encoding">
+      <UniqueIdentifier>{2a65b83d-c35e-4856-b243-8f5b574c27ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-strings\raw">
+      <UniqueIdentifier>{a6b3f7db-0004-4f5e-b2b2-589921f434dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\-strings\unterm">
+      <UniqueIdentifier>{3d40cb8c-5bce-43e6-bf52-7d25e0585c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic\whitespace">
+      <UniqueIdentifier>{52e8a391-daf2-49c0-9762-e56e6ff5d383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{9852b989-6c03-47dd-9fa7-0234ba7d9157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\directive_line_start">
+      <UniqueIdentifier>{73781d72-41c7-4f34-b970-2117de87b247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\unknown_directive">
+      <UniqueIdentifier>{e19a198f-46f2-4fcf-a424-8e529478d103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro">
+      <UniqueIdentifier>{c13a1e8e-6d51-43e6-a04b-f4584763d48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\args">
+      <UniqueIdentifier>{3dad2049-9439-47e8-b2dc-a22be7e70762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\-drct_in_mac_args">
+      <UniqueIdentifier>{bec69c06-6ba7-43db-9d8a-393a8d56b505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\macro_call">
+      <UniqueIdentifier>{4051ad91-77cd-47f7-bbef-f03c9ab71d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\macro_call\nums">
+      <UniqueIdentifier>{6a8e6672-e314-49a0-86f6-627fd72adacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\macro_inline_redef">
+      <UniqueIdentifier>{0991f2cb-8fb2-44f7-a468-00c497d3ac89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\macro_non_macro">
+      <UniqueIdentifier>{36d7887f-6e9b-4f07-a9a2-de033f2fb8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\merge_operator">
+      <UniqueIdentifier>{77f52c50-d665-42de-9ba0-d5246099b4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\-paste">
+      <UniqueIdentifier>{98c90486-aba0-4e4a-adfe-fa6cf74c0656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\recursion">
+      <UniqueIdentifier>{d4fcc27d-49ba-4f10-983f-6fb8872be64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\varargs">
+      <UniqueIdentifier>{4cba0ede-7c43-4642-aefc-a3fa74fae292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\subst">
+      <UniqueIdentifier>{4bc6951b-7a29-44b0-a161-21187a7db13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\-stringize">
+      <UniqueIdentifier>{9884b21d-5fc3-4746-ae66-8ca3488a36c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro\subpass">
+      <UniqueIdentifier>{184a805f-2a5c-45dc-9824-7411844f9705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stress">
+      <UniqueIdentifier>{29111e25-4d6e-4eee-b79f-9696220083c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stress\bigoutput">
+      <UniqueIdentifier>{6b664997-f179-43ed-a24c-4dfcec3e6e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stress\macro_recurse_n">
+      <UniqueIdentifier>{e13793bb-b94d-43af-bbd3-61eede5c8fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stress\single_or_tuple_args">
+      <UniqueIdentifier>{d4976f20-702b-43cf-ac68-b9275bcb0689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stress\vargs_count">
+      <UniqueIdentifier>{18c869b4-c442-47a0-84b2-5e7ff74fc998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\expressions\README.md">
+      <Filter>src\expressions</Filter>
+    </None>
+    <None Include="..\..\src\expressions\expression\README.md">
+      <Filter>src\expressions\expression</Filter>
+    </None>
+    <None Include="..\..\src\basic\README.md">
+      <Filter>src\basic</Filter>
+    </None>
+    <None Include="..\..\src\basic\parenthesis\parenthesis.c.ii">
+      <Filter>src\basic\parenthesis</Filter>
+    </None>
+    <None Include="..\..\src\basic\parenthesis\README.md">
+      <Filter>src\basic\parenthesis</Filter>
+    </None>
+    <None Include="..\..\src\basic\chars\README.md">
+      <Filter>src\basic\-chars</Filter>
+    </None>
+    <None Include="..\..\src\basic\chars\test.c.ii">
+      <Filter>src\basic\-chars</Filter>
+    </None>
+    <None Include="..\..\src\basic\whitespace_compress\README.md">
+      <Filter>src\basic\whitespace_compress</Filter>
+    </None>
+    <None Include="..\..\src\basic\whitespace_compress\whitespace_compress.template">
+      <Filter>src\basic\whitespace_compress</Filter>
+    </None>
+    <None Include="..\..\src\basic\comments\README.md">
+      <Filter>src\basic\-comments</Filter>
+    </None>
+    <None Include="..\..\src\basic\comments\comments.c.ii">
+      <Filter>src\basic\-comments\general</Filter>
+    </None>
+    <None Include="..\..\src\basic\comments\nested_comments.c.ii">
+      <Filter>src\basic\-comments\nested comments</Filter>
+    </None>
+    <None Include="..\..\src\basic\comments\doxygen_comments.c.ii">
+      <Filter>src\basic\-comments\doxygen comments</Filter>
+    </None>
+    <None Include="..\..\src\basic\empty\empty.c.ii">
+      <Filter>src\basic\empty</Filter>
+    </None>
+    <None Include="..\..\src\basic\empty\README.md">
+      <Filter>src\basic\empty</Filter>
+    </None>
+    <None Include="..\..\src\basic\escapes\README.md">
+      <Filter>src\basic\-escapes</Filter>
+    </None>
+    <None Include="..\..\src\basic\escapes\test.c.ii">
+      <Filter>src\basic\-escapes</Filter>
+    </None>
+    <None Include="..\..\src\basic\idents\README.md">
+      <Filter>src\basic\idents</Filter>
+    </None>
+    <None Include="..\..\src\basic\int_conv\int_conv.c.ii">
+      <Filter>src\basic\int_conv</Filter>
+    </None>
+    <None Include="..\..\src\basic\int_conv\int_conv.template">
+      <Filter>src\basic\int_conv</Filter>
+    </None>
+    <None Include="..\..\src\basic\int_conv\README.md">
+      <Filter>src\basic\int_conv</Filter>
+    </None>
+    <None Include="..\..\src\basic\multigraphs\multigraphs.c.ii">
+      <Filter>src\basic\-multigraphs</Filter>
+    </None>
+    <None Include="..\..\src\basic\multigraphs\README.md">
+      <Filter>src\basic\-multigraphs</Filter>
+    </None>
+    <None Include="..\..\src\basic\screening\README.md">
+      <Filter>src\basic\-screening</Filter>
+    </None>
+    <None Include="..\..\src\basic\screening\screening-with-spaces.c.ii">
+      <Filter>src\basic\-screening\screening-with-spaces</Filter>
+    </None>
+    <None Include="..\..\src\basic\screening\screening.c.ii">
+      <Filter>src\basic\-screening\screening-without-spaces</Filter>
+    </None>
+    <None Include="..\..\src\basic\strings\README.md">
+      <Filter>src\basic\-strings</Filter>
+    </None>
+    <None Include="..\..\src\basic\strings\encoding.c.ii">
+      <Filter>src\basic\-strings\encoding</Filter>
+    </None>
+    <None Include="..\..\src\basic\strings\raw.c.ii">
+      <Filter>src\basic\-strings\raw</Filter>
+    </None>
+    <None Include="..\..\src\basic\strings\unterm.c.ii">
+      <Filter>src\basic\-strings\unterm</Filter>
+    </None>
+    <None Include="..\..\src\basic\whitespace\README.md">
+      <Filter>src\basic\whitespace</Filter>
+    </None>
+    <None Include="..\..\src\basic\whitespace\whitespace.c.ii">
+      <Filter>src\basic\whitespace</Filter>
+    </None>
+    <None Include="..\..\src\basic\whitespace\whitespace.template">
+      <Filter>src\basic\whitespace</Filter>
+    </None>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\directive_line_start\directive_line_start.c.ii">
+      <Filter>src\directives\directive_line_start</Filter>
+    </None>
+    <None Include="..\..\src\directives\directive_line_start\directive_line_start.template">
+      <Filter>src\directives\directive_line_start</Filter>
+    </None>
+    <None Include="..\..\src\directives\directive_line_start\README.md">
+      <Filter>src\directives\directive_line_start</Filter>
+    </None>
+    <None Include="..\..\src\directives\unknown_directive\README.md">
+      <Filter>src\directives\unknown_directive</Filter>
+    </None>
+    <None Include="..\..\src\directives\unknown_directive\unknown_directive.c.ii">
+      <Filter>src\directives\unknown_directive</Filter>
+    </None>
+    <None Include="..\..\src\directives\unknown_directive\unknown_directive.template">
+      <Filter>src\directives\unknown_directive</Filter>
+    </None>
+    <None Include="..\..\src\macro\README.md">
+      <Filter>src\macro</Filter>
+    </None>
+    <None Include="..\..\src\macro\args\args.c.ii">
+      <Filter>src\macro\args</Filter>
+    </None>
+    <None Include="..\..\src\macro\args\args.template">
+      <Filter>src\macro\args</Filter>
+    </None>
+    <None Include="..\..\src\macro\args\README.md">
+      <Filter>src\macro\args</Filter>
+    </None>
+    <None Include="..\..\src\macro\drct_in_mac_args\drct_in_mac_args.c.ii">
+      <Filter>src\macro\-drct_in_mac_args</Filter>
+    </None>
+    <None Include="..\..\src\macro\drct_in_mac_args\drct_in_mac_args.template">
+      <Filter>src\macro\-drct_in_mac_args</Filter>
+    </None>
+    <None Include="..\..\src\macro\drct_in_mac_args\README.md">
+      <Filter>src\macro\-drct_in_mac_args</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_call\macro_call.c.ii">
+      <Filter>src\macro\macro_call</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_call\macro_call.template">
+      <Filter>src\macro\macro_call</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_call\README.md">
+      <Filter>src\macro\macro_call</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_inline_redef\macro_inline_redef.c.ii">
+      <Filter>src\macro\macro_inline_redef</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_inline_redef\macro_inline_redef.template">
+      <Filter>src\macro\macro_inline_redef</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_inline_redef\README.md">
+      <Filter>src\macro\macro_inline_redef</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_non_macro\macro_non_macro.c.ii">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_non_macro\macro_non_macro.template">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </None>
+    <None Include="..\..\src\macro\macro_non_macro\README.md">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </None>
+    <None Include="..\..\src\macro\merge_operator\merge_operator.c.ii">
+      <Filter>src\macro\merge_operator</Filter>
+    </None>
+    <None Include="..\..\src\macro\merge_operator\merge_operator.template">
+      <Filter>src\macro\merge_operator</Filter>
+    </None>
+    <None Include="..\..\src\macro\merge_operator\README.md">
+      <Filter>src\macro\merge_operator</Filter>
+    </None>
+    <None Include="..\..\src\macro\paste\README.md">
+      <Filter>src\macro\-paste</Filter>
+    </None>
+    <None Include="..\..\src\macro\paste\test.c.ii">
+      <Filter>src\macro\-paste</Filter>
+    </None>
+    <None Include="..\..\src\macro\recursion\README.md">
+      <Filter>src\macro\recursion</Filter>
+    </None>
+    <None Include="..\..\src\macro\recursion\recursion.c.ii">
+      <Filter>src\macro\recursion</Filter>
+    </None>
+    <None Include="..\..\src\macro\recursion\recursion.template">
+      <Filter>src\macro\recursion</Filter>
+    </None>
+    <None Include="..\..\src\macro\varargs\README.md">
+      <Filter>src\macro\varargs</Filter>
+    </None>
+    <None Include="..\..\src\macro\varargs\varargs.c.ii">
+      <Filter>src\macro\varargs</Filter>
+    </None>
+    <None Include="..\..\src\macro\varargs\varargs.template">
+      <Filter>src\macro\varargs</Filter>
+    </None>
+    <None Include="..\..\src\macro\subst\README.md">
+      <Filter>src\macro\subst</Filter>
+    </None>
+    <None Include="..\..\src\macro\subst\subst.c.ii">
+      <Filter>src\macro\subst</Filter>
+    </None>
+    <None Include="..\..\src\macro\subst\subst.template">
+      <Filter>src\macro\subst</Filter>
+    </None>
+    <None Include="..\..\src\macro\stringize\README.md">
+      <Filter>src\macro\-stringize</Filter>
+    </None>
+    <None Include="..\..\src\macro\stringize\stringize.c.ii">
+      <Filter>src\macro\-stringize</Filter>
+    </None>
+    <None Include="..\..\src\macro\stringize\stringize.template">
+      <Filter>src\macro\-stringize</Filter>
+    </None>
+    <None Include="..\..\src\macro\subpass\README.md">
+      <Filter>src\macro\subpass</Filter>
+    </None>
+    <None Include="..\..\src\macro\subpass\subpass.c.ii">
+      <Filter>src\macro\subpass</Filter>
+    </None>
+    <None Include="..\..\src\macro\subpass\subpass.template">
+      <Filter>src\macro\subpass</Filter>
+    </None>
+    <None Include="..\..\src\stress\README.md">
+      <Filter>src\stress</Filter>
+    </None>
+    <None Include="..\..\src\stress\bigoutput\bigoutput.c.ii">
+      <Filter>src\stress\bigoutput</Filter>
+    </None>
+    <None Include="..\..\src\stress\bigoutput\README.md">
+      <Filter>src\stress\bigoutput</Filter>
+    </None>
+    <None Include="..\..\src\stress\macro_recurse_n\README.md">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </None>
+    <None Include="..\..\src\stress\macro_recurse_n\test.c.ii">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </None>
+    <None Include="..\..\src\stress\single_or_tuple_args\README.md">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </None>
+    <None Include="..\..\src\stress\single_or_tuple_args\test.c.ii">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </None>
+    <None Include="..\..\src\stress\vargs_count\README.md">
+      <Filter>src\stress\vargs_count</Filter>
+    </None>
+    <None Include="..\..\src\stress\vargs_count\vargs_count.template">
+      <Filter>src\stress\vargs_count</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\expressions\expression\output.template.txt">
+      <Filter>src\expressions\expression</Filter>
+    </Text>
+    <Text Include="..\..\src\expressions\expression\stdout.template.txt">
+      <Filter>src\expressions\expression</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\parenthesis\parenthesis.template.txt">
+      <Filter>src\basic\parenthesis</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\parenthesis\stdout.template.txt">
+      <Filter>src\basic\parenthesis</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\chars\output.template.txt">
+      <Filter>src\basic\-chars</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\chars\stdout.template.txt">
+      <Filter>src\basic\-chars</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\comments.output.template.txt">
+      <Filter>src\basic\-comments\general</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\comments.stdout.template.txt">
+      <Filter>src\basic\-comments\general</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\nested_comments.output.template.txt">
+      <Filter>src\basic\-comments\nested comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\nested_comments.stdout.template.txt">
+      <Filter>src\basic\-comments\nested comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\merged_comment.output,template.txt">
+      <Filter>src\basic\-comments\merged comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\merged_comment.stdout.template.txt">
+      <Filter>src\basic\-comments\merged comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\doxygen_comments.output.template.txt">
+      <Filter>src\basic\-comments\doxygen comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\comments\doxygen_comments.stdout.template.txt">
+      <Filter>src\basic\-comments\doxygen comments</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\empty\empty.template.txt">
+      <Filter>src\basic\empty</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\escapes\output.template.txt">
+      <Filter>src\basic\-escapes</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\escapes\stdout.template.txt">
+      <Filter>src\basic\-escapes</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\idents\idents.template.txt">
+      <Filter>src\basic\idents</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\int_conv\stdout.template.txt">
+      <Filter>src\basic\int_conv</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\multigraphs\multigraphs.template.txt">
+      <Filter>src\basic\-multigraphs</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\screening\screening-with-spaces.stdout.template.txt">
+      <Filter>src\basic\-screening\screening-with-spaces</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\screening\screening-with-spaces.template.txt">
+      <Filter>src\basic\-screening\screening-with-spaces</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\screening\screening.stdout.template.txt">
+      <Filter>src\basic\-screening\screening-without-spaces</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\screening\screening.template.txt">
+      <Filter>src\basic\-screening\screening-without-spaces</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\output.template.encoding.txt">
+      <Filter>src\basic\-strings\encoding</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\stdout.template.encoding.txt">
+      <Filter>src\basic\-strings\encoding</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\output.template.raw.txt">
+      <Filter>src\basic\-strings\raw</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\stdout.template.raw.txt">
+      <Filter>src\basic\-strings\raw</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\output.template.unterm.txt">
+      <Filter>src\basic\-strings\unterm</Filter>
+    </Text>
+    <Text Include="..\..\src\basic\strings\stdout.template.unterm.txt">
+      <Filter>src\basic\-strings\unterm</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\unknown_directive\stdout.template.txt">
+      <Filter>src\directives\unknown_directive</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\macro_non_macro\stdout.template.txt">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\merge_operator\stdout.template.txt">
+      <Filter>src\macro\merge_operator</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\paste\output.template.txt">
+      <Filter>src\macro\-paste</Filter>
+    </Text>
+    <Text Include="..\..\src\macro\paste\stdout.template.txt">
+      <Filter>src\macro\-paste</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\bigoutput\output.template.txt">
+      <Filter>src\stress\bigoutput</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\bigoutput\stdout.template.txt">
+      <Filter>src\stress\bigoutput</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\macro_recurse_n\output.template.txt">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\macro_recurse_n\stdout.template.txt">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\single_or_tuple_args\output.template.txt">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\single_or_tuple_args\stdout.template.txt">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\vargs_count\output.template.txt">
+      <Filter>src\stress\vargs_count</Filter>
+    </Text>
+    <Text Include="..\..\src\stress\vargs_count\stdout.template.txt">
+      <Filter>src\stress\vargs_count</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\expressions\expression\test.c">
+      <Filter>src\expressions\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\parenthesis\parenthesis.c">
+      <Filter>src\basic\parenthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\chars\test.c">
+      <Filter>src\basic\-chars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\whitespace_compress\whitespace_compress.c">
+      <Filter>src\basic\whitespace_compress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\comments\comments.c">
+      <Filter>src\basic\-comments\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\comments\nested_comments.c">
+      <Filter>src\basic\-comments\nested comments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\comments\merged_comment.c">
+      <Filter>src\basic\-comments\merged comments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\comments\doxygen_comments.c">
+      <Filter>src\basic\-comments\doxygen comments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\empty\empty.c">
+      <Filter>src\basic\empty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\escapes\test.c">
+      <Filter>src\basic\-escapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\idents\idents.c">
+      <Filter>src\basic\idents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\int_conv\int_conv.c">
+      <Filter>src\basic\int_conv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\multigraphs\multigraphs.c">
+      <Filter>src\basic\-multigraphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\screening\screening-with-spaces.c">
+      <Filter>src\basic\-screening\screening-with-spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\screening\screening.c">
+      <Filter>src\basic\-screening\screening-without-spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\strings\encoding.c">
+      <Filter>src\basic\-strings\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\strings\raw.c">
+      <Filter>src\basic\-strings\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\strings\unterm.c">
+      <Filter>src\basic\-strings\unterm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\basic\whitespace\whitespace.c">
+      <Filter>src\basic\whitespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\directive_line_start\directive_line_start.c">
+      <Filter>src\directives\directive_line_start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\unknown_directive\unknown_directive.c">
+      <Filter>src\directives\unknown_directive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\args\args.c">
+      <Filter>src\macro\args</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\drct_in_mac_args\drct_in_mac_args.c">
+      <Filter>src\macro\-drct_in_mac_args</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\macro_call\macro_call.c">
+      <Filter>src\macro\macro_call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\macro_inline_redef\macro_inline_redef.c">
+      <Filter>src\macro\macro_inline_redef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\macro_non_macro\macro_non_macro.c">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\merge_operator\merge_operator.c">
+      <Filter>src\macro\merge_operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\paste\test.c">
+      <Filter>src\macro\-paste</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\recursion\recursion.c">
+      <Filter>src\macro\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\varargs\varargs.c">
+      <Filter>src\macro\varargs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\subst\subst.c">
+      <Filter>src\macro\subst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\stringize\stringize.c">
+      <Filter>src\macro\-stringize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macro\subpass\subpass.c">
+      <Filter>src\macro\subpass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stress\bigoutput\bigoutput.c">
+      <Filter>src\stress\bigoutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stress\macro_recurse_n\test.c">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stress\single_or_tuple_args\test.c">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stress\vargs_count\vargs_count1.c">
+      <Filter>src\stress\vargs_count</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stress\vargs_count\vargs_count2.c">
+      <Filter>src\stress\vargs_count</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\macro\macro_call\nums\10.h">
+      <Filter>src\macro\macro_call\nums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\macro\macro_call\nums\10nl.h">
+      <Filter>src\macro\macro_call\nums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\expressions\test.xml">
+      <Filter>src\expressions</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\expressions\expression\test.xml">
+      <Filter>src\expressions\expression</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\test.xml">
+      <Filter>src\basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\parenthesis\test.xml">
+      <Filter>src\basic\parenthesis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\chars\test.xml">
+      <Filter>src\basic\-chars</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\whitespace_compress\test.xml">
+      <Filter>src\basic\whitespace_compress</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\comments\test.xml">
+      <Filter>src\basic\-comments</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\empty\test.xml">
+      <Filter>src\basic\empty</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\escapes\test.xml">
+      <Filter>src\basic\-escapes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\idents\test.xml">
+      <Filter>src\basic\idents</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\int_conv\test.xml">
+      <Filter>src\basic\int_conv</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\multigraphs\test.xml">
+      <Filter>src\basic\-multigraphs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\screening\test.xml">
+      <Filter>src\basic\-screening</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\strings\test.xml">
+      <Filter>src\basic\-strings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\basic\whitespace\test.xml">
+      <Filter>src\basic\whitespace</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\directive_line_start\test.xml">
+      <Filter>src\directives\directive_line_start</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\unknown_directive\test.xml">
+      <Filter>src\directives\unknown_directive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\test.xml">
+      <Filter>src\macro</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\args\test.xml">
+      <Filter>src\macro\args</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\drct_in_mac_args\test.xml">
+      <Filter>src\macro\-drct_in_mac_args</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\macro_call\test.xml">
+      <Filter>src\macro\macro_call</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\macro_inline_redef\test.xml">
+      <Filter>src\macro\macro_inline_redef</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\macro_non_macro\test.xml">
+      <Filter>src\macro\macro_non_macro</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\merge_operator\test.xml">
+      <Filter>src\macro\merge_operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\paste\test.xml">
+      <Filter>src\macro\-paste</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\recursion\test.xml">
+      <Filter>src\macro\recursion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\varargs\test.xml">
+      <Filter>src\macro\varargs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\subst\test.xml">
+      <Filter>src\macro\subst</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\stringize\test.xml">
+      <Filter>src\macro\-stringize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macro\subpass\test.xml">
+      <Filter>src\macro\subpass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\test.xml">
+      <Filter>src\stress</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\bigoutput\test.xml">
+      <Filter>src\stress\bigoutput</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\macro_recurse_n\test.xml">
+      <Filter>src\stress\macro_recurse_n</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\single_or_tuple_args\test.xml">
+      <Filter>src\stress\single_or_tuple_args</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\vargs_count\test.xml">
+      <Filter>src\stress\vargs_count</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\vargs_count\vargs_count1.xml">
+      <Filter>src\stress\vargs_count</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\stress\vargs_count\vargs_count2.xml">
+      <Filter>src\stress\vargs_count</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

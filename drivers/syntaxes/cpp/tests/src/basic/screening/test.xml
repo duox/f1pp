@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.screening.test" name="C-PP back slash screening test" timeout="30000">
+		<!-- tool name="f1pp" version="1.00">--screening-spaces-</tool -->
+		<stdout template="screening.stdout.template.txt" />
+		<inputs>
+			<input test_file="screening.c" dest="screening.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="screening.c.ii" template="screening.template.txt" /> 
+		</outputs>
+	</test>
+	<test id="pp.c-pp.screening-with-spaces.test" name="C-PP back slash screening with extra spaces test" timeout="30000">
+		<!-- tool name="f1pp" version="1.00">--screening-spaces</tool -->
+		<stdout template="screening-with-spaces.stdout.template.txt" />
+		<inputs>
+			<input test_file="screening-with-spaces.c" dest="screening-with-spaces.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="screening-with-spaces.c.ii" template="screening-with-spaces.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

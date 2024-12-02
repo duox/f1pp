@@ -1,0 +1,11 @@
+test.c(8) : error E8230: macro is immutable
+test.c(16) : error E8230: macro is immutable
+test.c(26) : error E8230: macro is immutable
+test.c(34) : error E8230: macro is immutable
+test.c(42) : error E8230: macro is immutable
+test.c(50) : error E8230: macro is immutable
+test.c(60) : error E8230: macro is immutable
+test.c(70) : error E8230: macro is immutable
+test.c(78) : error E8230: macro is immutable
+test.c(80) : error E8230: macro is immutable
+test.c(88) : error E8230: macro is immutable

@@ -1,0 +1,14 @@
+test.c(4) : warning W12317: macro is already defined with the same value
+test.c(3) : informational I16387: previously defined here
+test.c(10) : warning W12317: macro is already defined with the same value
+test.c(7) : informational I16387: previously defined here
+test.c(13) : error E8229: macro is already defined: OBJ_LIKE
+test.c(3) : informational I16387: previously defined here
+test.c(14) : error E8229: macro is already defined: OBJ_LIKE
+test.c(3) : informational I16387: previously defined here
+test.c(15) : error E8229: macro is already defined: FUNC_LIKE
+test.c(7) : informational I16387: previously defined here
+test.c(16) : error E8229: macro is already defined: FUNC_LIKE
+test.c(7) : informational I16387: previously defined here
+test.c(3) : warning W12340: macro is never used: OBJ_LIKE
+test.c(7) : warning W12340: macro is never used: FUNC_LIKE

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c23.embed.test" name="Tests #embed directive parsing" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="embed.c" dest="embed.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="embed.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

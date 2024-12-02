@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.empty.test" name="C-PP emptyifiers test" timeout="30000">
+		<inputs>
+			<input test_file="empty.c" dest="empty.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="empty.c.ii" template="empty.template.txt" />
+		</outputs>
+	</test>
+</tests>

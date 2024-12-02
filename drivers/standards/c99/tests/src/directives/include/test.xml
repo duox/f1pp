@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c99.include" name="Tests #include directive parsing" timeout="30000">
+		<cmdline>-I:common --message:12296:enable --message-severity:4097:error --message-severity:4098:error --standard:c99 --standard-:f1pp</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test.c" dest="test.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

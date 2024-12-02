@@ -1,0 +1,1 @@
+Macro argument parsing test.

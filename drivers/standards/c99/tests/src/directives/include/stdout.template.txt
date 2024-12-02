@@ -1,0 +1,12 @@
+test.c(81) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(82) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(85) : warning W12296: undefined identifier, ignored: "MAC"
+test.c(86) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(89) : error E8219: unterminated string
+test.c(90) : error E8219: unterminated string
+test.c(91) : error E8204: expected double-quoted or angle-bracketed file name
+test.c(92) : error E4098: file not found: xyz
+test.c(93) : error E8219: unterminated string
+test.c(94) : error E8219: unterminated string
+test.c(94) : error E4098: file not found: xyz
+test.c(97) : error E4098: file not found: .//....

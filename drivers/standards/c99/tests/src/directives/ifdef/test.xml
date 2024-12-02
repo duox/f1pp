@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c-pp.ifdef.test" name="Tests #ifdef directive parsing" timeout="30000">
+		<cmdline>--standard:c99</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="ifdef.c" dest="ifdef.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="ifdef.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-cpp-newlines-cr" path="test://f1/pp/cpp/basic/newlines/cr" name="Tests CR (Mac) new line format">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test-cr.c" dest="test-cr.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test-cr.c.ii" template="output-cr.template.txt" /> 
+		</outputs>
+	</test>
+	<test id="test-cpp-newlines-lf" path="test://f1/pp/cpp/basic/newlines/lf" name="Tests LF/NL (UNIX) new line format">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test-lf.c" dest="test-lf.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test-lf.c.ii" template="output-lf.template.txt" /> 
+		</outputs>
+	</test>
+	<test id="test-cpp-newlines-crlf" path="test://f1/pp/cpp/basic/newlines/crlf" name="Tests CR+LF (Windows) new line format">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test-crlf.c" dest="test-crlf.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test-crlf.c.ii" template="output-crlf.template.txt" /> 
+		</outputs>
+	</test>
+	<test id="test-cpp-newlines-lfcr" path="test://f1/pp/cpp/basic/newlines/lfcr" name="Tests LF+CR new line format">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="test-lfcr.c" dest="test-lfcr.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="test-lfcr.c.ii" template="output-lfcr.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

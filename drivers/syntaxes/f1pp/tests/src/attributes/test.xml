@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+  <include>backward/test.xml</include>
+  <include>bitwise/test.xml</include>
+  <include>const/test.xml</include>
+  <include>deprecated/test.xml</include>
+  <include>disabled/test.xml</include>
+  <include>force/test.xml</include>
+  <include>global/test.xml</include>
+  <include>message/test.xml</include>
+  <include>nonl/test.xml</include>
+  <include>once/test.xml</include>
+  <include>open/test.xml</include>
+  <include>protected/test.xml</include>
+  <include>public/test.xml</include>
+  <include>raw/test.xml</include>
+  <include>sealed/test.xml</include>
+  <include>soft/test.xml</include>
+  <include>warn/test.xml</include>
+  <include>weak/test.xml</include>
+</tests>

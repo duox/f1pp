@@ -1,0 +1,2 @@
+The 'soft' attribute test.
+

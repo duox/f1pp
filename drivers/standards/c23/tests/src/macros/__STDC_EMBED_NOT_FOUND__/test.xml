@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="test-pp.c23.macro.__STDC_EMBED_NOT_FOUND__" path="test://f1/pp/c23/macro/__STDC_EMBED_NOT_FOUND__" name="C23 __STDC_EMBED_NOT_FOUND__ macro test" timeout="30000">
+		<cmdline>--standard:c23 --standard:f1pp</cmdline>
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="STDC_EMBED_NOT_FOUND.c" dest="STDC_EMBED_NOT_FOUND.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="STDC_EMBED_NOT_FOUND.c.ii" template="output.template.txt" /> 
+		</outputs>
+	</test>
+</tests>

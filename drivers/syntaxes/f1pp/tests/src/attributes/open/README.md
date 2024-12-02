@@ -1,0 +1,2 @@
+The 'open' attribute test.
+

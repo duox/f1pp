@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.parenthesis.test" name="C-PP parenthesis test" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="parenthesis.c" dest="parenthesis.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="parenthesis.c.ii" template="parenthesis.template.txt" />
+		</outputs>
+	</test>
+</tests>

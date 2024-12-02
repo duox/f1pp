@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{104eb416-8a66-4f84-9505-56d58c0c5c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives">
+      <UniqueIdentifier>{ef3755d0-28fe-48cb-a0ee-18348fb74ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\file">
+      <UniqueIdentifier>{2684d8e0-9fa8-4fdf-b096-06f2c0d9bdf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\ident">
+      <UniqueIdentifier>{70e520a0-cb55-4235-974c-31fcbe36c755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\include_next">
+      <UniqueIdentifier>{570161e3-4ad8-4a72-919f-6c224ed0c285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\include_next\inc0">
+      <UniqueIdentifier>{562237ad-f4ca-4536-9bb0-2a6f6142fd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\include_next\inc1">
+      <UniqueIdentifier>{5eb48d9e-a8e9-4fa2-b2e8-c0ac6ac58be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\includepath">
+      <UniqueIdentifier>{9cc43b29-5b3b-4864-a0ed-6809116ebd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\includepath\inc0">
+      <UniqueIdentifier>{26161339-fe16-4e1f-9355-26154fa2c23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\includepath\inc1">
+      <UniqueIdentifier>{992e3cac-305f-4bfb-b270-f28442b54679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\includepath\inc2">
+      <UniqueIdentifier>{a7e69b1f-4cdd-4bab-aecb-82ecd07668d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\includepath\inc3">
+      <UniqueIdentifier>{9f415bd0-07c8-4a78-b8a5-ee4038fa404c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\info">
+      <UniqueIdentifier>{8f49aa05-ddb3-4057-8da3-023492e4bf8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\sccs">
+      <UniqueIdentifier>{e542076c-7aec-4d6b-bacc-3607b866cec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\directives\warning">
+      <UniqueIdentifier>{2360113e-624d-47f8-b5a6-b27aff5f1cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros">
+      <UniqueIdentifier>{f71a178d-ae59-4ec4-a8ef-6883cff10311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__COUNTER__">
+      <UniqueIdentifier>{747e16a7-eb53-4d12-bbe3-bf7e2a0ca8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macros\__TIMESTAMP__">
+      <UniqueIdentifier>{bf7b232b-a851-42d5-a7eb-7f0e25857458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas">
+      <UniqueIdentifier>{91f0a01a-6593-4bbb-a95d-33ccca939c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\include_alias">
+      <UniqueIdentifier>{7d107e0f-6705-48d0-9c10-b9fb22933bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\include_alias\subfolder">
+      <UniqueIdentifier>{2e86e4ac-9a74-4a97-8fbd-1b1001aecba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\message">
+      <UniqueIdentifier>{cf1d4908-0f8e-4ac6-a4eb-c4fecb1adc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\once">
+      <UniqueIdentifier>{31332738-7db0-4f92-99fc-f341572f367e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\once\inc">
+      <UniqueIdentifier>{bbf8b02b-44f8-4556-b324-a83e828e116a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pragmas\push_pop_macro">
+      <UniqueIdentifier>{7d29cf4a-650a-4e33-97d8-972d06a47a61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\directives\README.md">
+      <Filter>src\directives</Filter>
+    </None>
+    <None Include="..\..\src\directives\file\README.md">
+      <Filter>src\directives\file</Filter>
+    </None>
+    <None Include="..\..\src\directives\ident\README.md">
+      <Filter>src\directives\ident</Filter>
+    </None>
+    <None Include="..\..\src\directives\include_next\README.md">
+      <Filter>src\directives\include_next</Filter>
+    </None>
+    <None Include="..\..\src\directives\includepath\README.md">
+      <Filter>src\directives\includepath</Filter>
+    </None>
+    <None Include="..\..\src\directives\info\README.md">
+      <Filter>src\directives\info</Filter>
+    </None>
+    <None Include="..\..\src\directives\sccs\README.md">
+      <Filter>src\directives\sccs</Filter>
+    </None>
+    <None Include="..\..\src\directives\warning\README.md">
+      <Filter>src\directives\warning</Filter>
+    </None>
+    <None Include="..\..\src\macros\README.md">
+      <Filter>src\macros</Filter>
+    </None>
+    <None Include="..\..\src\macros\__counter__\README.md">
+      <Filter>src\macros\__COUNTER__</Filter>
+    </None>
+    <None Include="..\..\src\macros\__timestamp__\README.md">
+      <Filter>src\macros\__TIMESTAMP__</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\README.md">
+      <Filter>src\pragmas</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\include_alias\README.md">
+      <Filter>src\pragmas\include_alias</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\include_alias\test.c.ii">
+      <Filter>src\pragmas\include_alias</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\message\README.md">
+      <Filter>src\pragmas\message</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\message\test.c.ii">
+      <Filter>src\pragmas\message</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\once\README.md">
+      <Filter>src\pragmas\once</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\once\test.c.ii">
+      <Filter>src\pragmas\once</Filter>
+    </None>
+    <None Include="..\..\src\pragmas\push_pop_macro\README.md">
+      <Filter>src\pragmas\push_pop_macro</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\directives\file\output.template.txt">
+      <Filter>src\directives\file</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\file\stdout.template.txt">
+      <Filter>src\directives\file</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\ident\output.template.txt">
+      <Filter>src\directives\ident</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\ident\stdout.template.txt">
+      <Filter>src\directives\ident</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include_next\output.template.txt">
+      <Filter>src\directives\include_next</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\include_next\stdout.template.txt">
+      <Filter>src\directives\include_next</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\includepath\output.template.txt">
+      <Filter>src\directives\includepath</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\includepath\stdout.template.txt">
+      <Filter>src\directives\includepath</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\info\output.template.txt">
+      <Filter>src\directives\info</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\info\stdout.template.txt">
+      <Filter>src\directives\info</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\sccs\output.template.txt">
+      <Filter>src\directives\sccs</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\sccs\stdout.template.txt">
+      <Filter>src\directives\sccs</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\warning\output.template.txt">
+      <Filter>src\directives\warning</Filter>
+    </Text>
+    <Text Include="..\..\src\directives\warning\stdout.template.txt">
+      <Filter>src\directives\warning</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__counter__\output.template.txt">
+      <Filter>src\macros\__COUNTER__</Filter>
+    </Text>
+    <Text Include="..\..\src\macros\__timestamp__\output.template.txt">
+      <Filter>src\macros\__TIMESTAMP__</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\include_alias\output.template.txt">
+      <Filter>src\pragmas\include_alias</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\include_alias\stdout.template.txt">
+      <Filter>src\pragmas\include_alias</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\message\output.template.txt">
+      <Filter>src\pragmas\message</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\message\stdout.template.txt">
+      <Filter>src\pragmas\message</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\once\output.template.txt">
+      <Filter>src\pragmas\once</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\once\stdout.template.txt">
+      <Filter>src\pragmas\once</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\push_pop_macro\output.template.txt">
+      <Filter>src\pragmas\push_pop_macro</Filter>
+    </Text>
+    <Text Include="..\..\src\pragmas\push_pop_macro\stdout.template.txt">
+      <Filter>src\pragmas\push_pop_macro</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\directives\file\test.c">
+      <Filter>src\directives\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\ident\test.c">
+      <Filter>src\directives\ident</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\include_next\test.c">
+      <Filter>src\directives\include_next</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\includepath\test.c">
+      <Filter>src\directives\includepath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\info\test.c">
+      <Filter>src\directives\info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\sccs\test.c">
+      <Filter>src\directives\sccs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\directives\warning\test.c">
+      <Filter>src\directives\warning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__counter__\test.c">
+      <Filter>src\macros\__COUNTER__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\macros\__timestamp__\test.c">
+      <Filter>src\macros\__TIMESTAMP__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\include_alias\test.c">
+      <Filter>src\pragmas\include_alias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\message\test.c">
+      <Filter>src\pragmas\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\once\test.c">
+      <Filter>src\pragmas\once</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pragmas\push_pop_macro\test.c">
+      <Filter>src\pragmas\push_pop_macro</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\directives\include_next\inc0\file-loc.h">
+      <Filter>src\directives\include_next\inc0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include_next\inc0\file-sys.h">
+      <Filter>src\directives\include_next\inc0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include_next\inc1\file-loc.h">
+      <Filter>src\directives\include_next\inc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\include_next\inc1\file-sys.h">
+      <Filter>src\directives\include_next\inc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\includepath\inc0\test0.h">
+      <Filter>src\directives\includepath\inc0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\includepath\inc1\test1.h">
+      <Filter>src\directives\includepath\inc1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\includepath\inc2\test2.h">
+      <Filter>src\directives\includepath\inc2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\directives\includepath\inc3\test3.h">
+      <Filter>src\directives\includepath\inc3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pragmas\include_alias\subfolder\print_msg.h">
+      <Filter>src\pragmas\include_alias\subfolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pragmas\once\inc\once_inc.h">
+      <Filter>src\pragmas\once\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\test.xml">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\test.xml">
+      <Filter>src\directives</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\file\test.xml">
+      <Filter>src\directives\file</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\ident\test.xml">
+      <Filter>src\directives\ident</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\include_next\test.xml">
+      <Filter>src\directives\include_next</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\includepath\test.xml">
+      <Filter>src\directives\includepath</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\info\test.xml">
+      <Filter>src\directives\info</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\sccs\test.xml">
+      <Filter>src\directives\sccs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\directives\warning\test.xml">
+      <Filter>src\directives\warning</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\test.xml">
+      <Filter>src\macros</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__counter__\test.xml">
+      <Filter>src\macros\__COUNTER__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\macros\__timestamp__\test.xml">
+      <Filter>src\macros\__TIMESTAMP__</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\test.xml">
+      <Filter>src\pragmas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\include_alias\test.xml">
+      <Filter>src\pragmas\include_alias</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\message\test.xml">
+      <Filter>src\pragmas\message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\once\test.xml">
+      <Filter>src\pragmas\once</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\pragmas\push_pop_macro\test.xml">
+      <Filter>src\pragmas\push_pop_macro</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+test.c(2) : warning W12305: deprecated macro: X
+test.c(7) : warning W12305: deprecated macro: A

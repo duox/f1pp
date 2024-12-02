@@ -1,0 +1,9 @@
+#1 "test.c":
+#1 "file":
+#2:const char * base_file_0 = "a/b/c/file";
+#1 "file1.h":
+#3:const char * base_file_1 = "a/b/c/file";
+#1 "file2.h":
+#3:const char * base_file_2 = "a/b/c/file";
+#5 "file1.h":
+#4 "file":

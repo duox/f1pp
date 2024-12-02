@@ -1,0 +1,2 @@
+#1 "STDC_EMBED_EMPTY.c":
+#4:1-OK

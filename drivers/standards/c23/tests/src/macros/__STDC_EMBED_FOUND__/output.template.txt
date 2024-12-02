@@ -1,0 +1,2 @@
+#1 "STDC_EMBED_FOUND.c":
+#4:1-OK

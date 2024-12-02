@@ -1,0 +1,1 @@
+test.c(5) : warning W12306: deprecated macro XYZ: Use ABC instead

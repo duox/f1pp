@@ -1,0 +1,2 @@
+`#file` directive parsing test.
+

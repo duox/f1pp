@@ -1,0 +1,2 @@
+The 'protected' attribute test.
+

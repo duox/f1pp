@@ -1,0 +1,1 @@
+test.c(3) : warning W12305: deprecated macro: A

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.merge_operator.test" name="C-PP merge operator(##) test" timeout="30000">
+		<stdout template="stdout.template.txt" />
+		<inputs>
+			<input test_file="merge_operator.c" dest="merge_operator.c.ii" /> 
+		</inputs>
+		<outputs>
+			<output test_file="merge_operator.c.ii" template="merge_operator.template" /> 
+		</outputs>
+	</test>
+</tests>

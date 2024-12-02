@@ -1,0 +1,4 @@
+#1 "recursion.c":
+#5:rec=REC
+#10:rec2=rec1=REC1
+#11:rec1=rec2=REC2

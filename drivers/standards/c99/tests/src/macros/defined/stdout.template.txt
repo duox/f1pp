@@ -1,0 +1,4 @@
+test.c(46) : error E8235: name is already occupied: defined
+test.c(49) : error E8199: expected identifier
+test.c(57) : error E8196: expected ')'
+test.c(57) : warning W12292: unexpected characters after #if

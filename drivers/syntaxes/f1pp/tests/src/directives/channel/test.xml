@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<include>activate/test.xml</include>
+	<include>close/test.xml</include>
+	<include>define/test.xml</include>
+	<include>destroy/test.xml</include>
+	<include>flush/test.xml</include>
+	<include>footer/test.xml</include>
+	<include>header/test.xml</include>
+	<include>include/test.xml</include>
+	<include>pop/test.xml</include>
+	<!--include>prefix/test.xml</include-->
+	<include>push/test.xml</include>
+	<!--include>suffix/test.xml</include-->
+	<include>write/test.xml</include>
+</tests>

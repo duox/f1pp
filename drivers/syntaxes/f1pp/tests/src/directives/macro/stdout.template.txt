@@ -1,0 +1,17 @@
+varargs: A, 500, 600
+-----------
+varargs: A, 500, 600
+-----------
+varargs: A, 500, 600
+varargs: B, 500, 600
+-----------
+varargs: A, 500, 600
+-----------
+varargs: A, 500, 600
+varargs: C, 500, 600
+-----------
+print_varargs = A, 100, 200, 300
+print_varargs_namespace =  B, 500, 600
+test.c(78) : error E8194: unknown directive: mem
+A = "A"
+A = "Z"

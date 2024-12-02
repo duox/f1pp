@@ -1,0 +1,12 @@
+12
+12
+
+test.c(8) : error E8201: expected string
+test.c(9) : warning W12289: expected '('
+test.c(10) : error E8201: expected string
+test.c(10) : warning W12289: expected ')'
+test.c(11) : warning W12290: unexpected ')'
+test.c(12) : error E8219: unterminated string
+test.c(12) : error E8201: expected string
+test.c(12) : warning W12289: expected ')'
+test.c(13) : warning W12289: expected ')'

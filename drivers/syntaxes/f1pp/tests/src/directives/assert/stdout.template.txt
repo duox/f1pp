@@ -1,0 +1,1 @@
+test.c(4) : fatal error F4104: ASSERT failed: ???

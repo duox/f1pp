@@ -1,0 +1,13 @@
+#1 "test.c":
+#1 "test.h":
+#3 "test.c":
+#1 "test.h":
+#4 "test.c":
+#1 "test.h":
+#5 "test.c":
+#1 "test.h":
+#6 "test.c":
+#1 "test.h":
+#7 "test.c":
+#1 "test.h":
+#8 "test.c":

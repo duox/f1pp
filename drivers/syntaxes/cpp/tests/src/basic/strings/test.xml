@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tests>
+	<test id="pp.c-pp.strings.encoding.test" name="C-PP strings encoding test" timeout="30000">
+		<stdout template="encoding.stdout.template.txt" />
+		<inputs>
+			<input test_file="encoding.c" dest="encoding.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="encoding.c.ii" template="encoding.output.template.txt" />
+		</outputs>
+	</test>
+	<test id="pp.c-pp.strings.raw.test" name="C-PP raw strings test" timeout="30000">
+		<stdout template="raw.stdout.template.txt" />
+		<inputs>
+			<input test_file="raw.c" dest="raw.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="raw.c.ii" template="raw.output.template.txt" />
+		</outputs>
+	</test>
+	<test id="pp.c-pp.strings.unterm.test" name="C-PP unterminated strings test" timeout="30000">
+		<stdout template="unterm.stdout.template.txt" />
+		<inputs>
+			<input test_file="unterm.c" dest="unterm.c.ii" />
+		</inputs>
+		<outputs>
+			<output test_file="unterm.c.ii" template="unterm.output.template.txt" />
+		</outputs>
+	</test>
+</tests>

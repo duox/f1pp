@@ -1,0 +1,5 @@
+undef.c(18) : warning W12296: undefined identifier, ignored: "XM"
+undef.c(25) : error E8199: expected identifier
+undef.c(26) : warning W12296: undefined identifier, ignored: "X"
+undef.c(26) : error E8196: expected ,
+undef.c(27) : error E8230: macro is immutable

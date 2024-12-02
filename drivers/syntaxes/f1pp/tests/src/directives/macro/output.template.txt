@@ -1,0 +1,17 @@
+#1 "test.c":
+#6:X
+#16:X 
+#17:print_varargs_nested( B, 500, 600 ) 
+#27:X 
+#28:X
+#39:X 
+#41:print_varargs_nested_ns( B, 500, 600 ) 
+#42:LS.print_varargs_nested_ns( C, 500, 600 ) 
+#53:X 
+#55:print_varargs_nested_public( B, 500, 600 ) 
+#56:X
+#70:X2
+#70:X
+#71:NS.print_varargs2( C, 600, 700, 800 )
+#78:lock
+#78:add [(eax + ebx) + 12], ecx

@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|Win32">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final_debuggable|x64">
+      <Configuration>final_debuggable</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|Win32">
+      <Configuration>final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="final|x64">
+      <Configuration>final</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDD3918C-A914-4F61-AF52-654B5E695949}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.33423.256</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <OutDir>../../../../../../../../../../../../output/bin/$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>../../../../../../../../../../../../output/obj/$(Configuration)-$(Platform)/$(ProjectName)\</IntDir>
+    <TargetExt />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>../../../../../../../../../../../../unix/posix/include;../../../../../../../../../../../../unix/posix/include/unix/posix;../../../../../../../../../../../../unix/libcext/include;../../../../../../../../../../../base/core/include;../../../../../../../../../../../base/fs/include;../../../../../../../../../../../base/io/include;../../../../../../../../../../../base/msgout/include;../../../../../../../../../../../base/mt/include;../../../../../../../../../../../base/mt/drivers/mt.default-threadpool/include;../../../../../../../../../../../base/mt/drivers/mt.windows/include;../../../../../../../../../../../base/nls/include;../../../../../../../../../../../base/ns/include;../../../../../../../../../../../base/unicode/include;../../../../../../../../../../../base/util/include;../../../../../../../../../../../devel/core/ast/include;../../../../../../../../../../../devel/core/parser/include;../../../../../../../../../../../devel/core/ts/include;../../../../../../../../../../../devel/lang/pp/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/core/include;../../../../../../../../../../../devel/lang/pp/drivers/frontends/f1-pp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/cpp/include;../../../../../../../../../../../devel/lang/pp/drivers/syntaxes/f1pp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/gnucpp/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/linenum/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/nullout/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/ppline/include;../../../../../../../../../../../devel/lang/pp/drivers/outputs/puretext/include;../../../../../../../../../../../devel/libs/standard/include;../../include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c99\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\c23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\clang\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp98\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp11\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp14\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp17\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp20\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\cpp23\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\comext\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\gcc\include;../../../../../../../../../../../devel\lang\pp\drivers\standards\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>$(SolutionDir)\$(SolutionName).config.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../../../../../../../../../../../../output/sym/$(Configuration)-$(Platform)/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final_debuggable|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='final|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\pch.h" />
+    <ClInclude Include="..\..\src\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\f1.pp.exe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\..\unix\libcext\drivers\windows\scripts\msbuild\unix.libcext.windows.lib.vcxproj">
+      <Project>{bd79f1cb-0502-4f3f-80eb-cc51f55a71c9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\..\unix\libcext\scripts\msbuild\unix.libcext.lib.vcxproj">
+      <Project>{1f2bf69b-0af2-4c6d-8dfb-6154adf04791}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\..\unix\posix\scripts\msbuild\unix.posix.lib.vcxproj">
+      <Project>{7863db82-3560-4085-ae2b-4d581a1341b7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\core\scripts\msbuild\f1.base.core.lib.vcxproj">
+      <Project>{74c2c5f6-c5e5-4d3d-b9e0-fcca807e7189}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\fs\drivers\file_systems\f1.fs.file_system.windows\scripts\msbuild\f1.base.fs.windows.lib.vcxproj">
+      <Project>{bc2f2314-d7ff-48e3-9c6d-22ae6e025ff8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\fs\scripts\msbuild\f1.base.fs.lib.vcxproj">
+      <Project>{0826ea93-36f7-4df9-957a-c185a3a25ea1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\io\scripts\msbuild\f1.base.io.lib.vcxproj">
+      <Project>{cac69d26-b5d3-4831-a540-d4e208d3de26}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\msgout\scripts\msbuild\f1.base.msgout.lib.vcxproj">
+      <Project>{8fade497-d859-4f54-901c-7c5cf4f36359}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\mt\drivers\mt.default-threadpool\scripts\msbuild\f1.base.mt.default-threadpool.lib.vcxproj">
+      <Project>{67c8c96f-32f9-4ec8-83a3-7ef22addffbe}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\mt\drivers\mt.windows\scripts\msbuild\f1.mt.windows.lib.vcxproj">
+      <Project>{1a843a49-3ddc-40d6-8977-929d58a5219c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\mt\scripts\msbuild\f1.base.mt.lib.vcxproj">
+      <Project>{32ccaba0-dc5e-4e71-bd6c-412fe72205d9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\nls\scripts\msbuild\f1.base.nls.lib.vcxproj">
+      <Project>{1b9e0d81-bbab-4940-a845-b0eb9e40f5dd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\ns\scripts\msbuild\f1.base.ns.lib.vcxproj">
+      <Project>{3a7e7d63-0739-401e-aba6-67c657cd1197}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\unicode\scripts\msbuild\f1.base.unicode.lib.vcxproj">
+      <Project>{6e3fd6b9-fea5-43aa-8032-4542abe5eee2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\..\base\util\scripts\msbuild\f1.base.util.lib.vcxproj">
+      <Project>{72488a40-506d-46c5-bcdb-7f068312fee6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\..\..\core\parser\scripts\msbuild\f1.parser.lib.vcxproj">
+      <Project>{38742dd8-492b-482f-9488-072bcb525f05}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\scripts\msbuild\f1.pp.lib.vcxproj">
+      <Project>{3f040093-c7d4-48bc-a7e5-a90950fab8a7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\outputs\linenum\scripts\msbuild\f1.pp.output.linenum.lib.vcxproj">
+      <Project>{f33d12c8-2cac-4dbc-bca3-c3c28b7cb031}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\outputs\nullout\scripts\msbuild\f1.pp.output.nullout.lib.vcxproj">
+      <Project>{256f3a5e-966f-4fd3-b266-7a2002ec7b9a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\outputs\ppline\scripts\msbuild\f1.pp.output.ppline.lib.vcxproj">
+      <Project>{d8b83330-bf1f-42b0-8141-aa1dc4c428ed}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\outputs\puretext\scripts\msbuild\f1.pp.output.puretext.lib.vcxproj">
+      <Project>{0d31419c-26c0-4cbb-afb9-861b04f83dfc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\c11\scripts\msbuild\f1.pp.standard.c11.lib.vcxproj">
+      <Project>{387cf236-30f3-4ab9-b6d4-b1dfa4a08f00}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\c23\scripts\msbuild\f1.pp.standard.c23.lib.vcxproj">
+      <Project>{a007aa35-907a-4dbb-93e2-cd6a8661e5a9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\c99\scripts\msbuild\f1.pp.standard.c99.lib.vcxproj">
+      <Project>{c8d2e396-64ca-4faa-b33a-90295a3f7107}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\clang\scripts\msbuild\f1.pp.standard.clang.lib.vcxproj">
+      <Project>{250a2316-926b-4ce5-8e12-8dd27df46d3e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\comext\scripts\msbuild\f1.pp.standard.comext.lib.vcxproj">
+      <Project>{79ace7cf-b504-42d3-9936-cc71f0d3d5db}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp11\scripts\msbuild\f1.pp.standard.cpp11.lib.vcxproj">
+      <Project>{5ae78bdd-b1d2-4557-a4ea-a693224d97a5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp14\scripts\msbuild\f1.pp.standard.cpp14.lib.vcxproj">
+      <Project>{046d247f-a9c3-44f0-b923-cb0344513ec9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp17\scripts\msbuild\f1.pp.standard.cpp17.lib.vcxproj">
+      <Project>{cfaef7a6-6b9d-442a-b046-190109385527}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp20\scripts\msbuild\f1.pp.standard.cpp20.lib.vcxproj">
+      <Project>{d6a14a3b-cc92-48e6-8182-4ae051f9a99f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp23\scripts\msbuild\f1.pp.standard.cpp23.lib.vcxproj">
+      <Project>{f329f1e2-da49-4385-abbd-110a90a766f6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\cpp98\scripts\msbuild\f1.pp.standard.cpp98.lib.vcxproj">
+      <Project>{79068949-33ee-48d6-b0a9-2090d6f3c1ab}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\gcc\scripts\msbuild\f1.pp.standard.gcc.lib.vcxproj">
+      <Project>{b21247fd-683c-44fe-9017-c80f24d058c7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\standards\msvc\scripts\msbuild\f1.pp.standard.msvc.lib.vcxproj">
+      <Project>{58fa473c-d51e-4712-be41-a227993b2e8c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\syntaxes\cpp\scripts\msbuild\f1.pp.syntax.cpp.lib.vcxproj">
+      <Project>{3ac2d3c1-b33e-4914-9b7f-6cae5745db4d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\syntaxes\f1pp\scripts\msbuild\f1.pp.syntax.f1pp.lib.vcxproj">
+      <Project>{806b3daf-6522-4dd1-b9b5-430921499c7d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\core\scripts\msbuild\f1.pp.frontend.lib.vcxproj">
+      <Project>{b5deff64-744e-4655-bea4-58f04108e097}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\scripts\msbuild\f1.pp.frontend.f1pp.lib.vcxproj">
+      <Project>{6c999224-da3f-4b71-a253-42716676c79a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
